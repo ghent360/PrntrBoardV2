@@ -12,4 +12,5 @@
   (lib (name "74ls125")(type "Legacy")(uri "${KIPRJMOD}/74ls125.lib")(options "")(descr ""))
   (lib (name "BuckConverter")(type "Legacy")(uri "${KIPRJMOD}/BuckConverter.lib")(options "")(descr ""))
   (lib (name "uSD_push-push_ebay")(type "Legacy")(uri "${KIPRJMOD}/uSD_push-push_ebay.lib")(options "")(descr ""))
+  (lib (name "stp_conn_v2")(type "Legacy")(uri "${KIPRJMOD}/stp_conn_v2.lib")(options "")(descr ""))
 )
