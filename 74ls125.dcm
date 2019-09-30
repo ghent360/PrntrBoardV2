@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LS125
+D Quad buffer 3-State outputs
+K TTL buffer 3State
+F http://www.ti.com/lit/gpn/sn74LS125
+$ENDCMP
+#
+$CMP 74LVC125
+D Quad buffer 3-State outputs
+K TTL buffer 3State
+F http://www.ti.com/lit/gpn/sn74LVC125
+$ENDCMP
+#
+#End Doc Library
