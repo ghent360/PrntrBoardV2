@@ -1,0 +1,26 @@
+### Module positions - created on Tue 01 Oct 2019 09:31:43 PM PDT ###
+### Printed by Pcbnew version (5.1.0-1558-g0ba0c1724)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val        Package                                       PosX       PosY       Rot  Side
+C1        10uF_50V   C_1206_3216Metric                         134.4422  -100.6856    0.0000  top
+C2        10uF_50V   C_1206_3216Metric                         119.8910  -100.7110  180.0000  top
+C4        0.1uF_50V  C_0402_1005Metric                         124.3330   -98.5520  180.0000  top
+C5        0.47uF     C_0603_1608Metric                         130.3020   -81.6610  270.0000  top
+C6        0.1uF      C_0603_1608Metric                         129.1590   -99.3140    0.0000  top
+C7        0.01uF     C_0603_1608Metric                         115.5955   -81.1530  180.0000  top
+C8        1000pF     C_0603_1608Metric                         135.2805   -77.5970  180.0000  top
+C9        1000pF     C_0603_1608Metric                         135.3311   -76.0730  180.0000  top
+C10       1000pF     C_0603_1608Metric                         117.4749   -76.2762    0.0000  top
+C11       1000pF     C_0603_1608Metric                         117.4749   -77.8764    0.0000  top
+C12       0.01uF     C_0603_1608Metric                         138.6840   -80.7720    0.0000  top
+FID1      Fiducial   Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   113.5380   -76.2000    0.0000  top
+FID2      Fiducial   Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   113.7158  -102.7684    0.0000  top
+FID3      Fiducial   Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   140.6652   -76.2254    0.0000  top
+FID4      Fiducial   Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   140.1826  -102.2604    0.0000  top
+R1        22R        R_0603_1608Metric                         115.5700   -82.6770  180.0000  top
+R2        0R051      R_1210_3225Metric                         115.4938   -86.1792   90.0000  top
+R3        22R        R_0603_1608Metric                         138.6585   -82.2960    0.0000  top
+R4        0R051      R_1210_3225Metric                         138.7348   -86.2046   90.0000  top
+U1        TMC2660    TMC2660                                   127.1016   -89.9922  180.0000  top
+## End

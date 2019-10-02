@@ -1,4 +1,5 @@
 EESchema Schematic File Version 5
+LIBS:TMC2660_Driver-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -881,4 +882,48 @@ Text Label 8900 4650 0    50   ~ 0
 MOTA1
 Text Label 8900 4750 0    50   ~ 0
 MOTA2
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5D942A2E
+P 1075 4075
+F 0 "FID1" H 1160 4121 50  0000 L CNN
+F 1 "Fiducial" H 1160 4030 50  0000 L CNN
+F 2 "PrntrBoardV2:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 1075 4075 50  0001 C CNN
+F 3 "~" H 1075 4075 50  0001 C CNN
+	1    1075 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5D942D52
+P 1075 4425
+F 0 "FID2" H 1160 4471 50  0000 L CNN
+F 1 "Fiducial" H 1160 4380 50  0000 L CNN
+F 2 "PrntrBoardV2:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 1075 4425 50  0001 C CNN
+F 3 "~" H 1075 4425 50  0001 C CNN
+	1    1075 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5D9430A9
+P 1075 4725
+F 0 "FID3" H 1160 4771 50  0000 L CNN
+F 1 "Fiducial" H 1160 4680 50  0000 L CNN
+F 2 "PrntrBoardV2:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 1075 4725 50  0001 C CNN
+F 3 "~" H 1075 4725 50  0001 C CNN
+	1    1075 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 5D94339B
+P 1075 5000
+F 0 "FID4" H 1160 5046 50  0000 L CNN
+F 1 "Fiducial" H 1160 4955 50  0000 L CNN
+F 2 "PrntrBoardV2:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 1075 5000 50  0001 C CNN
+F 3 "~" H 1075 5000 50  0001 C CNN
+	1    1075 5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
