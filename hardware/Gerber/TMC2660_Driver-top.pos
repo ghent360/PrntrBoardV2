@@ -1,4 +1,4 @@
-### Module positions - created on Wed 02 Oct 2019 06:21:07 PM PDT ###
+### Module positions - created on Wed 02 Oct 2019 09:32:50 PM PDT ###
 ### Printed by Pcbnew version (5.1.0-1558-g0ba0c1724)
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -14,10 +14,10 @@ C9        1000pF     C_0603_1608Metric                         135.3311   -76.07
 C10       1000pF     C_0603_1608Metric                         117.4749   -76.2762    0.0000  top
 C11       1000pF     C_0603_1608Metric                         117.4749   -77.8764    0.0000  top
 C12       0.01uF     C_0603_1608Metric                         138.6840   -80.7720    0.0000  top
-FID1      Fiducial   Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   113.5380   -76.2000    0.0000  top
-FID2      Fiducial   Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   113.7158  -102.7684    0.0000  top
-FID3      Fiducial   Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   140.6652   -76.2254    0.0000  top
-FID4      Fiducial   Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   140.1826  -102.2604    0.0000  top
+FID1      Fiducial   Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   110.7440   -76.4540    0.0000  top
+FID2      Fiducial   Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   110.7440  -104.3940    0.0000  top
+FID3      Fiducial   Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   143.7640   -76.4540    0.0000  top
+FID4      Fiducial   Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   143.7640  -104.6480    0.0000  top
 R1        22R        R_0603_1608Metric                         115.5700   -82.6770  180.0000  top
 R2        0R051      R_1210_3225Metric                         115.4938   -86.1792   90.0000  top
 R3        22R        R_0603_1608Metric                         138.6585   -82.2960    0.0000  top

@@ -643,8 +643,6 @@ Wire Wire Line
 	2600 2000 3300 2000
 Wire Wire Line
 	2950 6000 3800 6000
-Wire Wire Line
-	3250 3950 4000 3950
 $Comp
 L stp_conn_v2:PCIe_Stepper J1
 U 1 1 5D91AA30
@@ -937,4 +935,47 @@ F 3 "~" H 1475 3400 50  0001 C CNN
 	1    1475 3400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D956A4F
+P 1400 2550
+F 0 "H2" H 1500 2596 50  0000 L CNN
+F 1 "MountingHole" H 1500 2505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1400 2550 50  0001 C CNN
+F 3 "~" H 1400 2550 50  0001 C CNN
+	1    1400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D956F16
+P 1400 2250
+F 0 "H1" H 1500 2296 50  0000 L CNN
+F 1 "MountingHole" H 1500 2205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1400 2250 50  0001 C CNN
+F 3 "~" H 1400 2250 50  0001 C CNN
+	1    1400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D957FD1
+P 3025 4075
+AR Path="/5AC337B6/5ACBE919/5AD4B0F5/5D957FD1" Ref="#PWR?"  Part="1" 
+AR Path="/5AC337B6/5ACC0AA2/5ACC0B66/5D957FD1" Ref="#PWR?"  Part="1" 
+AR Path="/5AC337B6/5ACCA309/5ACC0B66/5D957FD1" Ref="#PWR?"  Part="1" 
+AR Path="/5AC337B6/5ACE1C6D/5ACC0B66/5D957FD1" Ref="#PWR?"  Part="1" 
+AR Path="/5AC337B6/5AD9F95A/5AD4B0F5/5D957FD1" Ref="#PWR?"  Part="1" 
+AR Path="/5D957FD1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3025 3825 50  0001 C CNN
+F 1 "GND" H 3030 3902 50  0000 C CNN
+F 2 "" H 3025 4075 50  0001 C CNN
+F 3 "" H 3025 4075 50  0001 C CNN
+	1    3025 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3025 3950 3025 4075
+Wire Wire Line
+	3025 3950 4000 3950
 $EndSCHEMATC
