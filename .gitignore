@@ -6,13 +6,17 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.sch-bak
 *~
 _autosave-*
 *.tmp
 *-cache.lib
+*-cache
 *-rescue.lib
 *-save.pro
 *-save.kicad_pcb
+*.zip
+*.stp
 
 # Netlist files (exported from Eeschema)
 *.net
