@@ -1,0 +1,26 @@
+### Module positions - created on Sun 06 Oct 2019 06:00:18 PM PDT ###
+### Printed by Pcbnew version (5.1.0-1558-g0ba0c1724)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val          Package                                       PosX       PosY       Rot  Side
+C1        0.1uF        C_0603_1608Metric                         132.5880   -93.5990    0.0000  top
+C2        2.2uF        C_0603_1608Metric                         122.1485   -95.3770    0.0000  top
+C3        0.022uF_50V  C_0603_1608Metric                         120.4975   -91.1860    0.0000  top
+C4        0.1uF        C_0603_1608Metric                         120.5230   -92.8370    0.0000  top
+C5        0.1uF_50V    C_0402_1005Metric                         131.3410   -87.1220    0.0000  top
+C6        0.1uF_50V    C_0402_1005Metric                         121.9430   -87.1220  180.0000  top
+C7        10uF_50V     C_1206_3216Metric                         114.8080   -86.3600  180.0000  top
+C8        10uF_50V     C_1206_3216Metric                         139.4460   -86.3600    0.0000  top
+C9        1000pF       C_0603_1608Metric                         134.6200   -77.4700  180.0000  top
+C10       1000pF       C_0603_1608Metric                         134.6200   -78.9940  180.0000  top
+C11       1000pF       C_0603_1608Metric                         118.6180   -77.4700    0.0000  top
+C12       1000pF       C_0603_1608Metric                         118.5925   -79.1210    0.0000  top
+FID1      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   110.7440   -76.4540    0.0000  top
+FID2      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   143.7640  -104.6480    0.0000  top
+FID3      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   143.7640   -76.4540    0.0000  top
+FID4      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   110.7440  -104.3940    0.0000  top
+R1        470          R_0603_1608Metric                         122.1995  -103.1240    0.0000  top
+R2        0R091        R_1210_3225Metric                         132.5910   -83.2612  180.0000  top
+R3        0R091        R_1210_3225Metric                         120.6500   -83.2866    0.0000  top
+U9        TMC2209-LA   TMC22xx_QFN                               126.6825   -91.0590    0.0000  top
+## End

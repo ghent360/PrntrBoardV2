@@ -956,9 +956,9 @@ Text Label 8850 4825 0    50   ~ 0
 MOTB1
 Text Label 8850 4925 0    50   ~ 0
 MOTB2
-Text Label 8850 4625 0    50   ~ 0
-MOTA1
 Text Label 8850 4725 0    50   ~ 0
+MOTA1
+Text Label 8850 4625 0    50   ~ 0
 MOTA2
 Text Label 10075 2400 0    50   ~ 0
 TX
