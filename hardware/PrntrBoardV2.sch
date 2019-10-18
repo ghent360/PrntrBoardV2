@@ -1343,17 +1343,17 @@ Wire Wire Line
 Wire Wire Line
 	4975 2100 5300 2100
 Text Label 5075 1600 0    50   ~ 0
-ADC0
-Text Label 5075 1700 0    50   ~ 0
 ADC1
-Text Label 5075 1800 0    50   ~ 0
+Text Label 5075 1700 0    50   ~ 0
 ADC2
-Text Label 5075 1900 0    50   ~ 0
+Text Label 5075 1800 0    50   ~ 0
 ADC3
-Text Label 5075 2000 0    50   ~ 0
+Text Label 5075 1900 0    50   ~ 0
 ADC4
-Text Label 5075 2100 0    50   ~ 0
+Text Label 5075 2000 0    50   ~ 0
 ADC5
+Text Label 5075 2100 0    50   ~ 0
+ADC6
 Wire Wire Line
 	4975 2200 5375 2200
 Wire Wire Line
@@ -1392,12 +1392,8 @@ Wire Wire Line
 	4975 3800 5400 3800
 Text Label 5025 3800 0    50   ~ 0
 ST2_STEP
-Wire Wire Line
-	4975 3900 5400 3900
 Text Label 5050 3900 0    50   ~ 0
 I2C_SCL
-Wire Wire Line
-	4975 4000 5400 4000
 Text Label 5050 4000 0    50   ~ 0
 I2C_SDA
 Wire Wire Line
@@ -1600,4 +1596,110 @@ Text Label 2800 4800 0    50   ~ 0
 LCD_D5
 Text Label 2775 5300 0    50   ~ 0
 ~SD_DETECT
+$Comp
+L Device:R R?
+U 1 1 5DB2B42C
+P 5700 4000
+F 0 "R?" V 5775 4175 50  0000 C CNN
+F 1 "10k" V 5700 4000 50  0000 C CNN
+F 2 "" V 5630 4000 50  0001 C CNN
+F 3 "~" H 5700 4000 50  0001 C CNN
+	1    5700 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DB2AB5F
+P 5700 3900
+F 0 "R?" V 5625 4050 50  0000 C CNN
+F 1 "10k" V 5700 3900 50  0000 C CNN
+F 2 "" V 5630 3900 50  0001 C CNN
+F 3 "~" H 5700 3900 50  0001 C CNN
+	1    5700 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4975 3900 5550 3900
+Wire Wire Line
+	4975 4000 5550 4000
+Wire Wire Line
+	5850 3900 5950 3900
+Wire Wire Line
+	5950 3900 5950 4000
+Wire Wire Line
+	5950 4000 5850 4000
+Wire Wire Line
+	5950 3900 6225 3900
+Connection ~ 5950 3900
+Text Label 6025 3900 0    50   ~ 0
+3.3V
+$Comp
+L Memory_EEPROM:24LC64 U?
+U 1 1 5DB2DAF5
+P 8550 5925
+F 0 "U?" H 8550 6406 50  0000 C CNN
+F 1 "24LC64" H 8550 6315 50  0000 C CNN
+F 2 "" H 8550 5925 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf" H 8550 5925 50  0001 C CNN
+	1    8550 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB304D2
+P 8550 6250
+F 0 "#PWR?" H 8550 6000 50  0001 C CNN
+F 1 "GND" H 8555 6077 50  0000 C CNN
+F 2 "" H 8550 6250 50  0001 C CNN
+F 3 "" H 8550 6250 50  0001 C CNN
+	1    8550 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5825 8150 5925
+Wire Wire Line
+	8150 6225 8550 6225
+Connection ~ 8150 5925
+Wire Wire Line
+	8150 5925 8150 6025
+Connection ~ 8150 6025
+Wire Wire Line
+	8150 6025 8150 6225
+Wire Wire Line
+	8550 6250 8550 6225
+Connection ~ 8550 6225
+Wire Wire Line
+	8950 6025 8950 6225
+Wire Wire Line
+	8950 6225 8550 6225
+Wire Wire Line
+	8950 5925 9300 5925
+Wire Wire Line
+	8950 5825 9300 5825
+Text Label 8975 5825 0    50   ~ 0
+I2C_SDA
+Text Label 8975 5925 0    50   ~ 0
+I2C_SCL
+$Comp
+L Device:C C?
+U 1 1 5DB30CED
+P 7875 5950
+F 0 "C?" H 8000 5925 50  0000 L CNN
+F 1 "0.1uF" H 7900 5850 50  0000 L CNN
+F 2 "" H 7913 5800 50  0001 C CNN
+F 3 "~" H 7875 5950 50  0001 C CNN
+	1    7875 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7875 5800 7875 5625
+Wire Wire Line
+	7875 5625 8550 5625
+Wire Wire Line
+	7875 6100 7875 6225
+Wire Wire Line
+	7875 6225 8150 6225
+Connection ~ 8150 6225
+Text Label 8050 5625 0    50   ~ 0
+3.3V
 $EndSCHEMATC
