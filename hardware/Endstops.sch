@@ -78,8 +78,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 1250 1400 1300
 Wire Wire Line
-	1400 950  1400 850 
-Wire Wire Line
 	1400 1600 1400 1700
 Wire Wire Line
 	1525 1700 1400 1700
@@ -211,8 +209,6 @@ Wire Wire Line
 	3450 1700 3325 1700
 Wire Wire Line
 	3325 2200 3325 2150
-Wire Wire Line
-	3325 950  3325 850 
 Wire Wire Line
 	3325 1250 3325 1300
 $Comp
@@ -356,8 +352,6 @@ Wire Wire Line
 	5600 1725 5475 1725
 Wire Wire Line
 	5475 2225 5475 2175
-Wire Wire Line
-	5475 975  5475 875 
 Wire Wire Line
 	5475 1275 5475 1325
 $Comp
@@ -759,7 +753,7 @@ $EndComp
 Connection ~ 5475 4025
 Wire Wire Line
 	5475 3675 5475 3575
-Text GLabel 5950 3575 2    50   Input ~ 0
+Text GLabel 6400 3575 2    50   Input ~ 0
 ~Z_MAX
 Wire Wire Line
 	5100 3575 5475 3575
@@ -838,7 +832,7 @@ $EndComp
 Wire Wire Line
 	5475 3475 5475 3575
 Wire Wire Line
-	5900 3575 5950 3575
+	5900 3575 6075 3575
 $Comp
 L Device:C C?
 U 1 1 5DBA16CF
@@ -936,8 +930,6 @@ Wire Wire Line
 	1525 5475 1400 5475
 Wire Wire Line
 	1400 5975 1400 5925
-Wire Wire Line
-	1400 4725 1400 4625
 Wire Wire Line
 	1400 5025 1400 5075
 $Comp
@@ -1082,8 +1074,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 5975 3350 5925
 Wire Wire Line
-	3350 4725 3350 4625
-Wire Wire Line
 	3350 5025 3350 5075
 $Comp
 L Device:LED D?
@@ -1127,8 +1117,6 @@ F 3 "" H 3350 5975 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 5375 3350 5475
-Wire Wire Line
-	3775 5475 3925 5475
 $Comp
 L Device:C C?
 U 1 1 5DBA6F34
@@ -1277,18 +1265,27 @@ $EndComp
 Connection ~ 1975 5475
 Wire Wire Line
 	1975 5475 2175 5475
-Wire Wire Line
-	3925 6075 3925 6175
-Text GLabel 4150 5825 2    50   Input ~ 0
-~ST5_ALARM1
-Wire Wire Line
-	3925 6175 4150 6175
-Wire Wire Line
-	4150 5825 4075 5825
-Wire Wire Line
-	3925 5575 3925 5475
-Text GLabel 4150 6175 2    50   Input ~ 0
+Text GLabel 7825 2150 2    50   Input ~ 0
 ~ALARM1
+$Comp
+L Device:R R?
+U 1 1 5DC5C7A0
+P 7650 1900
+F 0 "R?" H 7720 1946 50  0000 L CNN
+F 1 "10k" V 7650 1825 50  0000 L CNN
+F 2 "" V 7580 1900 50  0001 C CNN
+F 3 "~" H 7650 1900 50  0001 C CNN
+	1    7650 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2050 7650 2150
+Wire Wire Line
+	7650 1750 7650 1400
+Text GLabel 7650 1400 1    50   Input ~ 0
+3.3V
+Wire Wire Line
+	7650 2150 7825 2150
 $Comp
 L Jumper:Jumper_3_Open JP6
 U 1 1 5DBC32DD
@@ -1302,28 +1299,57 @@ F 3 "~" H 3925 5825 50  0001 C CNN
 $EndComp
 Connection ~ 3925 5475
 Wire Wire Line
+	3925 5575 3925 5475
+Wire Wire Line
+	4150 5825 4075 5825
+Wire Wire Line
+	3775 5475 3925 5475
+Wire Wire Line
+	3925 6075 3925 6175
+Text GLabel 4150 6175 2    50   Input ~ 0
+~ALARM1
+Text GLabel 4150 5825 2    50   Input ~ 0
+~ST5_ALARM1
+Wire Wire Line
+	3925 6175 4150 6175
+Wire Wire Line
 	3925 5475 4200 5475
+Wire Wire Line
+	6075 4275 6300 4275
+Text GLabel 6300 3925 2    50   Input ~ 0
+~ST6_ALARM1
+Text GLabel 6300 4275 2    50   Input ~ 0
+~ALARM1
+Wire Wire Line
+	6075 4175 6075 4275
+Wire Wire Line
+	6300 3925 6225 3925
+Wire Wire Line
+	6075 3675 6075 3575
 $Comp
-L Jumper:Jumper_2_Open JP7
-U 1 1 5DBC3B7F
-P 5150 5800
-F 0 "JP7" V 5196 5712 50  0000 R CNN
-F 1 "Jumper_2_Open" V 5105 5712 50  0000 R CNN
-F 2 "" H 5150 5800 50  0001 C CNN
-F 3 "~" H 5150 5800 50  0001 C CNN
-	1    5150 5800
+L Jumper:Jumper_3_Open JP?
+U 1 1 5DC5E76A
+P 6075 3925
+F 0 "JP?" V 6175 3725 50  0000 L CNN
+F 1 "Jumper_3_Open" V 6030 4012 50  0001 L CNN
+F 2 "" H 6075 3925 50  0001 C CNN
+F 3 "~" H 6075 3925 50  0001 C CNN
+	1    6075 3925
 	0    -1   -1   0   
 $EndComp
+Connection ~ 6075 3575
 Wire Wire Line
-	5150 6000 5150 6200
+	6075 3575 6400 3575
+Text Notes 8075 1700 0    50   ~ 0
+STx_ALARMx signals \nare open drain
 Wire Wire Line
-	5150 6200 5475 6200
+	1400 950  1400 850 
 Wire Wire Line
-	5150 5600 5150 5450
+	1400 4725 1400 4625
 Wire Wire Line
-	5150 5450 5475 5450
-Text GLabel 5475 5450 2    50   Input ~ 0
-~ST6_ALARM1
-Text GLabel 5475 6200 2    50   Input ~ 0
-~ALARM1
+	3350 4725 3350 4625
+Wire Wire Line
+	3325 950  3325 850 
+Wire Wire Line
+	5475 975  5475 875 
 $EndSCHEMATC
