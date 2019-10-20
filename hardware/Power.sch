@@ -1,0 +1,517 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 5DB03DC4
+P 2350 2325
+F 0 "D?" V 2389 2207 50  0000 R CNN
+F 1 "RED" V 2298 2207 50  0000 R CNN
+F 2 "PrntrBoardV1:D_0603_1608Metric" H 2350 2325 50  0001 C CNN
+F 3 "~" H 2350 2325 50  0001 C CNN
+	1    2350 2325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DB03DC5
+P 2775 2325
+F 0 "D?" V 2814 2208 50  0000 R CNN
+F 1 "RED" V 2723 2208 50  0000 R CNN
+F 2 "PrntrBoardV1:D_0603_1608Metric" H 2775 2325 50  0001 C CNN
+F 3 "~" H 2775 2325 50  0001 C CNN
+	1    2775 2325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DB03DC6
+P 3125 2325
+F 0 "D?" V 3164 2207 50  0000 R CNN
+F 1 "RED" V 3073 2207 50  0000 R CNN
+F 2 "PrntrBoardV1:D_0603_1608Metric" H 3125 2325 50  0001 C CNN
+F 3 "~" H 3125 2325 50  0001 C CNN
+	1    3125 2325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB03DC7
+P 2775 2675
+F 0 "#PWR?" H 2775 2425 50  0001 C CNN
+F 1 "GND" H 2780 2502 50  0000 C CNN
+F 2 "" H 2775 2675 50  0001 C CNN
+F 3 "" H 2775 2675 50  0001 C CNN
+	1    2775 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DB03DC9
+P 2775 1975
+F 0 "R?" H 2825 1825 50  0000 L CNN
+F 1 "470" V 2775 1900 50  0000 L CNN
+F 2 "PrntrBoardV1:R_0603_1608Metric" V 2705 1975 50  0001 C CNN
+F 3 "~" H 2775 1975 50  0001 C CNN
+	1    2775 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 2125 3125 2175
+Wire Wire Line
+	2775 2125 2775 2175
+Wire Wire Line
+	2350 2125 2350 2175
+Wire Wire Line
+	2775 1825 2775 1700
+Wire Wire Line
+	2350 1825 2350 1700
+$Comp
+L Device:R R?
+U 1 1 5DB03DCA
+P 3125 1975
+F 0 "R?" H 3175 1825 50  0000 L CNN
+F 1 "1k" V 3125 1925 50  0000 L CNN
+F 2 "PrntrBoardV1:R_0603_1608Metric" V 3055 1975 50  0001 C CNN
+F 3 "~" H 3125 1975 50  0001 C CNN
+	1    3125 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 1825 3125 1700
+Text Label 3125 1800 0    50   ~ 0
+5V
+Text Label 2775 1800 0    50   ~ 0
+3.3V
+Text Label 2350 1800 0    50   ~ 0
+V_motors
+$Comp
+L Regulator_Linear:AMS1117-3.3 U?
+U 1 1 5DB07180
+P 2925 3800
+F 0 "U?" H 2925 4042 50  0000 C CNN
+F 1 "AMS1117-3.3" H 2925 3951 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2925 4000 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3025 3550 50  0001 C CNN
+	1    2925 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DB07181
+P 2425 4000
+F 0 "C?" H 2540 4046 50  0000 L CNN
+F 1 "0.1uF" H 2540 3955 50  0000 L CNN
+F 2 "PrntrBoardV1:C_0603_1608Metric" H 2463 3850 50  0001 C CNN
+F 3 "~" H 2425 4000 50  0001 C CNN
+	1    2425 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DB07182
+P 2125 4000
+F 0 "C?" H 2175 4100 50  0000 L CNN
+F 1 "10uF" H 2175 3900 50  0000 L CNN
+F 2 "PrntrBoardV1:C_0603_1608Metric" H 2163 3850 50  0001 C CNN
+F 3 "~" H 2125 4000 50  0001 C CNN
+	1    2125 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DB07183
+P 3325 4000
+F 0 "C?" H 3440 4046 50  0000 L CNN
+F 1 "0.1uF" H 3375 3900 50  0000 L CNN
+F 2 "PrntrBoardV1:C_0603_1608Metric" H 3363 3850 50  0001 C CNN
+F 3 "~" H 3325 4000 50  0001 C CNN
+	1    3325 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DB07184
+P 3675 4000
+F 0 "C?" H 3790 4046 50  0000 L CNN
+F 1 "10uF" H 3790 3955 50  0000 L CNN
+F 2 "PrntrBoardV1:C_0603_1608Metric" H 3713 3850 50  0001 C CNN
+F 3 "~" H 3675 4000 50  0001 C CNN
+	1    3675 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB07185
+P 2925 4250
+F 0 "#PWR?" H 2925 4000 50  0001 C CNN
+F 1 "GND" H 3075 4200 50  0000 C CNN
+F 2 "" H 2925 4250 50  0001 C CNN
+F 3 "" H 2925 4250 50  0001 C CNN
+	1    2925 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2125 4150 2425 4150
+Connection ~ 2425 4150
+Wire Wire Line
+	2425 4150 2925 4150
+Connection ~ 3325 4150
+Wire Wire Line
+	3325 4150 3675 4150
+Wire Wire Line
+	2925 4250 2925 4150
+Connection ~ 2925 4150
+Wire Wire Line
+	2925 4150 3325 4150
+Wire Wire Line
+	2925 4150 2925 4100
+Wire Wire Line
+	3225 3800 3325 3800
+Wire Wire Line
+	3675 3850 3675 3800
+Wire Wire Line
+	3325 3850 3325 3800
+Connection ~ 3325 3800
+Wire Wire Line
+	3325 3800 3675 3800
+Wire Wire Line
+	2625 3800 2425 3800
+Wire Wire Line
+	2125 3850 2125 3800
+Connection ~ 2125 3800
+Wire Wire Line
+	2425 3850 2425 3800
+Connection ~ 2425 3800
+Wire Wire Line
+	2425 3800 2125 3800
+Text Label 1975 3800 0    50   ~ 0
+5V
+Wire Wire Line
+	1925 3800 2125 3800
+Text Label 3475 3800 0    50   ~ 0
+3.3V
+$Comp
+L BuckConverter:DCBuck U?
+U 1 1 5DB098BD
+P 5875 2900
+F 0 "U?" H 5875 3365 50  0000 C CNN
+F 1 "DCBuck" H 5875 3274 50  0000 C CNN
+F 2 "DCBuck:Buck2217" H 5875 2900 50  0001 C CNN
+F 3 "" H 5875 2900 50  0001 C CNN
+	1    5875 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB098BE
+P 6225 3500
+F 0 "#PWR?" H 6225 3250 50  0001 C CNN
+F 1 "GND" H 6230 3327 50  0000 C CNN
+F 2 "" H 6225 3500 50  0001 C CNN
+F 3 "" H 6225 3500 50  0001 C CNN
+	1    6225 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5525 3450 6225 3450
+Connection ~ 6225 3450
+Wire Wire Line
+	6225 3450 6225 3500
+Wire Wire Line
+	6225 2850 6225 2750
+Wire Wire Line
+	6225 2750 6475 2750
+Text Label 6575 2750 0    50   ~ 0
+5V
+Connection ~ 6225 2750
+Connection ~ 5525 3300
+Wire Wire Line
+	5525 3300 5525 3450
+Wire Wire Line
+	5525 3200 5525 3300
+Connection ~ 6225 3300
+Wire Wire Line
+	6225 3300 6225 3450
+Wire Wire Line
+	6225 3200 6225 3300
+Wire Wire Line
+	5525 2850 5525 2750
+Wire Wire Line
+	5525 2750 5275 2750
+Connection ~ 5525 2750
+$Comp
+L Device:CP C?
+U 1 1 5DB098BF
+P 5275 3150
+F 0 "C?" H 5325 3250 50  0000 L CNN
+F 1 "100uF 35V" H 5025 3000 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.4" H 5313 3000 50  0001 C CNN
+F 3 "~" H 5275 3150 50  0001 C CNN
+	1    5275 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5525 3450
+$Comp
+L Device:C C?
+U 1 1 5DB098C0
+P 4925 3050
+F 0 "C?" H 4975 3150 50  0000 L CNN
+F 1 "0.1uF 50V" H 4700 2950 50  0000 L CNN
+F 2 "PrntrBoardV1:C_0402_1005Metric" H 4963 2900 50  0001 C CNN
+F 3 "~" H 4925 3050 50  0001 C CNN
+	1    4925 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4925 2900 4925 2850
+Wire Wire Line
+	4925 2850 5275 2850
+Connection ~ 5275 2850
+Wire Wire Line
+	5275 2850 5275 2750
+Wire Wire Line
+	4925 3200 4925 3450
+$Comp
+L Device:C C?
+U 1 1 5DB098C1
+P 6475 3100
+F 0 "C?" H 6590 3146 50  0000 L CNN
+F 1 "10uF" H 6590 3055 50  0000 L CNN
+F 2 "PrntrBoardV1:C_0603_1608Metric" H 6513 2950 50  0001 C CNN
+F 3 "~" H 6475 3100 50  0001 C CNN
+	1    6475 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 3250 6475 3450
+Wire Wire Line
+	6475 3450 6225 3450
+Wire Wire Line
+	5275 2850 5275 3000
+Wire Wire Line
+	6475 2950 6475 2750
+Connection ~ 6475 2750
+Wire Wire Line
+	6475 2750 6675 2750
+Wire Wire Line
+	4925 3450 5275 3450
+Wire Wire Line
+	5275 3300 5275 3450
+Connection ~ 5275 3450
+Wire Wire Line
+	5275 3450 5525 3450
+$Comp
+L Device:D_Schottky D?
+U 1 1 5DB098C2
+P 5125 2750
+F 0 "D?" H 5125 2534 50  0000 C CNN
+F 1 "SS14" H 5125 2625 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 5125 2750 50  0001 C CNN
+F 3 "~" H 5125 2750 50  0001 C CNN
+	1    5125 2750
+	-1   0    0    1   
+$EndComp
+Connection ~ 5275 2750
+Text Label 4550 2750 0    50   ~ 0
+V_motors
+$Comp
+L Connector:Screw_Terminal_01x02 J_power_in
+U 1 1 5DB0C404
+P 5975 1900
+F 0 "J_power_in" H 6055 1892 50  0000 L CNN
+F 1 "KF635" H 6055 1801 50  0000 L CNN
+F 2 "" H 5975 1900 50  0001 C CNN
+F 3 "~" H 5975 1900 50  0001 C CNN
+	1    5975 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5775 1900 5375 1900
+$Comp
+L power:GND #PWR?
+U 1 1 5DB0F4A2
+P 5700 2050
+F 0 "#PWR?" H 5700 1800 50  0001 C CNN
+F 1 "GND" H 5705 1877 50  0000 C CNN
+F 2 "" H 5700 2050 50  0001 C CNN
+F 3 "" H 5700 2050 50  0001 C CNN
+	1    5700 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5775 2000 5700 2000
+Wire Wire Line
+	5700 2000 5700 2050
+$Comp
+L Device:Fuse F?
+U 1 1 5DB0F7E7
+P 5125 1900
+F 0 "F?" V 5020 1900 50  0000 C CNN
+F 1 "Fuse" V 5019 1900 50  0001 C CNN
+F 2 "" V 5055 1900 50  0001 C CNN
+F 3 "~" H 5125 1900 50  0001 C CNN
+	1    5125 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5DB106E6
+P 5125 2175
+F 0 "F?" V 5020 2175 50  0000 C CNN
+F 1 "Fuse" V 5019 2175 50  0001 C CNN
+F 2 "" V 5055 2175 50  0001 C CNN
+F 3 "~" H 5125 2175 50  0001 C CNN
+	1    5125 2175
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5DB10EAD
+P 5125 1600
+F 0 "F?" V 5020 1600 50  0000 C CNN
+F 1 "Fuse" V 5019 1600 50  0001 C CNN
+F 2 "" V 5055 1600 50  0001 C CNN
+F 3 "~" H 5125 1600 50  0001 C CNN
+	1    5125 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4975 2175 4475 2175
+Wire Wire Line
+	4525 2750 4975 2750
+Wire Wire Line
+	5275 2175 5375 2175
+Wire Wire Line
+	5375 2175 5375 1900
+Connection ~ 5375 1900
+Wire Wire Line
+	5375 1900 5275 1900
+Wire Wire Line
+	5375 1900 5375 1600
+Wire Wire Line
+	5375 1600 5275 1600
+Wire Wire Line
+	4975 1900 4475 1900
+Text Label 4550 2175 0    50   ~ 0
+V_motors
+Text Label 4550 1900 0    50   ~ 0
+V_heaters
+Wire Wire Line
+	4975 1600 4475 1600
+Text Label 4550 1600 0    50   ~ 0
+V_bed
+Text Notes 5175 2125 0    50   ~ 0
+10A
+Text Notes 5175 1850 0    50   ~ 0
+10A
+Text Notes 5175 1550 0    50   ~ 0
+15A
+Text Notes 6350 2150 0    50   ~ 0
+35A rated \nscrew terminal
+Wire Wire Line
+	3775 3800 3675 3800
+Connection ~ 3675 3800
+Text GLabel 4475 1600 0    50   Input ~ 0
+V_bed
+Text GLabel 4475 1900 0    50   Input ~ 0
+V_heaters
+Text GLabel 4475 2175 0    50   Input ~ 0
+V_motors
+Text GLabel 6675 2750 2    50   Input ~ 0
+5V
+Text GLabel 3775 3800 2    50   Input ~ 0
+3.3V
+$Comp
+L Device:R R?
+U 1 1 5DB03DC8
+P 2350 1975
+F 0 "R?" H 2375 1825 50  0000 L CNN
+F 1 "10k" V 2350 1900 50  0000 L CNN
+F 2 "PrntrBoardV1:R_0603_1608Metric" V 2280 1975 50  0001 C CNN
+F 3 "~" H 2350 1975 50  0001 C CNN
+	1    2350 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 2575 2775 2575
+Wire Wire Line
+	2775 2475 2775 2575
+Wire Wire Line
+	2350 2575 2775 2575
+Connection ~ 2775 2575
+Wire Wire Line
+	2775 2575 2775 2675
+Wire Wire Line
+	2350 2575 2350 2475
+Wire Wire Line
+	3125 2575 3125 2475
+$Comp
+L Jumper:Jumper_3_Open JP?
+U 1 1 5DB322BE
+P 5250 4175
+F 0 "JP?" H 5250 4399 50  0000 C CNN
+F 1 "Jumper_3_Open" H 5250 4308 50  0000 C CNN
+F 2 "" H 5250 4175 50  0001 C CNN
+F 3 "~" H 5250 4175 50  0001 C CNN
+	1    5250 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4175 6025 4175
+Wire Wire Line
+	5000 4175 4800 4175
+Text Label 4950 4175 2    50   ~ 0
+5V
+Text Label 5925 4175 2    50   ~ 0
+V_motors
+Text GLabel 5250 4400 3    50   Input ~ 0
+V_fans
+Wire Wire Line
+	5250 4400 5250 4325
+Wire Wire Line
+	1975 2125 1975 2175
+$Comp
+L Device:R R?
+U 1 1 5DB32B73
+P 1975 1975
+F 0 "R?" H 2000 1825 50  0000 L CNN
+F 1 "10k" V 1975 1900 50  0000 L CNN
+F 2 "PrntrBoardV1:R_0603_1608Metric" V 1905 1975 50  0001 C CNN
+F 3 "~" H 1975 1975 50  0001 C CNN
+	1    1975 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1975 1825 1975 1700
+$Comp
+L Device:LED D?
+U 1 1 5DB32B74
+P 1975 2325
+F 0 "D?" V 2014 2207 50  0000 R CNN
+F 1 "RED" V 1923 2207 50  0000 R CNN
+F 2 "PrntrBoardV1:D_0603_1608Metric" H 1975 2325 50  0001 C CNN
+F 3 "~" H 1975 2325 50  0001 C CNN
+	1    1975 2325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1975 2475 1975 2575
+Wire Wire Line
+	1975 2575 2350 2575
+Connection ~ 2350 2575
+Text Label 1975 1800 0    50   ~ 0
+V_fans
+$EndSCHEMATC

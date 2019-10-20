@@ -1,0 +1,655 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5DAF169F
+P 8525 4350
+F 0 "J?" H 8295 4247 50  0000 R CNN
+F 1 "USB_B_Micro" H 8295 4338 50  0000 R CNN
+F 2 "PrntrBoardV1:MC-101C" H 8675 4300 50  0001 C CNN
+F 3 "~" H 8675 4300 50  0001 C CNN
+	1    8525 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DAF16A0
+P 9075 3950
+F 0 "#PWR?" H 9075 3700 50  0001 C CNN
+F 1 "GND" H 9080 3777 50  0000 C CNN
+F 2 "" H 9075 3950 50  0001 C CNN
+F 3 "" H 9075 3950 50  0001 C CNN
+	1    9075 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8075 4350 8175 4350
+NoConn ~ 8225 4150
+$Comp
+L Device:Polyfuse F?
+U 1 1 5DAF16A1
+P 7925 4550
+F 0 "F?" V 8125 4550 50  0000 C CNN
+F 1 "500mA" V 8025 4550 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric" H 7975 4350 50  0001 L CNN
+F 3 "~" H 7925 4550 50  0001 C CNN
+	1    7925 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8075 4550 8225 4550
+$Comp
+L Device:R R?
+U 1 1 5DAF16A2
+P 7925 4350
+F 0 "R?" V 8025 4350 50  0000 C CNN
+F 1 "22" V 7925 4350 50  0000 C CNN
+F 2 "PrntrBoardV1:R_0603_1608Metric" V 7855 4350 50  0001 C CNN
+F 3 "~" H 7925 4350 50  0001 C CNN
+	1    7925 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7775 4350 7475 4350
+$Comp
+L Device:R R?
+U 1 1 5DAF16A3
+P 7925 4250
+F 0 "R?" V 7825 4250 50  0000 C CNN
+F 1 "22" V 7925 4250 50  0000 C CNN
+F 2 "PrntrBoardV1:R_0603_1608Metric" V 7855 4250 50  0001 C CNN
+F 3 "~" H 7925 4250 50  0001 C CNN
+	1    7925 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8075 4250 8225 4250
+Wire Wire Line
+	7775 4250 7475 4250
+$Comp
+L Device:R R?
+U 1 1 5DAF16A4
+P 7925 3950
+F 0 "R?" V 7850 4100 50  0000 C CNN
+F 1 "1.5k" V 7925 3950 50  0000 C CNN
+F 2 "PrntrBoardV1:R_0603_1608Metric" V 7855 3950 50  0001 C CNN
+F 3 "~" H 7925 3950 50  0001 C CNN
+	1    7925 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8075 3950 8175 3950
+Wire Wire Line
+	8175 3950 8175 4350
+Connection ~ 8175 4350
+Wire Wire Line
+	8175 4350 8225 4350
+Wire Wire Line
+	7775 3950 7475 3950
+Wire Wire Line
+	7725 4550 7775 4550
+Wire Wire Line
+	7425 4550 7175 4550
+Text Label 8075 4250 0    50   ~ 0
+D-
+$Comp
+L Device:R R?
+U 1 1 5DAF16A5
+P 8775 3900
+F 0 "R?" V 8875 4025 50  0000 C CNN
+F 1 "100k" V 8775 3900 50  0000 C CNN
+F 2 "PrntrBoardV1:R_0603_1608Metric" V 8705 3900 50  0001 C CNN
+F 3 "~" H 8775 3900 50  0001 C CNN
+	1    8775 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8625 3950 8625 3900
+Connection ~ 8625 3900
+Wire Wire Line
+	8625 3900 8625 3750
+Wire Wire Line
+	8925 3750 8925 3900
+Wire Wire Line
+	8925 3900 9075 3900
+Wire Wire Line
+	9075 3900 9075 3950
+Connection ~ 8925 3900
+Wire Wire Line
+	8525 3950 8525 3650
+Wire Wire Line
+	8525 3650 9075 3650
+Wire Wire Line
+	9075 3650 9075 3900
+Connection ~ 9075 3900
+$Comp
+L Device:D_Schottky D?
+U 1 1 5DAF16A6
+P 7575 4550
+F 0 "D?" H 7475 4450 50  0000 C CNN
+F 1 "SS14" H 7575 4675 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 7575 4550 50  0001 C CNN
+F 3 "~" H 7575 4550 50  0001 C CNN
+	1    7575 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DAF16A7
+P 8775 3750
+F 0 "C?" V 8523 3750 50  0000 C CNN
+F 1 "0.1uF" V 8614 3750 50  0000 C CNN
+F 2 "PrntrBoardV1:C_0603_1608Metric" H 8813 3600 50  0001 C CNN
+F 3 "~" H 8775 3750 50  0001 C CNN
+	1    8775 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DAF16A8
+P 6825 2625
+F 0 "C?" H 6625 2600 50  0000 L CNN
+F 1 "0.1uF" H 6575 2525 50  0000 L CNN
+F 2 "PrntrBoardV1:C_0603_1608Metric" H 6863 2475 50  0001 C CNN
+F 3 "~" H 6825 2625 50  0001 C CNN
+	1    6825 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6825 2825 6825 2775
+$Comp
+L power:GND #PWR?
+U 1 1 5DAF16A9
+P 9075 1975
+F 0 "#PWR?" H 9075 1725 50  0001 C CNN
+F 1 "GND" H 9080 1802 50  0000 C CNN
+F 2 "" H 9075 1975 50  0001 C CNN
+F 3 "" H 9075 1975 50  0001 C CNN
+	1    9075 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9075 1925 9075 1975
+Wire Wire Line
+	8825 1925 9075 1925
+$Comp
+L uSD_push-push_ebay:SD_ebay-uSD-push_push_SMD XS?
+U 1 1 5DAF16AA
+P 8675 2575
+F 0 "XS?" H 8397 2529 50  0000 R CNN
+F 1 "MicroSD" H 8397 2620 50  0000 R CNN
+F 2 "PrntrBoardV1:Conn_uSDcard" H 8675 2575 10  0001 C CNN
+F 3 "_" H 8675 2575 10  0001 C CNN
+F 4 "_" H 8675 2575 10  0001 C CNN "Manf#"
+F 5 "ebay" H 8675 2575 10  0001 C CNN "Manf"
+	1    8675 2575
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8825 3225 8825 3425
+Wire Wire Line
+	8075 2125 8275 2125
+Wire Wire Line
+	8275 2875 8225 2875
+Wire Wire Line
+	8225 2875 8225 2375
+Wire Wire Line
+	8175 2775 8175 2275
+Wire Wire Line
+	8175 2275 8275 2275
+Wire Wire Line
+	7475 2775 7875 2775
+Wire Wire Line
+	8275 2425 8125 2425
+Wire Wire Line
+	8125 2425 8125 2875
+Wire Wire Line
+	7475 2875 7875 2875
+Wire Wire Line
+	8275 2575 8025 2575
+Wire Wire Line
+	8025 2575 8025 2175
+Wire Wire Line
+	8275 2725 7925 2725
+Wire Wire Line
+	7975 2475 7975 3025
+Wire Wire Line
+	7975 3025 8275 3025
+Wire Wire Line
+	7475 2975 7550 2975
+Wire Wire Line
+	8075 2975 8075 2125
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DAF16AB
+P 7275 2975
+F 0 "RN?" V 6940 3190 50  0000 C CNN
+F 1 "4x10k" V 6949 2975 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7550 2975 50  0001 C CNN
+F 3 "~" H 7275 2975 50  0001 C CNN
+	1    7275 2975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6625 2475 6825 2475
+$Comp
+L power:GND #PWR?
+U 1 1 5DAF16AC
+P 6825 2825
+F 0 "#PWR?" H 6825 2575 50  0001 C CNN
+F 1 "GND" H 6700 2725 50  0000 C CNN
+F 2 "" H 6825 2825 50  0001 C CNN
+F 3 "" H 6825 2825 50  0001 C CNN
+	1    6825 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DAF16AD
+P 7275 2375
+F 0 "RN?" V 6955 2175 50  0000 C CNN
+F 1 "4x10k" V 6949 2375 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7550 2375 50  0001 C CNN
+F 3 "~" H 7275 2375 50  0001 C CNN
+	1    7275 2375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7075 2975 6975 2975
+Wire Wire Line
+	6975 2975 6975 2875
+Wire Wire Line
+	6975 2475 6825 2475
+Connection ~ 6825 2475
+Wire Wire Line
+	7075 2475 6975 2475
+Connection ~ 6975 2475
+Wire Wire Line
+	7075 2375 6975 2375
+Wire Wire Line
+	6975 2375 6975 2475
+Wire Wire Line
+	7075 2275 6975 2275
+Wire Wire Line
+	6975 2275 6975 2375
+Connection ~ 6975 2375
+Wire Wire Line
+	7075 2175 6975 2175
+Wire Wire Line
+	6975 2175 6975 2275
+Connection ~ 6975 2275
+Wire Wire Line
+	7075 2775 6975 2775
+Connection ~ 6975 2775
+Wire Wire Line
+	6975 2775 6975 2475
+Wire Wire Line
+	7075 2875 6975 2875
+Connection ~ 6975 2875
+Wire Wire Line
+	6975 2875 6975 2775
+Wire Wire Line
+	8025 2175 7875 2175
+Wire Wire Line
+	7975 2475 7900 2475
+Wire Wire Line
+	7475 2375 7900 2375
+Wire Wire Line
+	7475 3075 7550 3075
+Wire Wire Line
+	7550 3075 7550 2975
+Connection ~ 7550 2975
+Wire Wire Line
+	7550 2975 8075 2975
+Wire Wire Line
+	7075 3075 6525 3075
+$Comp
+L power:GND #PWR?
+U 1 1 5DB00743
+P 2300 2575
+F 0 "#PWR?" H 2300 2325 50  0001 C CNN
+F 1 "GND" H 2305 2402 50  0000 C CNN
+F 2 "" H 2300 2575 50  0001 C CNN
+F 3 "" H 2300 2575 50  0001 C CNN
+	1    2300 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J_SER?
+U 1 1 5DB00744
+P 2650 2425
+F 0 "J_SER?" H 2622 2307 50  0000 R CNN
+F 1 "Serial 0" H 2622 2398 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2650 2425 50  0001 C CNN
+F 3 "~" H 2650 2425 50  0001 C CNN
+	1    2650 2425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 2425 2300 2425
+Wire Wire Line
+	2300 2425 2300 2575
+Wire Wire Line
+	2450 2525 2100 2525
+Wire Wire Line
+	2450 2325 2100 2325
+Wire Wire Line
+	2450 2225 2100 2225
+Text GLabel 2100 2225 0    50   Input ~ 0
+UART_TX
+Text GLabel 2100 2325 0    50   Input ~ 0
+UART_RX
+Text GLabel 2100 2525 0    50   Input ~ 0
+5V
+Text GLabel 6625 2475 0    50   Input ~ 0
+3.3V
+Text GLabel 6525 3075 0    50   Input ~ 0
+~SD_DETECT
+Text GLabel 7475 4250 0    50   Input ~ 0
+USB_D-
+Text GLabel 7475 4350 0    50   Input ~ 0
+USB_D+
+Text Label 8075 4350 0    50   ~ 0
+D+
+Text GLabel 7850 2825 0    50   Input ~ 0
+SDIO_D1
+Wire Wire Line
+	7850 2825 7875 2825
+Wire Wire Line
+	7875 2825 7875 2875
+Connection ~ 7875 2875
+Wire Wire Line
+	7875 2875 8125 2875
+Text GLabel 7850 2725 0    50   Input ~ 0
+SDIO_D0
+Wire Wire Line
+	7850 2725 7875 2725
+Wire Wire Line
+	7875 2725 7875 2775
+Connection ~ 7875 2775
+Wire Wire Line
+	7875 2775 8175 2775
+Wire Wire Line
+	7925 2725 7925 2275
+Wire Wire Line
+	7475 2275 7875 2275
+Text GLabel 7850 2125 0    50   Input ~ 0
+SDIO_D2
+Wire Wire Line
+	7850 2125 7875 2125
+Wire Wire Line
+	7875 2125 7875 2175
+Connection ~ 7875 2175
+Wire Wire Line
+	7875 2175 7475 2175
+Text GLabel 7850 2225 0    50   Input ~ 0
+SDIO_D3
+Wire Wire Line
+	7850 2225 7875 2225
+Wire Wire Line
+	7875 2225 7875 2275
+Connection ~ 7875 2275
+Wire Wire Line
+	7875 2275 7925 2275
+Text GLabel 7875 2425 0    50   Input ~ 0
+SDIO_CLK
+Wire Wire Line
+	7875 2425 7900 2425
+Wire Wire Line
+	7900 2425 7900 2475
+Connection ~ 7900 2475
+Wire Wire Line
+	7900 2475 7475 2475
+Text GLabel 7875 2325 0    50   Input ~ 0
+SDIO_CMD
+Wire Wire Line
+	7875 2325 7900 2325
+Wire Wire Line
+	7900 2325 7900 2375
+Connection ~ 7900 2375
+Wire Wire Line
+	7900 2375 8225 2375
+Text GLabel 7175 4550 0    50   Input ~ 0
+5V
+Text GLabel 7475 3950 0    50   Input ~ 0
+3.3V
+Text GLabel 8925 3425 2    50   Input ~ 0
+3.3V
+Wire Wire Line
+	8925 3425 8825 3425
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5DB1F945
+P 2375 4400
+F 0 "J?" H 2425 4817 50  0000 C CNN
+F 1 "LCD_EXP1" H 2425 4726 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 2375 4400 50  0001 C CNN
+F 3 "~" H 2375 4400 50  0001 C CNN
+	1    2375 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5DB1F946
+P 2375 5125
+F 0 "J?" H 2425 5542 50  0000 C CNN
+F 1 "LCD_EXP2" H 2425 5451 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 2375 5125 50  0001 C CNN
+F 3 "~" H 2375 5125 50  0001 C CNN
+	1    2375 5125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5000 4950 5000
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DB1F947
+P 4350 4450
+F 0 "RN?" V 3933 4450 50  0000 C CNN
+F 1 "4x10k" V 4024 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4625 4450 50  0001 C CNN
+F 3 "~" H 4350 4450 50  0001 C CNN
+	1    4350 4450
+	0    1    1    0   
+$EndComp
+Text Label 3800 4250 0    50   ~ 0
+E_LCD_D4
+Text Label 3800 4350 0    50   ~ 0
+E_LCD_D5
+Text Label 3800 4450 0    50   ~ 0
+E_LCD_D6
+Wire Wire Line
+	4550 4250 4800 4250
+Wire Wire Line
+	4550 4350 4800 4350
+Wire Wire Line
+	4550 4450 4800 4450
+Wire Wire Line
+	4550 4550 4800 4550
+Wire Wire Line
+	2175 4300 1775 4300
+Wire Wire Line
+	2175 4400 1775 4400
+Wire Wire Line
+	2175 4500 1775 4500
+Wire Wire Line
+	2175 4600 1775 4600
+Wire Wire Line
+	2175 5125 1750 5125
+Wire Wire Line
+	2175 5325 1750 5325
+Wire Wire Line
+	2675 5025 3025 5025
+Wire Wire Line
+	2675 5125 3025 5125
+Wire Wire Line
+	2675 5225 3025 5225
+Wire Wire Line
+	2675 5325 3025 5325
+Text Notes 3100 5025 0    50   ~ 0
+~SD_DETECT
+Wire Wire Line
+	2175 4200 1825 4200
+Wire Wire Line
+	2675 4200 2725 4200
+Wire Wire Line
+	2675 4600 3025 4600
+Wire Wire Line
+	2675 4400 3100 4400
+Wire Wire Line
+	2675 4300 3100 4300
+Wire Wire Line
+	2175 4925 1750 4925
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DB1F949
+P 4350 5200
+F 0 "RN?" V 3933 5200 50  0000 C CNN
+F 1 "4x10k" V 4024 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4625 5200 50  0001 C CNN
+F 3 "~" H 4350 5200 50  0001 C CNN
+	1    4350 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 5300 3750 5300
+Wire Wire Line
+	4150 5200 3750 5200
+Wire Wire Line
+	4150 5100 3750 5100
+Wire Wire Line
+	4150 5000 3750 5000
+Wire Wire Line
+	4550 5300 4950 5300
+Text Label 3775 5300 0    50   ~ 0
+E_MISO
+Text Label 3775 5100 0    50   ~ 0
+E_ENC_B
+Text Label 3775 5200 0    50   ~ 0
+E_ENC_A
+Text Label 3775 5000 0    50   ~ 0
+E_BTN_ENC
+Wire Wire Line
+	4550 5200 4950 5200
+Wire Wire Line
+	4550 5100 4950 5100
+Wire Wire Line
+	2675 4500 3025 4500
+Text Label 3800 4550 0    50   ~ 0
+E_LCD_D7
+Wire Wire Line
+	3750 4450 4150 4450
+Wire Wire Line
+	3750 4550 4150 4550
+Wire Wire Line
+	3750 4350 4150 4350
+Wire Wire Line
+	3750 4250 4150 4250
+Wire Wire Line
+	2675 4925 2725 4925
+Wire Wire Line
+	2725 4925 2725 4200
+Connection ~ 2725 4200
+Wire Wire Line
+	2725 4200 3025 4200
+$Comp
+L power:GND #PWR?
+U 1 1 5DB2EBE9
+P 3225 4000
+F 0 "#PWR?" H 3225 3750 50  0001 C CNN
+F 1 "GND" H 3230 3827 50  0000 C CNN
+F 2 "" H 3225 4000 50  0001 C CNN
+F 3 "" H 3225 4000 50  0001 C CNN
+	1    3225 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 4000 3025 4000
+Wire Wire Line
+	3025 4000 3025 4200
+Text GLabel 1825 4200 0    50   Input ~ 0
+5V
+Text Label 1800 4300 0    50   ~ 0
+E_LCD_D7
+Text Label 1800 4400 0    50   ~ 0
+E_LCD_D5
+Text Label 2750 4300 0    50   ~ 0
+E_LCD_D6
+Text Label 2750 4400 0    50   ~ 0
+E_LCD_D4
+Text Label 1775 4600 0    50   ~ 0
+E_BTN_ENC
+Text Label 2700 5125 0    50   ~ 0
+E_ENC_A
+Text Label 2700 5225 0    50   ~ 0
+E_ENC_B
+Text Label 2700 5325 0    50   ~ 0
+E_MISO
+Text GLabel 1775 4500 0    50   Input ~ 0
+LCD_RS
+Text GLabel 4800 4250 2    50   Input ~ 0
+LCD_D4
+Text GLabel 4800 4350 2    50   Input ~ 0
+LCD_D5
+Text GLabel 4800 4450 2    50   Input ~ 0
+LCD_D6
+Text GLabel 4800 4550 2    50   Input ~ 0
+LCD_D7
+Text GLabel 4950 5000 2    50   Input ~ 0
+BTN_ENC
+Text GLabel 4950 5200 2    50   Input ~ 0
+ENC_A
+Text GLabel 4950 5100 2    50   Input ~ 0
+ENC_B
+Text GLabel 4950 5300 2    50   Input ~ 0
+SPI2_MISO
+NoConn ~ 3025 5025
+Text GLabel 1525 5025 0    50   Input ~ 0
+~RESET
+Wire Wire Line
+	1525 5025 2175 5025
+Text GLabel 1750 5125 0    50   Input ~ 0
+SPI2_MOSI
+Text GLabel 1750 5325 0    50   Input ~ 0
+SPI2_SCK
+Text GLabel 1325 5225 0    50   Input ~ 0
+~SD_DETECT
+Wire Wire Line
+	1325 5225 2175 5225
+Text GLabel 3025 4600 2    50   Input ~ 0
+BEEP
+Text GLabel 3025 4475 2    50   Input ~ 0
+~LCD_E
+Wire Wire Line
+	3025 4475 3025 4500
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 5DB37293
+P 1550 4850
+F 0 "JP?" H 1550 5085 50  0000 C CNN
+F 1 "Jumper_2_Open" H 1550 4994 50  0000 C CNN
+F 2 "" H 1550 4850 50  0001 C CNN
+F 3 "~" H 1550 4850 50  0001 C CNN
+	1    1550 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4850 1750 4925
+Wire Wire Line
+	1350 4850 1275 4850
+Text GLabel 1275 4850 0    50   Input ~ 0
+~EXP_CS
+$EndSCHEMATC
