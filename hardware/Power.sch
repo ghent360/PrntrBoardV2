@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -201,8 +201,6 @@ Text Label 1975 3800 0    50   ~ 0
 5V
 Wire Wire Line
 	1925 3800 2125 3800
-Text Label 3475 3800 0    50   ~ 0
-3.3V
 $Comp
 L BuckConverter:DCBuck U?
 U 1 1 5DB098BD
