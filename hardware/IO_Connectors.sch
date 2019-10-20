@@ -642,7 +642,7 @@ U 1 1 5DB37293
 P 1550 4850
 F 0 "JP1" H 1550 5085 50  0000 C CNN
 F 1 "Jumper_2_Open" H 1550 4994 50  0000 C CNN
-F 2 "" H 1550 4850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1550 4850 50  0001 C CNN
 F 3 "~" H 1550 4850 50  0001 C CNN
 	1    1550 4850
 	1    0    0    -1  
