@@ -169,7 +169,7 @@ Connection ~ 2950 1000
 Wire Wire Line
 	2950 1000 3075 1000
 Text GLabel 3075 1000 2    50   Input ~ 0
-V_heaters
+V_bed
 Wire Wire Line
 	2200 2300 2225 2300
 $Comp

@@ -1183,7 +1183,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 2400 2175 2400
 Text GLabel 2175 2050 2    50   Input ~ 0
-~ST1_ALARM1
+~ST1_ALARM
 Wire Wire Line
 	1825 1700 1950 1700
 Wire Wire Line
@@ -1191,7 +1191,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 2300 3850 2400
 Text GLabel 4075 2050 2    50   Input ~ 0
-~ST2_ALARM1
+~ST2_ALARM
 Wire Wire Line
 	3850 2400 4075 2400
 Wire Wire Line
@@ -1217,7 +1217,7 @@ Wire Wire Line
 Wire Wire Line
 	6025 2325 6025 2425
 Text GLabel 6250 2075 2    50   Input ~ 0
-~ST3_ALARM1
+~ST3_ALARM
 Wire Wire Line
 	6025 2425 6250 2425
 Wire Wire Line
@@ -1243,7 +1243,7 @@ Wire Wire Line
 Wire Wire Line
 	1975 6075 1975 6175
 Text GLabel 2200 5825 2    50   Input ~ 0
-~ST4_ALARM1
+~ST4_ALARM
 Wire Wire Line
 	1975 6175 2200 6175
 Wire Wire Line
@@ -1310,7 +1310,7 @@ Wire Wire Line
 Text GLabel 4150 6175 2    50   Input ~ 0
 ~ALARM1
 Text GLabel 4150 5825 2    50   Input ~ 0
-~ST5_ALARM1
+~ST5_ALARM
 Wire Wire Line
 	3925 6175 4150 6175
 Wire Wire Line
@@ -1318,7 +1318,7 @@ Wire Wire Line
 Wire Wire Line
 	6075 4275 6300 4275
 Text GLabel 6300 3925 2    50   Input ~ 0
-~ST6_ALARM1
+~ST6_ALARM
 Text GLabel 6300 4275 2    50   Input ~ 0
 ~ALARM1
 Wire Wire Line

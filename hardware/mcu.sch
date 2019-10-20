@@ -461,7 +461,7 @@ Wire Wire Line
 Wire Wire Line
 	4975 4450 5400 4450
 Text Label 5025 4150 0    50   ~ 0
-ENC_BTN
+BTN_ENC
 Text Label 5025 4250 0    50   ~ 0
 SPI2_SCK
 Text Label 5125 4350 0    50   ~ 0
@@ -977,9 +977,7 @@ ST_UART1
 Text GLabel 5400 4050 2    50   Input ~ 0
 BEEP
 Text GLabel 5400 4150 2    50   Input ~ 0
-ENC_BTN
-Text GLabel 5400 4250 2    50   Input ~ 0
-SPI2_SCK
+BTN_ENC
 Text GLabel 5400 4350 2    50   Input ~ 0
 ENC_B
 Text GLabel 5400 4450 2    50   Input ~ 0
@@ -990,7 +988,7 @@ Wire Wire Line
 	5400 4700 5400 4750
 Text GLabel 5400 4850 2    50   Input ~ 0
 SPI2_MISO
-Text GLabel 5400 4950 2    50   Input ~ 0
+Text GLabel 6250 6875 2    50   Input ~ 0
 SPI2_MOSI
 Text GLabel 6125 5250 2    50   Input ~ 0
 ST_UART2
@@ -1066,7 +1064,7 @@ Text GLabel 2350 3350 0    50   Input ~ 0
 Wire Wire Line
 	2350 3350 3175 3350
 Text GLabel 2700 3675 0    50   Input ~ 0
-~X_MAX
+~Z_MAX
 Wire Wire Line
 	2700 3675 2750 3675
 Wire Wire Line
@@ -1126,7 +1124,7 @@ ST3_DIR
 Text GLabel 2750 5950 0    50   Input ~ 0
 ST2_DIR
 Text GLabel 2750 6050 0    50   Input ~ 0
-ST2_DIR
+ST1_DIR
 Text GLabel 2750 6150 0    50   Input ~ 0
 PWM9
 Text Notes 6400 6075 0    50   ~ 0
@@ -1389,11 +1387,9 @@ Wire Wire Line
 	5900 7200 5900 7125
 Wire Wire Line
 	5600 6875 5100 6875
-Text Label 5150 6875 0    50   ~ 0
-~ST_ENABLE
 Wire Wire Line
 	6250 6875 6200 6875
-Text GLabel 6250 6875 2    50   Input ~ 0
+Text GLabel 5400 4575 2    50   Input ~ 0
 ~ST_ENABLE
 Text GLabel 9900 4925 0    50   Input ~ 0
 3.3V
@@ -1430,4 +1426,29 @@ Wire Wire Line
 	4975 5250 5500 5250
 Wire Wire Line
 	5800 5250 6125 5250
+Wire Wire Line
+	5400 4575 5400 4650
+Text Label 5150 6875 0    50   ~ 0
+SPI2_MOSI
+$Comp
+L power:GND #PWR0101
+U 1 1 5DAF7240
+P 3725 7325
+F 0 "#PWR0101" H 3725 7075 50  0001 C CNN
+F 1 "GND" H 3875 7225 50  0000 C CNN
+F 2 "" H 3725 7325 50  0001 C CNN
+F 3 "" H 3725 7325 50  0001 C CNN
+	1    3725 7325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3725 7325 3725 7250
+Text Label 3025 7000 0    50   ~ 0
+SPI2_SCK
+Wire Wire Line
+	2975 7000 3425 7000
+Wire Wire Line
+	4025 7000 4150 7000
+Text GLabel 4150 7000 2    50   Input ~ 0
+SPI2_SCK
 $EndSCHEMATC

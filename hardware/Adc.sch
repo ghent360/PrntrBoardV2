@@ -856,9 +856,9 @@ F 3 "" H 775 4725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1125 5100 0    50   Input ~ 0
-SPI1_SCK_BUF
+SPI1_SCK
 Text GLabel 1125 5200 0    50   Input ~ 0
-SPI1_MOSI_BUF
+SPI1_MOSI
 Text GLabel 1125 5300 0    50   Input ~ 0
 SPI1_MISO
 Text GLabel 1125 5000 0    50   Input ~ 0

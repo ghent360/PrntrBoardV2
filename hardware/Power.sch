@@ -312,19 +312,7 @@ Wire Wire Line
 Connection ~ 5275 3450
 Wire Wire Line
 	5275 3450 5525 3450
-$Comp
-L Device:D_Schottky D6
-U 1 1 5DB098C2
-P 5125 2750
-F 0 "D6" H 5125 2534 50  0000 C CNN
-F 1 "SS14" H 5125 2625 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 5125 2750 50  0001 C CNN
-F 3 "~" H 5125 2750 50  0001 C CNN
-	1    5125 2750
-	-1   0    0    1   
-$EndComp
-Connection ~ 5275 2750
-Text Label 4550 2750 0    50   ~ 0
+Text Label 4850 2750 0    50   ~ 0
 V_motors
 $Comp
 L Connector:Screw_Terminal_01x02 J_power_in1
@@ -387,8 +375,6 @@ F 3 "~" H 5125 1600 50  0001 C CNN
 	1    5125 1600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4525 2750 4975 2750
 Wire Wire Line
 	5275 2175 5375 2175
 Wire Wire Line
@@ -526,4 +512,7 @@ Wire Wire Line
 	4925 2175 4975 2175
 Wire Wire Line
 	4525 2175 4150 2175
+Wire Wire Line
+	4825 2750 5275 2750
+Connection ~ 5275 2750
 $EndSCHEMATC
