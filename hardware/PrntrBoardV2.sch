@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -113,7 +113,7 @@ F 3 "~" H 9875 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 9050 800  1200 1575
+S 8900 775  1200 1600
 U 5DABBBAB
 F0 "Sheet5DABBBAA" 50
 F1 "mcu.sch" 50
@@ -135,5 +135,11 @@ S 6200 2600 1225 1500
 U 5DB3A992
 F0 "Sheet5DB3A991" 50
 F1 "Adc.sch" 50
+$EndSheet
+$Sheet
+S 7550 2600 1200 1500
+U 5DB8AB6F
+F0 "Sheet5DB8AB6E" 50
+F1 "Endstops.sch" 50
 $EndSheet
 $EndSCHEMATC
