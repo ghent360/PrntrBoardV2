@@ -212,10 +212,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74hct02" H 4500 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74ls02:74HCT02 U7
+L 74ls02:74HCT02 U6
 U 3 1 5DBD73DB
 P 7600 2375
-F 0 "U7" H 7600 2700 50  0000 C CNN
+F 0 "U6" H 7600 2700 50  0000 C CNN
 F 1 "74HCT02" H 7600 2609 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 7600 2375 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hct02" H 7600 2375 50  0001 C CNN
@@ -224,13 +224,13 @@ F 3 "http://www.ti.com/lit/gpn/sn74hct02" H 7600 2375 50  0001 C CNN
 $EndComp
 $Comp
 L 74ls02:74HCT02 U6
-U 3 1 5DBDA5C5
+U 4 1 5DBDA5C5
 P 1600 4650
 F 0 "U6" H 1600 4975 50  0000 C CNN
 F 1 "74HCT02" H 1600 4884 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1600 4650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hct02" H 1600 4650 50  0001 C CNN
-	3    1600 4650
+	4    1600 4650
 	1    0    0    -1  
 $EndComp
 $Comp
