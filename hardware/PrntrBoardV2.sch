@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -141,5 +141,11 @@ S 7550 2600 1200 1500
 U 5DB8AB6F
 F0 "Sheet5DB8AB6E" 50
 F1 "Endstops.sch" 50
+$EndSheet
+$Sheet
+S 8900 2600 1200 1500
+U 5DBCB1BE
+F0 "Sheet5DBCB1BD" 50
+F1 "Pwm.sch" 50
 $EndSheet
 $EndSCHEMATC
