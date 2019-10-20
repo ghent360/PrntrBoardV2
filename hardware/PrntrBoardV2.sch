@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO?
+L Graphic:Logo_Open_Hardware_Small #LOGO1
 U 1 1 5DAB51D1
 P 10775 6100
-F 0 "#LOGO?" H 10775 6375 50  0001 C CNN
+F 0 "#LOGO1" H 10775 6375 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 10775 5875 50  0001 C CNN
 F 2 "" H 10775 6100 50  0001 C CNN
 F 3 "~" H 10775 6100 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 10775 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID4
 U 1 1 5DAB5B36
 P 9075 6200
-F 0 "FID?" H 9160 6246 50  0000 L CNN
+F 0 "FID4" H 9160 6246 50  0000 L CNN
 F 1 "Fiducial" H 9160 6155 50  0000 L CNN
 F 2 "" H 9075 6200 50  0001 C CNN
 F 3 "~" H 9075 6200 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 9075 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID3
 U 1 1 5DAB6145
 P 8625 6200
-F 0 "FID?" H 8710 6246 50  0000 L CNN
+F 0 "FID3" H 8710 6246 50  0000 L CNN
 F 1 "Fiducial" H 8710 6155 50  0000 L CNN
 F 2 "" H 8625 6200 50  0001 C CNN
 F 3 "~" H 8625 6200 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "~" H 8625 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID2
 U 1 1 5DAB673B
 P 8175 6200
-F 0 "FID?" H 8260 6246 50  0000 L CNN
+F 0 "FID2" H 8260 6246 50  0000 L CNN
 F 1 "Fiducial" H 8260 6155 50  0000 L CNN
 F 2 "" H 8175 6200 50  0001 C CNN
 F 3 "~" H 8175 6200 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "~" H 8175 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID1
 U 1 1 5DAB6C47
 P 7725 6200
-F 0 "FID?" H 7810 6246 50  0000 L CNN
+F 0 "FID1" H 7810 6246 50  0000 L CNN
 F 1 "Fiducial" H 7810 6155 50  0000 L CNN
 F 2 "" H 7725 6200 50  0001 C CNN
 F 3 "~" H 7725 6200 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "~" H 7725 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 5DAB729C
 P 9200 6000
-F 0 "H?" H 9300 6046 50  0000 L CNN
+F 0 "H3" H 9300 6046 50  0000 L CNN
 F 1 "MountingHole" H 9300 5955 50  0000 L CNN
 F 2 "" H 9200 6000 50  0001 C CNN
 F 3 "~" H 9200 6000 50  0001 C CNN
@@ -80,10 +80,10 @@ F 3 "~" H 9200 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 5DAB7AB2
 P 8500 6000
-F 0 "H?" H 8600 6046 50  0000 L CNN
+F 0 "H2" H 8600 6046 50  0000 L CNN
 F 1 "MountingHole" H 8600 5955 50  0000 L CNN
 F 2 "" H 8500 6000 50  0001 C CNN
 F 3 "~" H 8500 6000 50  0001 C CNN
@@ -91,10 +91,10 @@ F 3 "~" H 8500 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 5DAB7EA0
 P 7800 5975
-F 0 "H?" H 7900 6021 50  0000 L CNN
+F 0 "H1" H 7900 6021 50  0000 L CNN
 F 1 "MountingHole" H 7900 5930 50  0000 L CNN
 F 2 "" H 7800 5975 50  0001 C CNN
 F 3 "~" H 7800 5975 50  0001 C CNN
@@ -102,10 +102,10 @@ F 3 "~" H 7800 5975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 5DAB938B
 P 9875 6000
-F 0 "H?" H 9975 6046 50  0000 L CNN
+F 0 "H4" H 9975 6046 50  0000 L CNN
 F 1 "MountingHole" H 9975 5955 50  0000 L CNN
 F 2 "" H 9875 6000 50  0001 C CNN
 F 3 "~" H 9875 6000 50  0001 C CNN
