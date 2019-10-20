@@ -1,9 +1,10 @@
 EESchema Schematic File Version 5
+LIBS:PrntrBoardV2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -445,8 +446,6 @@ Wire Wire Line
 	4975 3850 5400 3850
 Text Label 4975 3850 0    50   ~ 0
 TIM11_CH1
-Wire Wire Line
-	4975 3950 5400 3950
 Text Label 4975 3950 0    50   ~ 0
 ST_RXTX_1
 Wire Wire Line
@@ -479,8 +478,6 @@ Wire Wire Line
 	4975 4950 5400 4950
 Wire Wire Line
 	4975 5050 5400 5050
-Wire Wire Line
-	4975 5250 5400 5250
 Wire Wire Line
 	4975 5350 5400 5350
 Text Label 4975 4650 0    50   ~ 0
@@ -975,7 +972,7 @@ Text GLabel 5400 3750 2    50   Input ~ 0
 PWM4
 Text GLabel 5400 3850 2    50   Input ~ 0
 PWM5
-Text GLabel 5400 3950 2    50   Input ~ 0
+Text GLabel 5875 3950 2    50   Input ~ 0
 ST_UART1
 Text GLabel 5400 4050 2    50   Input ~ 0
 BEEP
@@ -995,7 +992,7 @@ Text GLabel 5400 4850 2    50   Input ~ 0
 SPI2_MISO
 Text GLabel 5400 4950 2    50   Input ~ 0
 SPI2_MOSI
-Text GLabel 5400 5250 2    50   Input ~ 0
+Text GLabel 6125 5250 2    50   Input ~ 0
 ST_UART2
 Text GLabel 5400 5350 2    50   Input ~ 0
 PWM6
@@ -1403,4 +1400,34 @@ Text GLabel 9900 4925 0    50   Input ~ 0
 Wire Wire Line
 	9900 4925 10000 4925
 Connection ~ 10000 4925
+$Comp
+L Device:R R?
+U 1 1 5DAD09BE
+P 5675 3950
+F 0 "R?" V 5750 4100 50  0000 C CNN
+F 1 "470" V 5675 3950 50  0000 C CNN
+F 2 "" V 5605 3950 50  0001 C CNN
+F 3 "~" H 5675 3950 50  0001 C CNN
+	1    5675 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5825 3950 5875 3950
+Wire Wire Line
+	4975 3950 5525 3950
+$Comp
+L Device:R R?
+U 1 1 5DAD197C
+P 5650 5250
+F 0 "R?" V 5725 5400 50  0000 C CNN
+F 1 "470" V 5650 5250 50  0000 C CNN
+F 2 "" V 5580 5250 50  0001 C CNN
+F 3 "~" H 5650 5250 50  0001 C CNN
+	1    5650 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4975 5250 5500 5250
+Wire Wire Line
+	5800 5250 6125 5250
 $EndSCHEMATC

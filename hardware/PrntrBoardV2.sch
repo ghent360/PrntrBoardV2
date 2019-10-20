@@ -1,9 +1,10 @@
 EESchema Schematic File Version 5
+LIBS:PrntrBoardV2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -147,5 +148,11 @@ S 8900 2600 1200 1500
 U 5DBCB1BE
 F0 "Sheet5DBCB1BD" 50
 F1 "Pwm.sch" 50
+$EndSheet
+$Sheet
+S 6200 4325 1225 1200
+U 5DACE5FC
+F0 "Sheet5DACE5FB" 50
+F1 "DriverConnectors.sch" 50
 $EndSheet
 $EndSCHEMATC
