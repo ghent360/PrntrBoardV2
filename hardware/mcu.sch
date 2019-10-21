@@ -208,17 +208,6 @@ F 3 "~" H 2850 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
-U 1 1 5DABC8F3
-P 3025 2600
-F 0 "R2" H 3000 2825 50  0000 L CNN
-F 1 "1M" V 3025 2525 50  0000 L CNN
-F 2 "PrntrBoardV2:R_0603_1608Metric" V 2955 2600 50  0001 C CNN
-F 3 "~" H 3025 2600 50  0001 C CNN
-	1    3025 2600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C4
 U 1 1 5DABC8F4
 P 2550 2750
@@ -403,7 +392,7 @@ Wire Wire Line
 Text Label 4975 1850 0    50   ~ 0
 SPI1_MISO
 Text Label 4975 1950 0    50   ~ 0
-SPI1_MOSI
+SPI1_MOSI_CPU
 Text Label 5000 2050 0    50   ~ 0
 TIM1_CH1
 Wire Wire Line
@@ -429,7 +418,7 @@ Wire Wire Line
 Wire Wire Line
 	4975 3250 5400 3250
 Text Label 5025 3250 0    50   ~ 0
-SPI1_SCK
+SPI1_SCK_CPU
 Wire Wire Line
 	4975 3450 5400 3450
 Text Label 5025 3450 0    50   ~ 0
@@ -463,7 +452,7 @@ Wire Wire Line
 Text Label 5025 4150 0    50   ~ 0
 BTN_ENC
 Text Label 5025 4250 0    50   ~ 0
-SPI2_SCK
+SPI2_SCK_CPU
 Text Label 5125 4350 0    50   ~ 0
 ENC_B
 Text Label 5125 4450 0    50   ~ 0
@@ -487,7 +476,7 @@ Text Label 5000 4750 0    50   ~ 0
 Text Label 4975 4850 0    50   ~ 0
 SPI2_MISO
 Text Label 4975 4950 0    50   ~ 0
-SPI2_MOSI
+SPI2_MOSI_CPU
 Text Label 5150 5050 0    50   ~ 0
 ~X_MIN
 Text Label 5150 5150 0    50   ~ 0
@@ -762,17 +751,6 @@ F 1 "0.1uF" H 8850 1425 50  0000 L CNN
 F 2 "PrntrBoardV2:C_0603_1608Metric" H 8838 1375 50  0001 C CNN
 F 3 "~" H 8800 1525 50  0001 C CNN
 	1    8800 1525
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 5DAE9DCE
-P 7500 1525
-F 0 "C8" H 7575 1600 50  0000 L CNN
-F 1 "0.1uF" H 7550 1425 50  0000 L CNN
-F 2 "PrntrBoardV2:C_0603_1608Metric" H 7538 1375 50  0001 C CNN
-F 3 "~" H 7500 1525 50  0001 C CNN
-	1    7500 1525
 	1    0    0    -1  
 $EndComp
 Text Label 7500 3075 0    50   ~ 0
@@ -1352,13 +1330,13 @@ SPI1_SCK
 Wire Wire Line
 	8825 5925 8775 5925
 Wire Wire Line
-	8175 5925 7775 5925
-Text Label 7800 5925 0    50   ~ 0
-SPI1_SCK
+	8175 5925 7625 5925
+Text Label 7650 5925 0    50   ~ 0
+SPI1_SCK_CPU
 Wire Wire Line
-	8175 5375 7775 5375
-Text Label 7775 5375 0    50   ~ 0
-SPI1_MOSI
+	8175 5375 7600 5375
+Text Label 7600 5375 0    50   ~ 0
+SPI1_MOSI_CPU
 $Comp
 L power:GND #PWR07
 U 1 1 5DB7FAEA
@@ -1386,7 +1364,7 @@ $EndComp
 Wire Wire Line
 	5900 7200 5900 7125
 Wire Wire Line
-	5600 6875 5100 6875
+	5600 6875 4950 6875
 Wire Wire Line
 	6250 6875 6200 6875
 Text GLabel 5400 4575 2    50   Input ~ 0
@@ -1428,8 +1406,8 @@ Wire Wire Line
 	5800 5250 6125 5250
 Wire Wire Line
 	5400 4575 5400 4650
-Text Label 5150 6875 0    50   ~ 0
-SPI2_MOSI
+Text Label 5000 6875 0    50   ~ 0
+SPI2_MOSI_CPU
 $Comp
 L power:GND #PWR0101
 U 1 1 5DAF7240
@@ -1443,12 +1421,34 @@ F 3 "" H 3725 7325 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3725 7325 3725 7250
-Text Label 3025 7000 0    50   ~ 0
-SPI2_SCK
+Text Label 2825 7000 0    50   ~ 0
+SPI2_SCK_CPU
 Wire Wire Line
-	2975 7000 3425 7000
+	2775 7000 3425 7000
 Wire Wire Line
 	4025 7000 4150 7000
 Text GLabel 4150 7000 2    50   Input ~ 0
 SPI2_SCK
+$Comp
+L Device:R R2
+U 1 1 5DABC8F3
+P 3025 2600
+F 0 "R2" H 3000 2825 50  0000 L CNN
+F 1 "1M" V 3025 2525 50  0000 L CNN
+F 2 "PrntrBoardV2:R_0603_1608Metric" V 2955 2600 50  0001 C CNN
+F 3 "~" H 3025 2600 50  0001 C CNN
+	1    3025 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5DAE9DCE
+P 7500 1525
+F 0 "C8" H 7575 1600 50  0000 L CNN
+F 1 "0.1uF" H 7550 1425 50  0000 L CNN
+F 2 "PrntrBoardV2:C_0603_1608Metric" H 7538 1375 50  0001 C CNN
+F 3 "~" H 7500 1525 50  0001 C CNN
+	1    7500 1525
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
