@@ -26,7 +26,7 @@ AR Path="/5AB8F10D/5DB3AA15" Ref="J?"  Part="1"
 AR Path="/5DB3A992/5DB3AA15" Ref="J_TH1"  Part="1" 
 F 0 "J_TH1" V 1329 1880 50  0000 L CNN
 F 1 "Thermistor" V 1420 1880 50  0000 L CNN
-F 2 "kicad-molex-sl-footprints:Molex-SL-2POS" H 1325 1800 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1325 1800 50  0001 C CNN
 F 3 "~" H 1325 1800 50  0001 C CNN
 	1    1325 1800
 	0    1    1    0   
@@ -156,7 +156,7 @@ AR Path="/5AB8F10D/5DB4707A" Ref="J?"  Part="1"
 AR Path="/5DB3A992/5DB4707A" Ref="J_TH2"  Part="1" 
 F 0 "J_TH2" V 3079 1880 50  0000 L CNN
 F 1 "Thermistor" V 3170 1880 50  0000 L CNN
-F 2 "kicad-molex-sl-footprints:Molex-SL-2POS" H 3075 1800 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3075 1800 50  0001 C CNN
 F 3 "~" H 3075 1800 50  0001 C CNN
 	1    3075 1800
 	0    1    1    0   
@@ -286,7 +286,7 @@ AR Path="/5AB8F10D/5DB4B153" Ref="J?"  Part="1"
 AR Path="/5DB3A992/5DB4B153" Ref="J_TH3"  Part="1" 
 F 0 "J_TH3" V 4829 1855 50  0000 L CNN
 F 1 "Thermistor" V 4920 1855 50  0000 L CNN
-F 2 "kicad-molex-sl-footprints:Molex-SL-2POS" H 4825 1775 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4825 1775 50  0001 C CNN
 F 3 "~" H 4825 1775 50  0001 C CNN
 	1    4825 1775
 	0    1    1    0   
@@ -416,7 +416,7 @@ AR Path="/5AB8F10D/5DB4CF25" Ref="J?"  Part="1"
 AR Path="/5DB3A992/5DB4CF25" Ref="J_TH4"  Part="1" 
 F 0 "J_TH4" V 1329 3705 50  0000 L CNN
 F 1 "Thermistor" V 1420 3705 50  0000 L CNN
-F 2 "kicad-molex-sl-footprints:Molex-SL-2POS" H 1325 3625 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1325 3625 50  0001 C CNN
 F 3 "~" H 1325 3625 50  0001 C CNN
 	1    1325 3625
 	0    1    1    0   
@@ -546,7 +546,7 @@ AR Path="/5AB8F10D/5DB50DD9" Ref="J?"  Part="1"
 AR Path="/5DB3A992/5DB50DD9" Ref="J_TH5"  Part="1" 
 F 0 "J_TH5" V 3079 3680 50  0000 L CNN
 F 1 "Thermistor" V 3170 3680 50  0000 L CNN
-F 2 "kicad-molex-sl-footprints:Molex-SL-2POS" H 3075 3600 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3075 3600 50  0001 C CNN
 F 3 "~" H 3075 3600 50  0001 C CNN
 	1    3075 3600
 	0    1    1    0   
@@ -676,7 +676,7 @@ AR Path="/5AB8F10D/5DB52FF5" Ref="J?"  Part="1"
 AR Path="/5DB3A992/5DB52FF5" Ref="J_TH6"  Part="1" 
 F 0 "J_TH6" V 4829 3655 50  0000 L CNN
 F 1 "Thermistor" V 4920 3655 50  0000 L CNN
-F 2 "kicad-molex-sl-footprints:Molex-SL-2POS" H 4825 3575 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4825 3575 50  0001 C CNN
 F 3 "~" H 4825 3575 50  0001 C CNN
 	1    4825 3575
 	0    1    1    0   

@@ -317,13 +317,13 @@ V_motors
 $Comp
 L Connector:Screw_Terminal_01x02 J_power_in1
 U 1 1 5DB0C404
-P 5975 1900
-F 0 "J_power_in1" H 6055 1892 50  0000 L CNN
-F 1 "KF635" H 6055 1801 50  0000 L CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 5975 1900 50  0001 C CNN
-F 3 "~" H 5975 1900 50  0001 C CNN
-	1    5975 1900
-	1    0    0    -1  
+P 5975 2000
+F 0 "J_power_in1" H 6055 1992 50  0001 L CNN
+F 1 "KF635" H 6055 1901 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 5975 2000 50  0001 C CNN
+F 3 "~" H 5975 2000 50  0001 C CNN
+	1    5975 2000
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5775 1900 5375 1900
