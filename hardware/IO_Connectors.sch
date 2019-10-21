@@ -432,22 +432,22 @@ Text GLabel 8925 3425 2    50   Input ~ 0
 Wire Wire Line
 	8925 3425 8825 3425
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J1
+L Connector_Generic:Conn_02x05_Odd_Even EXP1
 U 1 1 5DB1F945
 P 2375 4400
-F 0 "J1" H 2425 4817 50  0000 C CNN
-F 1 "LCD_EXP1" H 2425 4726 50  0000 C CNN
+F 0 "EXP1" H 2425 4700 50  0000 C CNN
+F 1 "IDC 2x5" H 2425 4726 50  0001 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 2375 4400 50  0001 C CNN
 F 3 "~" H 2375 4400 50  0001 C CNN
 	1    2375 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
+L Connector_Generic:Conn_02x05_Odd_Even EXP2
 U 1 1 5DB1F946
 P 2375 5125
-F 0 "J2" H 2425 5542 50  0000 C CNN
-F 1 "LCD_EXP2" H 2425 5451 50  0000 C CNN
+F 0 "EXP2" H 2425 5425 50  0000 C CNN
+F 1 "IDC 2x5" H 2425 5451 50  0001 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 2375 5125 50  0001 C CNN
 F 3 "~" H 2375 5125 50  0001 C CNN
 	1    2375 5125
