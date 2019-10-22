@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO1
+L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5DAB51D1
 P 10775 6100
-F 0 "#LOGO1" H 10775 6375 50  0001 C CNN
+F 0 "LOGO1" H 10775 6375 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 10775 5875 50  0001 C CNN
-F 2 "" H 10775 6100 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" H 10775 6100 50  0001 C CNN
 F 3 "~" H 10775 6100 50  0001 C CNN
 	1    10775 6100
 	1    0    0    -1  

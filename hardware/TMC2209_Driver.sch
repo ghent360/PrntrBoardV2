@@ -724,17 +724,6 @@ F 3 "~" H 1050 5425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Large #LOGO1
-U 1 1 5D9A69F0
-P 1450 3825
-F 0 "#LOGO1" H 1450 4325 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 1450 3425 50  0001 C CNN
-F 2 "" H 1450 3825 50  0001 C CNN
-F 3 "~" H 1450 3825 50  0001 C CNN
-	1    1450 3825
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H2
 U 1 1 5D9A69F1
 P 1375 2975
@@ -1044,4 +1033,15 @@ Wire Wire Line
 	3900 5950 3900 6000
 Wire Wire Line
 	4725 5825 4725 5950
+$Comp
+L Graphic:Logo_Open_Hardware_Large LOGO1
+U 1 1 5DAEA456
+P 1575 3875
+F 0 "LOGO1" H 1575 4375 50  0000 C CNN
+F 1 "Logo_Open_Hardware_Large" H 1575 3475 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 1575 3875 50  0001 C CNN
+F 3 "~" H 1575 3875 50  0001 C CNN
+	1    1575 3875
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -923,12 +923,12 @@ F 3 "~" H 1075 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Large #LOGO1
+L Graphic:Logo_Open_Hardware_Large LOGO1
 U 1 1 5D9582B1
 P 1475 3400
-F 0 "#LOGO1" H 1475 3900 50  0001 C CNN
+F 0 "LOGO1" H 1475 3900 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Large" H 1475 3000 50  0001 C CNN
-F 2 "" H 1475 3400 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 1475 3400 50  0001 C CNN
 F 3 "~" H 1475 3400 50  0001 C CNN
 	1    1475 3400
 	1    0    0    -1  
