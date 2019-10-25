@@ -496,7 +496,7 @@ Wire Wire Line
 	1975 2575 2350 2575
 Connection ~ 2350 2575
 Text Label 1975 1800 0    50   ~ 0
-V_fans
+V_fan
 $Comp
 L pspice:DIODE D21
 U 1 1 5DBE2772
