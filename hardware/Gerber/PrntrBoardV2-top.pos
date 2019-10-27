@@ -1,4 +1,4 @@
-### Module positions - created on Sun 27 Oct 2019 10:13:04 AM PDT ###
+### Module positions - created on Sun 27 Oct 2019 03:20:52 PM PDT ###
 ### Printed by Pcbnew version (5.1.0-1558-g0ba0c1724)
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -51,10 +51,10 @@ C45       1000pF         C_0603_1608Metric                          94.4880    4
 C46       0.1uF          C_0603_1608Metric                          96.0120    46.7360   90.0000  top
 C47       10uF_35V       CP_Elec_6.3x7.7                             7.8860    11.4490  270.0000  top
 C48       10uF_35V       CP_Elec_6.3x7.7                            27.8860    11.4490  270.0000  top
-C49       10uF_35V       CP_Elec_6.3x7.7                            47.8860    11.4490  270.0000  top
+C49       10uF_35V       CP_Elec_6.3x7.7                            47.3780     5.3530  270.0000  top
 C50       10uF_35V       CP_Elec_6.3x7.7                            87.8860    11.4490  270.0000  top
 C51       10uF_35V       CP_Elec_6.3x7.7                            67.8860    11.4490  270.0000  top
-C52       10uF_35V       CP_Elec_6.3x7.7                           107.8860    11.4490  270.0000  top
+C52       10uF_35V       CP_Elec_6.3x7.7                           107.8860     5.3530  270.0000  top
 D1        SS14           D_SMA                                     136.1440    93.0910    0.0000  top
 D2        RED            LED_0603_1608Metric                       119.1260    52.1970    0.0000  top
 D3        RED            LED_0603_1608Metric                       119.1260    50.6730    0.0000  top
