@@ -515,4 +515,122 @@ Wire Wire Line
 Wire Wire Line
 	4825 2750 5275 2750
 Connection ~ 5275 2750
+$Comp
+L Connector_Generic:Conn_02x01 J?
+U 1 1 5DBAB252
+P 2500 5100
+AR Path="/5AC337B6/5ACBE919/5AD4D269/5DBAB252" Ref="J?"  Part="1" 
+AR Path="/5AC337B6/5AD9F95A/5AD4D269/5DBAB252" Ref="J?"  Part="1" 
+AR Path="/5AB8F10D/5DBAB252" Ref="J?"  Part="1" 
+AR Path="/5DB3A992/5DBAB252" Ref="J?"  Part="1" 
+AR Path="/5DB03B7D/5DBAB252" Ref="J1"  Part="1" 
+F 0 "J1" V 2504 5180 50  0000 L CNN
+F 1 "Fan" V 2595 5180 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2500 5100 50  0001 C CNN
+F 3 "~" H 2500 5100 50  0001 C CNN
+	1    2500 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x01 J?
+U 1 1 5DBAB4BC
+P 2875 5100
+AR Path="/5AC337B6/5ACBE919/5AD4D269/5DBAB4BC" Ref="J?"  Part="1" 
+AR Path="/5AC337B6/5AD9F95A/5AD4D269/5DBAB4BC" Ref="J?"  Part="1" 
+AR Path="/5AB8F10D/5DBAB4BC" Ref="J?"  Part="1" 
+AR Path="/5DB3A992/5DBAB4BC" Ref="J?"  Part="1" 
+AR Path="/5DB03B7D/5DBAB4BC" Ref="J2"  Part="1" 
+F 0 "J2" V 2879 5180 50  0000 L CNN
+F 1 "Fan" V 2970 5180 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2875 5100 50  0001 C CNN
+F 3 "~" H 2875 5100 50  0001 C CNN
+	1    2875 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x01 J?
+U 1 1 5DBAB743
+P 3250 5100
+AR Path="/5AC337B6/5ACBE919/5AD4D269/5DBAB743" Ref="J?"  Part="1" 
+AR Path="/5AC337B6/5AD9F95A/5AD4D269/5DBAB743" Ref="J?"  Part="1" 
+AR Path="/5AB8F10D/5DBAB743" Ref="J?"  Part="1" 
+AR Path="/5DB3A992/5DBAB743" Ref="J?"  Part="1" 
+AR Path="/5DB03B7D/5DBAB743" Ref="J22"  Part="1" 
+F 0 "J22" V 3254 5180 50  0000 L CNN
+F 1 "Fan" V 3345 5180 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3250 5100 50  0001 C CNN
+F 3 "~" H 3250 5100 50  0001 C CNN
+	1    3250 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x01 J?
+U 1 1 5DBAB9AC
+P 3625 5100
+AR Path="/5AC337B6/5ACBE919/5AD4D269/5DBAB9AC" Ref="J?"  Part="1" 
+AR Path="/5AC337B6/5AD9F95A/5AD4D269/5DBAB9AC" Ref="J?"  Part="1" 
+AR Path="/5AB8F10D/5DBAB9AC" Ref="J?"  Part="1" 
+AR Path="/5DB3A992/5DBAB9AC" Ref="J?"  Part="1" 
+AR Path="/5DB03B7D/5DBAB9AC" Ref="J23"  Part="1" 
+F 0 "J23" V 3629 5180 50  0000 L CNN
+F 1 "Fan" V 3720 5180 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3625 5100 50  0001 C CNN
+F 3 "~" H 3625 5100 50  0001 C CNN
+	1    3625 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR075
+U 1 1 5DBAC013
+P 3100 5525
+F 0 "#PWR075" H 3100 5275 50  0001 C CNN
+F 1 "GND" H 3250 5475 50  0000 C CNN
+F 2 "" H 3100 5525 50  0001 C CNN
+F 3 "" H 3100 5525 50  0001 C CNN
+	1    3100 5525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5400 2500 5475
+Wire Wire Line
+	2500 5475 2875 5475
+Wire Wire Line
+	3100 5475 3100 5525
+Wire Wire Line
+	2875 5400 2875 5475
+Connection ~ 2875 5475
+Wire Wire Line
+	2875 5475 3100 5475
+Wire Wire Line
+	3100 5475 3250 5475
+Wire Wire Line
+	3250 5475 3250 5400
+Connection ~ 3100 5475
+Wire Wire Line
+	3250 5475 3625 5475
+Wire Wire Line
+	3625 5475 3625 5400
+Connection ~ 3250 5475
+Wire Wire Line
+	3625 4900 3625 4825
+Wire Wire Line
+	3250 4825 3625 4825
+Connection ~ 3625 4825
+Wire Wire Line
+	3625 4825 4050 4825
+Wire Wire Line
+	2875 4900 2875 4825
+Wire Wire Line
+	2875 4825 2500 4825
+Wire Wire Line
+	2500 4900 2500 4825
+Connection ~ 2500 4825
+Wire Wire Line
+	2500 4825 1975 4825
+Wire Wire Line
+	3250 4825 3250 4900
+Text Label 2200 4825 2    50   ~ 0
+5V
+Text Label 4000 4825 2    50   ~ 0
+V_motors
 $EndSCHEMATC

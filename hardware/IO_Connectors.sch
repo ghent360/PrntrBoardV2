@@ -653,4 +653,70 @@ Wire Wire Line
 	1350 4850 1275 4850
 Text GLabel 1275 4850 0    50   Input ~ 0
 ~EXP_CS
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even EXP3
+U 1 1 5DB54924
+P 4050 2775
+F 0 "EXP3" H 4100 3075 50  0000 C CNN
+F 1 "IDC 2x5" H 4100 3101 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 4050 2775 50  0001 C CNN
+F 3 "~" H 4050 2775 50  0001 C CNN
+	1    4050 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2975 3600 2975
+Wire Wire Line
+	3850 2875 3600 2875
+Text GLabel 3600 2875 0    50   Input ~ 0
+UART2_RX
+Text GLabel 3600 2975 0    50   Input ~ 0
+UART2_TX
+Text GLabel 4475 2875 2    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	4475 2875 4350 2875
+Text GLabel 4475 2975 2    50   Input ~ 0
+I2C_SCL
+Wire Wire Line
+	4475 2975 4350 2975
+Wire Wire Line
+	3850 2775 3600 2775
+Wire Wire Line
+	3850 2675 3600 2675
+Text GLabel 3600 2775 0    50   Input ~ 0
+UART_TX
+Text GLabel 3600 2675 0    50   Input ~ 0
+UART_RX
+$Comp
+L power:GND #PWR074
+U 1 1 5DB5560F
+P 3500 2350
+F 0 "#PWR074" H 3500 2100 50  0001 C CNN
+F 1 "GND" H 3505 2177 50  0000 C CNN
+F 2 "" H 3500 2350 50  0001 C CNN
+F 3 "" H 3500 2350 50  0001 C CNN
+	1    3500 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2575 3700 2575
+Wire Wire Line
+	3700 2575 3700 2250
+Wire Wire Line
+	3700 2250 3500 2250
+Wire Wire Line
+	3500 2250 3500 2350
+Wire Wire Line
+	4350 2575 4475 2575
+Wire Wire Line
+	4350 2675 4475 2675
+Text GLabel 4475 2575 2    50   Input ~ 0
+5V
+Text GLabel 4475 2675 2    50   Input ~ 0
+3.3V
+Wire Wire Line
+	4350 2775 4475 2775
+Text GLabel 4475 2775 2    50   Input ~ 0
+~EXP_CS
 $EndSCHEMATC
