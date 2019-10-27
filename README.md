@@ -10,6 +10,7 @@ This V2 design has 6 replaceable motor drivers. While traditional RAMPS based bo
 Some features of the board:
 -----
   + up to 6x replaceable stepper motor drivers
+  + 32-bit Arm processor with floating point support running at 168MHz (STM32F407)
   + up to 6 thermistors or 6 thermocouples for temperature control
   + 4 power heaters (1 bed and up to 3 extruder heaters) with PWM power control
   + 5 low power PWM connectors with selectable voltage (5V vs 12-24V) for fans or LEDs
