@@ -40,5 +40,3 @@ Software
 I plan to offer both Marlin as well as Smoothieware similar to PrntrBoard V1.
 
 Visit [my blog](https://blog.pcbxprt.com/) for status updates on the development of the board.
-
-[![Analytics](https://ga-beacon.appspot.com/UA-111584522-4/README-v2)](https://github.com/igrigorik/ga-beacon)
