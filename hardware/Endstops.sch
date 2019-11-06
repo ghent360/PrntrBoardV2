@@ -127,17 +127,6 @@ F 3 "~" H 1400 1100 50  0001 C CNN
 $EndComp
 Text GLabel 1400 850  1    50   Input ~ 0
 3.3V
-$Comp
-L Connector:Conn_01x03_Male J_X-1
-U 1 1 5DB901B5
-P 825 1600
-F 0 "J_X-1" H 933 1789 50  0000 C CNN
-F 1 "JST XH 3p" H 933 1790 50  0001 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 825 1600 50  0001 C CNN
-F 3 "~" H 825 1600 50  0001 C CNN
-	1    825  1600
-	1    0    0    -1  
-$EndComp
 Text GLabel 1050 1500 2    50   Input ~ 0
 5V
 Wire Wire Line
@@ -296,7 +285,7 @@ F 1 "JST XH 3p" H 2858 1790 50  0001 C CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 2750 1600 50  0001 C CNN
 F 3 "~" H 2750 1600 50  0001 C CNN
 	1    2750 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R?
@@ -439,7 +428,7 @@ F 1 "JST XH 3p" H 5008 1815 50  0001 C CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 4900 1625 50  0001 C CNN
 F 3 "~" H 4900 1625 50  0001 C CNN
 	1    4900 1625
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R?
@@ -584,7 +573,7 @@ F 1 "JST XH 3p" H 933 3690 50  0001 C CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 825 3500 50  0001 C CNN
 F 3 "~" H 825 3500 50  0001 C CNN
 	1    825  3500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R?
@@ -729,7 +718,7 @@ F 1 "JST XH 3p" H 2883 3665 50  0001 C CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 2775 3475 50  0001 C CNN
 F 3 "~" H 2775 3475 50  0001 C CNN
 	1    2775 3475
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R?
@@ -874,7 +863,7 @@ F 1 "JST XH 3p" H 5008 3665 50  0001 C CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 4900 3475 50  0001 C CNN
 F 3 "~" H 4900 3475 50  0001 C CNN
 	1    4900 3475
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R?
@@ -1017,7 +1006,7 @@ F 1 "JST XH 3p" H 933 5565 50  0001 C CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 825 5375 50  0001 C CNN
 F 3 "~" H 825 5375 50  0001 C CNN
 	1    825  5375
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R?
@@ -1158,18 +1147,7 @@ F 1 "JST XH 3p" H 2883 5565 50  0001 C CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 2775 5375 50  0001 C CNN
 F 3 "~" H 2775 5375 50  0001 C CNN
 	1    2775 5375
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_3_Open JP3
-U 1 1 5DBBCC41
-P 1950 2050
-F 0 "JP3" V 2050 1850 50  0000 L CNN
-F 1 "Jumper_3_Open" V 1905 2137 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1950 2050 50  0001 C CNN
-F 3 "~" H 1950 2050 50  0001 C CNN
-	1    1950 2050
-	0    -1   -1   0   
+	1    0    0    1   
 $EndComp
 Connection ~ 1950 1700
 Text GLabel 2175 2400 2    50   Input ~ 0
@@ -1353,4 +1331,26 @@ Wire Wire Line
 	3325 950  3325 850 
 Wire Wire Line
 	5475 975  5475 875 
+$Comp
+L Jumper:Jumper_3_Open JP3
+U 1 1 5DBBCC41
+P 1950 2050
+F 0 "JP3" V 2050 1850 50  0000 L CNN
+F 1 "Jumper_3_Open" V 1905 2137 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1950 2050 50  0001 C CNN
+F 3 "~" H 1950 2050 50  0001 C CNN
+	1    1950 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J_X-1
+U 1 1 5DB901B5
+P 825 1600
+F 0 "J_X-1" H 742 1386 50  0000 C CNN
+F 1 "JST XH 3p" H 742 1385 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 850 1575 50  0001 C CNN
+F 3 "~" H 850 1575 50  0001 C CNN
+	1    825  1600
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
