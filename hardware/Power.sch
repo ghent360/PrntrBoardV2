@@ -617,20 +617,124 @@ Wire Wire Line
 	3250 4825 3625 4825
 Connection ~ 3625 4825
 Wire Wire Line
-	3625 4825 4050 4825
-Wire Wire Line
 	2875 4900 2875 4825
 Wire Wire Line
-	2875 4825 2500 4825
+	3250 4825 3250 4900
+Text Label 1625 4825 2    50   ~ 0
+5V
+Text Label 4000 4825 2    50   ~ 0
+V_motors
+$Comp
+L Connector_Generic:Conn_02x01 J?
+U 1 1 5DC2584D
+P 2125 5075
+AR Path="/5AC337B6/5ACBE919/5AD4D269/5DC2584D" Ref="J?"  Part="1" 
+AR Path="/5AC337B6/5AD9F95A/5AD4D269/5DC2584D" Ref="J?"  Part="1" 
+AR Path="/5AB8F10D/5DC2584D" Ref="J?"  Part="1" 
+AR Path="/5DB3A992/5DC2584D" Ref="J?"  Part="1" 
+AR Path="/5DB03B7D/5DC2584D" Ref="J25"  Part="1" 
+F 0 "J25" V 2129 5155 50  0000 L CNN
+F 1 "JST XH" V 2375 5100 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2125 5075 50  0001 C CNN
+F 3 "~" H 2125 5075 50  0001 C CNN
+	1    2125 5075
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x01 J?
+U 1 1 5DC26092
+P 1750 5075
+AR Path="/5AC337B6/5ACBE919/5AD4D269/5DC26092" Ref="J?"  Part="1" 
+AR Path="/5AC337B6/5AD9F95A/5AD4D269/5DC26092" Ref="J?"  Part="1" 
+AR Path="/5AB8F10D/5DC26092" Ref="J?"  Part="1" 
+AR Path="/5DB3A992/5DC26092" Ref="J?"  Part="1" 
+AR Path="/5DB03B7D/5DC26092" Ref="J24"  Part="1" 
+F 0 "J24" V 1754 5155 50  0000 L CNN
+F 1 "JST XH" V 2000 5100 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1750 5075 50  0001 C CNN
+F 3 "~" H 1750 5075 50  0001 C CNN
+	1    1750 5075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 4825 1750 4825
 Wire Wire Line
 	2500 4900 2500 4825
 Connection ~ 2500 4825
 Wire Wire Line
-	2500 4825 1975 4825
+	2500 4825 2875 4825
 Wire Wire Line
-	3250 4825 3250 4900
-Text Label 2200 4825 2    50   ~ 0
-5V
-Text Label 4000 4825 2    50   ~ 0
-V_motors
+	1750 4875 1750 4825
+Connection ~ 1750 4825
+Wire Wire Line
+	1750 4825 2125 4825
+Wire Wire Line
+	2125 4875 2125 4825
+Connection ~ 2125 4825
+Wire Wire Line
+	2125 4825 2500 4825
+Wire Wire Line
+	1750 5375 1750 5475
+Wire Wire Line
+	1750 5475 2125 5475
+Connection ~ 2500 5475
+Wire Wire Line
+	2125 5375 2125 5475
+Connection ~ 2125 5475
+Wire Wire Line
+	2125 5475 2500 5475
+$Comp
+L Connector_Generic:Conn_02x01 J?
+U 1 1 5DC26F16
+P 4025 5100
+AR Path="/5AC337B6/5ACBE919/5AD4D269/5DC26F16" Ref="J?"  Part="1" 
+AR Path="/5AC337B6/5AD9F95A/5AD4D269/5DC26F16" Ref="J?"  Part="1" 
+AR Path="/5AB8F10D/5DC26F16" Ref="J?"  Part="1" 
+AR Path="/5DB3A992/5DC26F16" Ref="J?"  Part="1" 
+AR Path="/5DB03B7D/5DC26F16" Ref="J26"  Part="1" 
+F 0 "J26" V 4029 5180 50  0000 L CNN
+F 1 "JST XH" V 4275 5150 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4025 5100 50  0001 C CNN
+F 3 "~" H 4025 5100 50  0001 C CNN
+	1    4025 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x01 J?
+U 1 1 5DC277AF
+P 4425 5100
+AR Path="/5AC337B6/5ACBE919/5AD4D269/5DC277AF" Ref="J?"  Part="1" 
+AR Path="/5AC337B6/5AD9F95A/5AD4D269/5DC277AF" Ref="J?"  Part="1" 
+AR Path="/5AB8F10D/5DC277AF" Ref="J?"  Part="1" 
+AR Path="/5DB3A992/5DC277AF" Ref="J?"  Part="1" 
+AR Path="/5DB03B7D/5DC277AF" Ref="J27"  Part="1" 
+F 0 "J27" V 4429 5180 50  0000 L CNN
+F 1 "JST XH" V 4675 5150 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4425 5100 50  0001 C CNN
+F 3 "~" H 4425 5100 50  0001 C CNN
+	1    4425 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3625 4825 4025 4825
+Wire Wire Line
+	4425 4900 4425 4825
+Connection ~ 4425 4825
+Wire Wire Line
+	4425 4825 4575 4825
+Wire Wire Line
+	4025 4900 4025 4825
+Connection ~ 4025 4825
+Wire Wire Line
+	4025 4825 4425 4825
+Wire Wire Line
+	4425 5400 4425 5475
+Wire Wire Line
+	4425 5475 4025 5475
+Connection ~ 3625 5475
+Wire Wire Line
+	4025 5400 4025 5475
+Connection ~ 4025 5475
+Wire Wire Line
+	4025 5475 3625 5475
 $EndSCHEMATC
