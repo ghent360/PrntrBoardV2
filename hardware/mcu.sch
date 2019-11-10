@@ -1120,7 +1120,7 @@ U 1 1 5DB34B02
 P 9100 4600
 F 0 "U3" H 9100 5081 50  0000 C CNN
 F 1 "24LC64" H 9100 4990 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 9100 4600 50  0001 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 9100 4600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf" H 9100 4600 50  0001 C CNN
 	1    9100 4600
 	1    0    0    -1  
