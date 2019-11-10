@@ -976,7 +976,7 @@
       (net 8 "/~ENABLE"))
     (pad "1" smd rect (at -2.3471 -1.5 90) (size 0.2248 0.909599) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "/MOTB2"))
-    (model "/home/vne/Documents/KicadModels/QFN28.step"
+    (model "${KIPRJMOD}/QFN28.step"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

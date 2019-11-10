@@ -7904,7 +7904,7 @@
       (net 27 "V_heaters"))
     (pad "2" thru_hole circle (at 3.5 0 90) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 53 "Net-(D32-Pad1)"))
-    (model "/home/vne/Documents/KicadModels/DG350-3,5-02P.step"
+    (model "${KIPRJMOD}/DG350-3,5-02P.step"
       (offset (xyz 1.75 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -8082,7 +8082,7 @@
       (net 27 "V_heaters"))
     (pad "2" thru_hole circle (at 3.5 0 90) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 49 "Net-(D28-Pad1)"))
-    (model "/home/vne/Documents/KicadModels/DG350-3,5-02P.step"
+    (model "${KIPRJMOD}/DG350-3,5-02P.step"
       (offset (xyz 1.75 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -8579,7 +8579,7 @@
       (net 27 "V_heaters"))
     (pad "2" thru_hole circle (at 3.5 0 90) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 46 "Net-(D24-Pad1)"))
-    (model "/home/vne/Documents/KicadModels/DG350-3,5-02P.step"
+    (model "${KIPRJMOD}/DG350-3,5-02P.step"
       (offset (xyz 1.75 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -8641,7 +8641,7 @@
       (net 26 "V_bed"))
     (pad "2" thru_hole circle (at 5.08 0 90) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
       (net 44 "Net-(D23-Pad1)"))
-    (model "/home/vne/Documents/KicadModels/KF128-2P.step"
+    (model "${KIPRJMOD}/KF128-2P.step"
       (offset (xyz 81.40000000000001 -19 -25.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9047,7 +9047,7 @@
       (net 41 "Net-(D21-Pad1)"))
     (pad "1" smd rect (at -3.935 0 270) (size 5.74 3.81) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 57 "Net-(F2-Pad1)"))
-    (model "/home/vne/projects/kicad_pcbs/PrntrBoardV1-2660/Littlefuse 0154 Holder and Fuse.STEP"
+    (model "${KIPRJMOD}/Littlefuse 0154 Holder and Fuse.STEP"
       (offset (xyz -3.5 -1.75 -1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9072,7 +9072,7 @@
       (net 27 "V_heaters"))
     (pad "1" smd rect (at -3.935 0 90) (size 5.74 3.81) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 57 "Net-(F2-Pad1)"))
-    (model "/home/vne/projects/kicad_pcbs/PrntrBoardV1-2660/Littlefuse 0154 Holder and Fuse.STEP"
+    (model "${KIRPJMOD}/Littlefuse 0154 Holder and Fuse.STEP"
       (offset (xyz -3.5 -1.75 -1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9097,7 +9097,7 @@
       (net 26 "V_bed"))
     (pad "1" smd rect (at -3.935 0 90) (size 5.74 3.81) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 57 "Net-(F2-Pad1)"))
-    (model "/home/vne/projects/kicad_pcbs/PrntrBoardV1-2660/Littlefuse 0154 Holder and Fuse.STEP"
+    (model "${KIPRJMOD}/Littlefuse 0154 Holder and Fuse.STEP"
       (offset (xyz -3.5 -1.75 -1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
