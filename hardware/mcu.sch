@@ -1138,14 +1138,9 @@ F 3 "" H 9100 4925 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8700 4500 8700 4600
-Wire Wire Line
-	8700 4900 9100 4900
 Connection ~ 8700 4600
 Wire Wire Line
 	8700 4600 8700 4700
-Connection ~ 8700 4700
-Wire Wire Line
-	8700 4700 8700 4900
 Wire Wire Line
 	9100 4925 9100 4900
 Connection ~ 9100 4900
@@ -1171,12 +1166,9 @@ $EndComp
 Wire Wire Line
 	8425 4475 8425 4300
 Wire Wire Line
-	8425 4300 9100 4300
+	8425 4300 8700 4300
 Wire Wire Line
 	8425 4775 8425 4900
-Wire Wire Line
-	8425 4900 8700 4900
-Connection ~ 8700 4900
 Text GLabel 8350 4300 0    50   Input ~ 0
 3.3V
 Wire Wire Line
@@ -1451,4 +1443,12 @@ F 3 "~" H 7500 1525 50  0001 C CNN
 	1    7500 1525
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8425 4900 9100 4900
+Wire Wire Line
+	8700 4500 8700 4300
+Connection ~ 8700 4500
+Connection ~ 8700 4300
+Wire Wire Line
+	8700 4300 9100 4300
 $EndSCHEMATC

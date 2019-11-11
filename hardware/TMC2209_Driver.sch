@@ -1044,4 +1044,79 @@ F 3 "~" H 1575 3875 50  0001 C CNN
 	1    1575 3875
 	1    0    0    -1  
 $EndComp
+$Comp
+L Memory_EEPROM:24LC02 U3
+U 1 1 5DC91F81
+P 6725 5400
+F 0 "U3" H 6725 5881 50  0000 C CNN
+F 1 "24LC02" H 6725 5790 50  0000 C CNN
+F 2 "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.80x1.65mm" H 6725 5400 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21709c.pdf" H 6725 5400 50  0001 C CNN
+	1    6725 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7125 5500 7250 5500
+Wire Wire Line
+	7250 5500 7250 5775
+Wire Wire Line
+	7250 5775 6725 5775
+Wire Wire Line
+	6725 5775 6725 5700
+$Comp
+L power:GND #PWR04
+U 1 1 5DC936C0
+P 6725 5850
+F 0 "#PWR04" H 6725 5600 50  0001 C CNN
+F 1 "GND" H 6730 5677 50  0000 C CNN
+F 2 "" H 6725 5850 50  0001 C CNN
+F 3 "" H 6725 5850 50  0001 C CNN
+	1    6725 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6725 5850 6725 5775
+Connection ~ 6725 5775
+$Comp
+L Device:C C14
+U 1 1 5DC93C22
+P 7650 5575
+F 0 "C14" H 7765 5621 50  0000 L CNN
+F 1 "0.1uF" H 7765 5530 50  0000 L CNN
+F 2 "PrntrBoardV2:C_0603_1608Metric" H 7688 5425 50  0001 C CNN
+F 3 "~" H 7650 5575 50  0001 C CNN
+	1    7650 5575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 5725 7650 5775
+Wire Wire Line
+	7650 5775 7250 5775
+Connection ~ 7250 5775
+Wire Wire Line
+	7650 5100 6725 5100
+Text Label 6925 5100 0    50   ~ 0
+V_IO
+Wire Wire Line
+	7650 5100 7650 5425
+Wire Wire Line
+	7125 5300 7375 5300
+Wire Wire Line
+	7125 5400 7375 5400
+Text Label 7125 5400 0    50   ~ 0
+SCL
+Text Label 7125 5300 0    50   ~ 0
+SDA
+Wire Wire Line
+	6325 5300 6000 5300
+Wire Wire Line
+	6325 5400 6000 5400
+Wire Wire Line
+	6325 5500 6000 5500
+Text Label 6050 5300 0    50   ~ 0
+ID_0
+Text Label 6050 5400 0    50   ~ 0
+ID_1
+Text Label 6050 5500 0    50   ~ 0
+ID_2
 $EndSCHEMATC
