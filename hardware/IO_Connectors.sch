@@ -194,8 +194,6 @@ F 0 "XS1" H 8397 2529 50  0000 R CNN
 F 1 "MicroSD" H 8397 2620 50  0000 R CNN
 F 2 "PrntrBoardV2:Conn_uSDcard" H 8675 2575 10  0001 C CNN
 F 3 "_" H 8675 2575 10  0001 C CNN
-F 4 "_" H 8675 2575 10  0001 C CNN "Manf#"
-F 5 "ebay" H 8675 2575 10  0001 C CNN "Manf"
 	1    8675 2575
 	-1   0    0    1   
 $EndComp
