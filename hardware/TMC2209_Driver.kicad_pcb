@@ -1672,7 +1672,7 @@
   (gr_text "(c) iQury.us\nNov 2019" (at 113.9952 95.25) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "rev 5" (at 144.145 83.439 90) (layer "F.SilkS")
+  (gr_text "rev 6" (at 144.145 83.439 90) (layer "F.SilkS")
     (effects (font (size 0.75 0.75) (thickness 0.1)))
   )
   (gr_text "DRV2209 V1" (at 143.764 94.615 90) (layer "F.SilkS") (tstamp 5D9AFB80)
