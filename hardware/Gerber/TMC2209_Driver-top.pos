@@ -1,4 +1,4 @@
-### Module positions - created on Sun 10 Nov 2019 10:12:37 PM PST ###
+### Module positions - created on Fri 22 Nov 2019 01:19:22 AM PST ###
 ### Printed by Pcbnew version (5.1.0-1558-g0ba0c1724)
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -18,13 +18,13 @@ C12       1000pF       C_0603_1608Metric                         118.5925   -79.
 C13       0.1uF        C_0603_1608Metric                         119.0625   -99.9490  180.0000  top
 C14       0.1uF        C_0603_1608Metric                         114.1222   -99.0346  180.0000  top
 FID1      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   110.7440   -76.4540    0.0000  top
-FID2      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   143.7640  -104.6480    0.0000  top
+FID2      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   143.7640  -106.0000    0.0000  top
 FID3      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   143.7640   -76.4540    0.0000  top
-FID4      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   110.7440  -104.3940    0.0000  top
+FID4      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   110.7440  -106.0000    0.0000  top
 R1        470          R_0603_1608Metric                         122.1995  -103.1240    0.0000  top
 R2        0R091        R_1210_3225Metric                         132.5910   -83.2612  180.0000  top
 R3        0R091        R_1210_3225Metric                         120.6500   -83.2866    0.0000  top
 U1        TMC2209-LA   TMC22xx_QFN                               126.6825   -91.0590    0.0000  top
 U2        74LVC1G06    SOT-353_SC-70-5                           118.9355  -102.2350    0.0000  top
-U3        24LC02       TDFN-8-1EP_3x2mm_P0.5mm_EP1.80x1.65mm     113.4618  -101.1682    0.0000  top
+U3        24LC02       TDFN-8-1EP_3x2mm_P0.5mm_EP1.56x1.45mm     113.4618  -101.1682    0.0000  top
 ## End
