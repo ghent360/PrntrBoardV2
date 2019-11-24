@@ -7,7 +7,18 @@ This V2 design has 6 replaceable motor drivers. While traditional RAMPS based bo
   + PCIe 1x slots have 36 pins which allows for greater design flexibility
 
 ![Picture of rev-1 KiCad Rendering](board-r1.png)
-Some features of the board:
+
+Project Status
+-----
+The following functionality has been verified on the rev1 prototype board with Marlin firmware:
+  + TMC2660 drivers working and able to move motors
+  + Heaters and thermistor inputs
+  + TMC2209 drivers communication via UART, no motor movement due to defect in the driver board
+  + LCD interface with 12864 panel from FYSETC.
+  + Micro SD-card interface
+  + EEPROM
+
+Features of the board:
 -----
   + up to 6x replaceable stepper motor drivers
   + 32-bit Arm processor with floating point support running at 168MHz (STM32F407)
@@ -20,7 +31,7 @@ Some features of the board:
   + RAMPS LCD screen support
   + Marlin 2.0 firmware or Smoothieware V1.0
   + 4 extra fan connectors (2x5V and 2x12-24V)
-  + Input voltage (Vin): 12-24V
+  + Input voltage: 12-24V
 
 Drivers
 ------
@@ -37,6 +48,6 @@ Very high current driver design using TMC5161 and TMC2160 with external MOSFETS 
 Software
 ------
 
-I plan to offer both Marlin as well as Smoothieware similar to PrntrBoard V1.
+Marlin v2 is working on the board. I also plan to offer Smoothieware V1 and Klipper support.
 
 Visit [my blog](https://blog.pcbxprt.com/) for status updates on the development of the board.
