@@ -58,7 +58,7 @@
     (solder_mask_margin 0.2) (clearance 0.1))
   (pad "" np_thru_hole circle (at -17.65 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask "F.SilkS")
     (solder_mask_margin 0.2) (clearance 0.1))
-  (model "${KIPRJMOD}/AMPHENOL_10018784-10210TLF.STEP"
+  (model "${KIPRJMOD}/packages3d/AMPHENOL_10018784-10210TLF.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

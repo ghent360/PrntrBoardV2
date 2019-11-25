@@ -47,7 +47,7 @@
   (fp_arc (start 0 0) (end 0 1.68) (angle -32) (layer F.SilkS) (width 0.12))
   (pad "2" thru_hole circle (at 3.5 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask))
   (pad "1" thru_hole rect (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/DG350-3,5-02P.step"
+  (model "${KIPRJMOD}/packages3d/DG350-3,5-02P.step"
     (offset (xyz 1.75 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

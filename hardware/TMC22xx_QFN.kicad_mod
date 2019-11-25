@@ -186,7 +186,7 @@
   (pad "27" smd rect (at -1.000001 -2.5) (size 0.25 0.8) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "28" smd rect (at -1.5 -2.5) (size 0.25 0.8) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "29" smd rect (at 0 0) (size 3.7 3.7) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (model "${KIPRJMOD}/QFN28.step"
+  (model "${KIPRJMOD}/packages3d/QFN28.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

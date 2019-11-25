@@ -81,7 +81,7 @@
   (pad "" np_thru_hole circle (at 3.05 3.4798) (size 1 1) (drill 1) (layers *.Cu))
   (pad "" np_thru_hole circle (at -4.93 3.4798) (size 1 1) (drill 1) (layers *.Cu))
   (pad "3" smd rect (at 0 -7.0202) (size 0.7 1.6) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (model "${KIPRJMOD}/micro_sd.step"
+  (model "${KIPRJMOD}/packages3d/micro_sd.step"
     (offset (xyz -7.3 7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

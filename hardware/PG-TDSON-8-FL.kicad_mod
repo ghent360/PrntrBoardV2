@@ -48,7 +48,7 @@
   (pad "" smd rect (at 1 -1.5) (size 1.5 1.5) (layers F.Paste F.Mask))
   (pad "" smd rect (at 1 0.5) (size 1.5 1.5) (layers F.Paste F.Mask))
   (pad "" smd rect (at -1 0.5) (size 1.5 1.5) (layers F.Paste F.Mask))
-  (model ${KIPRJMOD}/PG-TDSON-8.STEP
+  (model ${KIPRJMOD}/packages3d/PG-TDSON-8.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

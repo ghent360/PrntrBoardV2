@@ -23,7 +23,7 @@
   (pad "2" smd rect (at -3.2258 1.9712) (size 1.7 1) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "1" smd rect (at 3.0742 -1.8288) (size 1.7 1) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "2" smd rect (at 3.0742 1.9712) (size 1.7 1) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (model "${KIPRJMOD}/4x4_SMD_Switch.STEP"
+  (model "${KIPRJMOD}/packages3d/4x4_SMD_Switch.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
