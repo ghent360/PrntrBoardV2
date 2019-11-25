@@ -736,7 +736,7 @@
       (net 8 "/MOTB1"))
     (pad "1" thru_hole rect (at 3.81 0 180) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask "F.SilkS")
       (net 9 "/MOTB2"))
-    (model "${KIPRJMOD}/mx2_54_4p_ra.stp"
+    (model "${KIPRJMOD}/packages3d/mx2_54_4p_ra.step"
       (offset (xyz 0 -7.2 3))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))

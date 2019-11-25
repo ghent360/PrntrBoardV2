@@ -380,7 +380,7 @@
       (net 8 "/~ENABLE"))
     (pad "1" smd rect (at -2.5 -1.5 90) (size 0.25 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "/MOTB2"))
-    (model "${KIPRJMOD}/QFN28.step"
+    (model "${KIPRJMOD}/packages3d/QFN28.step"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1121,7 +1121,7 @@
       (net 6 "/MOTB1"))
     (pad "1" thru_hole rect (at 3.81 0 180) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask "F.SilkS")
       (net 7 "/MOTB2"))
-    (model "${KIPRJMOD}/mx2_54_4p_ra.stp"
+    (model "${KIPRJMOD}/packages3d/mx2_54_4p_ra.step"
       (offset (xyz 0 -7.2 3))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
