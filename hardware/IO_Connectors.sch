@@ -755,4 +755,78 @@ Wire Wire Line
 	4350 2775 4475 2775
 Text GLabel 4475 2775 2    50   Input ~ 0
 ~EXP_CS
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even EXP4
+U 1 1 5DE245A5
+P 5950 1650
+F 0 "EXP4" H 6000 1950 50  0000 C CNN
+F 1 "IDC 2x5" H 6000 1976 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 5950 1650 50  0001 C CNN
+F 3 "~" H 5950 1650 50  0001 C CNN
+F 4 "" H 5950 1650 50  0001 C CNN "Part #"
+F 5 "C5661" H 5950 1650 50  0001 C CNN "LCSC Part #"
+	1    5950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE25425
+P 5425 1375
+F 0 "#PWR?" H 5425 1125 50  0001 C CNN
+F 1 "GND" H 5275 1300 50  0000 C CNN
+F 2 "" H 5425 1375 50  0001 C CNN
+F 3 "" H 5425 1375 50  0001 C CNN
+	1    5425 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1450 5750 1300
+Wire Wire Line
+	5750 1300 5425 1300
+Wire Wire Line
+	5425 1300 5425 1375
+Text GLabel 6400 1450 2    50   Input ~ 0
+3.3V
+Wire Wire Line
+	6400 1450 6250 1450
+Text GLabel 5650 1550 0    50   Input ~ 0
+SDIO_D0
+Text GLabel 6400 1550 2    50   Input ~ 0
+SDIO_D1
+Text GLabel 5650 1650 0    50   Input ~ 0
+SDIO_D2
+Text GLabel 6400 1650 2    50   Input ~ 0
+SDIO_D3
+Text GLabel 5650 1750 0    50   Input ~ 0
+SDIO_CMD
+Text GLabel 6400 1750 2    50   Input ~ 0
+SDIO_CLK
+Text GLabel 5650 1900 0    50   Input ~ 0
+~SD_DETECT
+Text GLabel 6400 1875 2    50   Input ~ 0
+5V
+Wire Wire Line
+	6250 1550 6400 1550
+Wire Wire Line
+	6250 1650 6400 1650
+Wire Wire Line
+	6250 1750 6400 1750
+Wire Wire Line
+	6250 1850 6350 1850
+Wire Wire Line
+	6350 1850 6350 1875
+Wire Wire Line
+	6350 1875 6400 1875
+Wire Wire Line
+	5750 1850 5725 1850
+Wire Wire Line
+	5725 1850 5725 1900
+Wire Wire Line
+	5725 1900 5650 1900
+Wire Wire Line
+	5750 1750 5650 1750
+Wire Wire Line
+	5750 1650 5650 1650
+Wire Wire Line
+	5750 1550 5650 1550
 $EndSCHEMATC
