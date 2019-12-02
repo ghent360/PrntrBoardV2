@@ -531,23 +531,6 @@ Wire Wire Line
 Connection ~ 2350 2575
 Text Label 1975 1800 0    50   ~ 0
 V_fan
-$Comp
-L pspice:DIODE D21
-U 1 1 5DBE2772
-P 4725 2175
-F 0 "D21" H 4725 1975 50  0000 C CNN
-F 1 "S10M" H 4725 2349 50  0000 C CNN
-F 2 "Diode_SMD:D_SMC" H 4725 2175 50  0001 C CNN
-F 3 "~" H 4725 2175 50  0001 C CNN
-F 4 "S10MC" H 4725 2175 50  0001 C CNN "Part #"
-F 5 "C169472" H 4725 2175 50  0001 C CNN "LCSC Part #"
-	1    4725 2175
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4925 2175 4975 2175
-Wire Wire Line
-	4525 2175 4150 2175
 Wire Wire Line
 	4825 2750 5275 2750
 Connection ~ 5275 2750
@@ -773,4 +756,21 @@ Wire Wire Line
 Connection ~ 4025 5475
 Wire Wire Line
 	4025 5475 3625 5475
+$Comp
+L Device:D D21
+U 1 1 5DE51704
+P 4725 2175
+F 0 "D21" H 4725 2391 50  0000 C CNN
+F 1 "S10M" H 4725 2300 50  0000 C CNN
+F 2 "Diode_SMD:D_SMC" H 4725 2175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Shandong-Jingdao-Microelectronics-S10MC_C169472.pdf" H 4725 2175 50  0001 C CNN
+F 4 "S10MC" H 4725 2175 50  0001 C CNN "Part #"
+F 5 "C169472" H 4725 2175 50  0001 C CNN "LCSC Part #"
+	1    4725 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 2175 4975 2175
+Wire Wire Line
+	4150 2175 4575 2175
 $EndSCHEMATC
