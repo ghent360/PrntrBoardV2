@@ -11,12 +11,13 @@ This V2 design has 6 replaceable motor drivers. While traditional RAMPS based bo
 Project Status
 -----
 The following functionality has been verified on the rev1 prototype board with Marlin firmware:
-  + TMC2660 drivers working and able to move motors
+  + TMC2660 and TMC2209 drivers working and able to move motors
+  + Endstops
   + Heaters and thermistor inputs
-  + TMC2209 drivers communication via UART, no motor movement due to defect in the driver board
-  + LCD interface with 12864 panel from FYSETC.
+  + LCD interface with 12864 panel from FYSETC and REPRAP Discount Graphics Panel.
   + Micro SD-card interface
   + EEPROM
+  + Fan control
 
 Features of the board:
 -----
@@ -32,6 +33,8 @@ Features of the board:
   + Marlin 2.0 firmware or Smoothieware V1.0
   + 4 extra fan connectors (2x5V and 2x12-24V)
   + Input voltage: 12-24V
+
+![Picture of rev-1 prototype](real1.jpg)
 
 Drivers
 ------
