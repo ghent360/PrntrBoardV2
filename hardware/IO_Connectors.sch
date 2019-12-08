@@ -1,5 +1,4 @@
 EESchema Schematic File Version 5
-LIBS:PrntrBoardV2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L Connector:USB_B_Micro J3
@@ -769,10 +773,10 @@ F 5 "C5661" H 5950 1650 50  0001 C CNN "LCSC Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR037
 U 1 1 5DE25425
 P 5425 1375
-F 0 "#PWR?" H 5425 1125 50  0001 C CNN
+F 0 "#PWR037" H 5425 1125 50  0001 C CNN
 F 1 "GND" H 5275 1300 50  0000 C CNN
 F 2 "" H 5425 1375 50  0001 C CNN
 F 3 "" H 5425 1375 50  0001 C CNN

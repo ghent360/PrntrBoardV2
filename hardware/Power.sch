@@ -1,5 +1,4 @@
 EESchema Schematic File Version 5
-LIBS:PrntrBoardV2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L Device:LED D3
@@ -414,8 +418,6 @@ Wire Wire Line
 	5375 1600 5275 1600
 Wire Wire Line
 	4975 1900 4475 1900
-Text Label 4200 2175 0    50   ~ 0
-V_motors
 Text Label 4550 1900 0    50   ~ 0
 V_heaters
 Wire Wire Line
@@ -437,8 +439,6 @@ Text GLabel 4475 1600 0    50   Input ~ 0
 V_bed
 Text GLabel 4475 1900 0    50   Input ~ 0
 V_heaters
-Text GLabel 4150 2175 0    50   Input ~ 0
-V_motors
 Text GLabel 6675 2750 2    50   Input ~ 0
 5V
 Text GLabel 3775 3800 2    50   Input ~ 0
@@ -757,20 +757,77 @@ Connection ~ 4025 5475
 Wire Wire Line
 	4025 5475 3625 5475
 $Comp
-L Device:D D21
-U 1 1 5DE51704
-P 4725 2175
-F 0 "D21" H 4725 2391 50  0000 C CNN
-F 1 "S10M" H 4725 2300 50  0000 C CNN
-F 2 "Diode_SMD:D_SMC" H 4725 2175 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Shandong-Jingdao-Microelectronics-S10MC_C169472.pdf" H 4725 2175 50  0001 C CNN
-F 4 "S10MC" H 4725 2175 50  0001 C CNN "Part #"
-F 5 "C169472" H 4725 2175 50  0001 C CNN "LCSC Part #"
-	1    4725 2175
+L Transistor_FET:IRF4905 Q1
+U 1 1 5DED0FE4
+P 4750 2275
+F 0 "Q1" V 5092 2275 50  0000 C CNN
+F 1 "NCE40P40K" V 5001 2275 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:ATPAK-2" H 4950 2200 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/Wuxi-NCE-Power-Semiconductor-NCE40P40K_C130100.pdf" H 4750 2275 50  0001 L CNN
+F 4 "C130100" V 4750 2275 50  0001 C CNN "LCSC Part #"
+F 5 "NCE40P40K" V 4750 2275 50  0001 C CNN "MPN"
+	1    4750 2275
+	0    1    -1   0   
+$EndComp
+Text GLabel 4150 2175 0    50   Input ~ 0
+V_motors
+Text Label 4200 2175 0    50   ~ 0
+V_motors
+Wire Wire Line
+	4975 2175 4950 2175
+Wire Wire Line
+	4550 2175 4325 2175
+$Comp
+L Device:D_Zener D6
+U 1 1 5DED07FC
+P 4325 2350
+F 0 "D6" V 4279 2429 50  0000 L CNN
+F 1 "10V" V 4370 2429 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 4325 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Leshan-Radio-LM3Z10VT1G_C131828.pdf" H 4325 2350 50  0001 C CNN
+F 4 "C131828" V 4325 2350 50  0001 C CNN "LCSC Part #"
+F 5 "LM3Z10VT1G" V 4325 2350 50  0001 C CNN "MPN"
+	1    4325 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4325 2200 4325 2175
+Connection ~ 4325 2175
+Wire Wire Line
+	4325 2175 4150 2175
+Wire Wire Line
+	4750 2475 4750 2600
+Wire Wire Line
+	4750 2600 4325 2600
+Wire Wire Line
+	4325 2600 4325 2500
+$Comp
+L Device:R R71
+U 1 1 5DED14D7
+P 4325 2800
+F 0 "R71" H 4395 2846 50  0000 L CNN
+F 1 "100k" V 4325 2700 50  0000 L CNN
+F 2 "PrntrBoardV2:R_0603_1608Metric" V 4255 2800 50  0001 C CNN
+F 3 "~" H 4325 2800 50  0001 C CNN
+F 4 "C25803" H 4325 2800 50  0001 C CNN "LCSC Part #"
+F 5 "0603WAF1003T5E" H 4325 2800 50  0001 C CNN "MPN"
+	1    4325 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4875 2175 4975 2175
+	4325 2650 4325 2600
+Connection ~ 4325 2600
+$Comp
+L power:GND #PWR049
+U 1 1 5DED18DC
+P 4325 3000
+F 0 "#PWR049" H 4325 2750 50  0001 C CNN
+F 1 "GND" H 4330 2827 50  0000 C CNN
+F 2 "" H 4325 3000 50  0001 C CNN
+F 3 "" H 4325 3000 50  0001 C CNN
+	1    4325 3000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4150 2175 4575 2175
+	4325 3000 4325 2950
 $EndSCHEMATC
