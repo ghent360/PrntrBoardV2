@@ -40,11 +40,11 @@ Drivers
 ------
 High power driver using Trinamic TMC2660. Should support up to 2.5A RMS current per phase with forced cooling. Supports stall detection. Driver current is adjustable via SPI.
 
-<img src="2660-r3.png" alt="KiCad rendering of the 2660 driver board" width="300"/>
+<img src="2660-r3.png" alt="KiCad rendering of the 2660 driver board" width="300"/> <img src="drv2660-r2.jpg" alt="2660 r2 driver board" width="300"/>
 
 Versatile "economy" driver using Trinamic TMC2209. Should support up to 1.8A RMS current per phase with forced cooling. Supports stall detection. Driver current is adjustable via UART.
 
-<img src="2209-r3.png" alt="KiCad rendering of the 2660 driver board" width="300"/>
+<img src="2209-r3.png" alt="KiCad rendering of the 2209 driver board" width="300"/><img src="drv2209-r6.jpg" alt="2209 r6 driver board" width="300"/>
 
 Very high current driver design using TMC5161 and TMC2160 with external MOSFETS are also possible. In addition an adapter board for Pololu style stepper drivers is planned for backwards compatibility with old drivers.
 
