@@ -1,0 +1,10 @@
+(module "JLC_Tool_hole" (layer F.Cu) (tedit 5DED5611)
+  (fp_text reference "REF**" (at 0 0.5 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "JLC_Tool_hole" (at 0 -0.5 unlocked) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.148) (clearance 0.148))
+)

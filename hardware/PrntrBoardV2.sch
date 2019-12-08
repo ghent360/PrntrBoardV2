@@ -159,4 +159,48 @@ U 5DACE5FC
 F0 "Sheet5DACE5FB" 50
 F1 "DriverConnectors.sch" 50
 $EndSheet
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5DEE2FA8
+P 6500 5975
+F 0 "H7" H 6600 6021 50  0000 L CNN
+F 1 "JLC Tooling Hole" H 6600 5930 50  0000 L CNN
+F 2 "PrntrBoardV2:JLC_Tool_hole" H 6500 5975 50  0001 C CNN
+F 3 "~" H 6500 5975 50  0001 C CNN
+	1    6500 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5DEE4800
+P 6500 6225
+F 0 "H8" H 6600 6271 50  0000 L CNN
+F 1 "JLC Tooling Hole" H 6600 6180 50  0000 L CNN
+F 2 "PrntrBoardV2:JLC_Tool_hole" H 6500 6225 50  0001 C CNN
+F 3 "~" H 6500 6225 50  0001 C CNN
+	1    6500 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5DEE3522
+P 5525 6250
+F 0 "H6" H 5625 6296 50  0000 L CNN
+F 1 "JLC Tooling Hole" H 5625 6205 50  0000 L CNN
+F 2 "PrntrBoardV2:JLC_Tool_hole" H 5525 6250 50  0001 C CNN
+F 3 "~" H 5525 6250 50  0001 C CNN
+	1    5525 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5DEE39E4
+P 5525 6000
+F 0 "H5" H 5625 6046 50  0000 L CNN
+F 1 "JLC Tooling Hole" H 5625 5955 50  0000 L CNN
+F 2 "PrntrBoardV2:JLC_Tool_hole" H 5525 6000 50  0001 C CNN
+F 3 "~" H 5525 6000 50  0001 C CNN
+	1    5525 6000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
