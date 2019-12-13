@@ -1,5 +1,4 @@
 EESchema Schematic File Version 5
-LIBS:MP-Power-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L mp1584:MP1584EN U1
@@ -32,11 +36,11 @@ L Device:D_Schottky D1
 U 1 1 5DDC73D8
 P 6175 3550
 F 0 "D1" V 6129 3629 50  0000 L CNN
-F 1 "SS34" V 6220 3629 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 6175 3550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/DIYI-Elec-Tech-SS34_C84635.pdf" H 6175 3550 50  0001 C CNN
-F 4 "C84635" V 6175 3550 50  0001 C CNN "JLC Part#"
-F 5 "SS34" V 6175 3550 50  0001 C CNN "MPN"
+F 1 "PMEG3050EP" V 6220 3629 50  0000 L CNN
+F 2 "PrntrBoardV2:SOD-128" H 6175 3550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1910111742_Nexperia-PMEG3050EP-115_C50603.pdf" H 6175 3550 50  0001 C CNN
+F 4 "C50603" V 6175 3550 50  0001 C CNN "JLC Part#"
+F 5 "PMEG3050EP,115" V 6175 3550 50  0001 C CNN "MPN"
 	1    6175 3550
 	0    1    1    0   
 $EndComp
