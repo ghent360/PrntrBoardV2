@@ -46,7 +46,7 @@
       (copper_finish "None")
       (dielectric_constraints no)
     )
-    (last_trace_width 2)
+    (last_trace_width 0.127)
     (user_trace_width 0.127)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
@@ -750,6 +750,7 @@
   (module "PrntrBoardV2:MWSA0503" (layer "F.Cu") (tedit 5DE1E00E) (tstamp 5DF29015)
     (at 42.7 110.2)
     (path "/5DB03B7D/5DDC8019")
+    (attr smd)
     (fp_text reference "L1" (at 0.25 3.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
