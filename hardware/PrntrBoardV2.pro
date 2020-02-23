@@ -1,4 +1,4 @@
-update=Thu 21 Nov 2019 10:40:53 PM PST
+update=Fri 10 Jan 2020 02:53:18 AM PST
 version=1
 last_client=kicad
 [general]
@@ -32,7 +32,7 @@ ERC_CheckBusToNetConflicts=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-LastSTEPExportPath=
+LastSTEPExportPath=PrntrBoardV2.step
 LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=
@@ -100,10 +100,12 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
+DimensionUnits=0
+DimensionPrecision=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
