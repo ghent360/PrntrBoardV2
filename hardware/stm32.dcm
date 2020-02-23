@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F407VETx
+D ARM Cortex-M4 MCU, 512KB flash, 128KB RAM, 168MHz, 1.8-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M4 STM32F4 STM32F407/417
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf
+$ENDCMP
+#
+$CMP STM32H750VBTx
+D ARM Cortex-M4 MCU, 512KB flash, 128KB RAM, 168MHz, 1.8-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M4 STM32F4 STM32F407/417
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf
+$ENDCMP
+#
+#End Doc Library

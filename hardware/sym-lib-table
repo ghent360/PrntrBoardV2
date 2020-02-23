@@ -15,4 +15,5 @@
   (lib (name "stp_conn_v2")(type "Legacy")(uri "${KIPRJMOD}/stp_conn_v2.lib")(options "")(descr ""))
   (lib (name "xl1509")(type "Legacy")(uri "${KIPRJMOD}/xl1509.lib")(options "")(descr ""))
   (lib (name "mp1584")(type "Legacy")(uri "${KIPRJMOD}/mp1584.lib")(options "")(descr ""))
+  (lib (name "stm32")(type "Legacy")(uri "${KIPRJMOD}/stm32.lib")(options "")(descr ""))
 )
