@@ -37,6 +37,7 @@ Connection ~ 3175 800
 Connection ~ 3175 1850
 Connection ~ 3775 950 
 Connection ~ 3875 950 
+Connection ~ 3975 800 
 Connection ~ 3975 6450
 Connection ~ 4075 950 
 Connection ~ 4075 6450
@@ -46,7 +47,6 @@ Connection ~ 4275 950
 Connection ~ 4275 6450
 Connection ~ 4375 950 
 Connection ~ 4375 6450
-Connection ~ 4475 950 
 Connection ~ 4525 800 
 Connection ~ 5850 3550
 Connection ~ 5850 3650
@@ -174,7 +174,7 @@ Wire Wire Line
 Wire Wire Line
 	3175 775  3175 800 
 Wire Wire Line
-	3175 800  4150 800 
+	3175 800  3975 800 
 Wire Wire Line
 	3175 1250 3100 1250
 Wire Wire Line
@@ -240,13 +240,21 @@ Wire Wire Line
 Wire Wire Line
 	3775 950  3875 950 
 Wire Wire Line
-	3875 950  4075 950 
+	3875 875  4075 875 
+Wire Wire Line
+	3875 950  3875 875 
 Wire Wire Line
 	3875 6450 3975 6450
+Wire Wire Line
+	3975 800  3975 950 
+Wire Wire Line
+	3975 800  4150 800 
 Wire Wire Line
 	3975 6450 4075 6450
 Wire Wire Line
 	4025 7000 4150 7000
+Wire Wire Line
+	4075 875  4075 950 
 Wire Wire Line
 	4075 950  4175 950 
 Wire Wire Line
@@ -260,11 +268,9 @@ Wire Wire Line
 Wire Wire Line
 	4275 6450 4375 6450
 Wire Wire Line
-	4375 950  4475 950 
+	4375 950  4525 950 
 Wire Wire Line
 	4450 800  4525 800 
-Wire Wire Line
-	4475 950  4525 950 
 Wire Wire Line
 	4525 950  4525 800 
 Wire Wire Line
