@@ -1,4 +1,4 @@
-update=Sun 23 Feb 2020 01:40:30 PM PST
+update=Sun 23 Feb 2020 07:35:32 PM PST
 version=1
 last_client=kicad
 [general]
@@ -295,7 +295,7 @@ uViaDrill=0.1
 dPairWidth=0.2032
 dPairGap=0.127
 dPairViaGap=0.25
-[LibeditFrame]
-version=1
 [SchematicFrame]
+version=1
+[LibeditFrame]
 version=1
