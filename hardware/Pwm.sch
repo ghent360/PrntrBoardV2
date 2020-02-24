@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -45,12 +45,12 @@ Connection ~ 5650 1100
 Connection ~ 5650 1700
 Connection ~ 5650 4375
 Connection ~ 5875 1100
-Connection ~ 6150 5800
 Connection ~ 6450 3650
 Connection ~ 6450 4000
 Connection ~ 6450 4825
 Connection ~ 7250 2375
 Connection ~ 7325 4375
+Connection ~ 7800 6105
 Connection ~ 8125 3650
 Connection ~ 8125 4000
 Connection ~ 8125 4825
@@ -332,9 +332,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 4375 5975 4375
 Wire Wire Line
-	6150 5550 6150 5800
-Wire Wire Line
-	6150 5800 6150 5850
+	6150 5550 6150 5850
 Wire Wire Line
 	6450 3600 6450 3650
 Wire Wire Line
@@ -354,9 +352,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 4000 6450 4000
 Wire Wire Line
-	7000 5550 7000 5800
-Wire Wire Line
-	7000 5800 6150 5800
+	7135 6105 7175 6105
 Wire Wire Line
 	7150 2375 7250 2375
 Wire Wire Line
@@ -377,6 +373,12 @@ Wire Wire Line
 	7325 4825 8125 4825
 Wire Wire Line
 	7675 4375 7650 4375
+Wire Wire Line
+	7775 6105 7800 6105
+Wire Wire Line
+	7800 5645 7800 6105
+Wire Wire Line
+	7800 6105 7820 6105
 Wire Wire Line
 	7900 2375 7925 2375
 Wire Wire Line
@@ -415,6 +417,10 @@ Wire Wire Line
 	8400 1925 8400 2025
 Wire Wire Line
 	8400 2025 8700 2025
+Wire Wire Line
+	8595 5645 7800 5645
+Wire Wire Line
+	8595 5745 8595 5800
 Wire Wire Line
 	8700 2025 8700 1675
 Wire Wire Line
@@ -555,12 +561,16 @@ Text GLabel 6000 1100 2    50   Input ~ 0
 V_heaters
 Text GLabel 6450 3600 1    50   Input ~ 0
 V_fan
+Text GLabel 7135 6105 0    50   Input ~ 0
+IOX_PWR_OFF
 Text GLabel 7150 2375 0    50   Input ~ 0
 PWM3
 Text GLabel 7250 1925 1    50   Input ~ 0
 3.3V
 Text GLabel 7250 4375 0    50   Input ~ 0
 PWM7
+Text GLabel 7820 6105 2    50   Input ~ 0
+PWR_OFF
 Text GLabel 8125 3600 1    50   Input ~ 0
 V_fan
 Text GLabel 8775 4350 0    50   Input ~ 0
@@ -893,6 +903,22 @@ F 3 "" H 8125 4875 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR?
+U 1 1 5E5F1CB7
+P 8595 5800
+AR Path="/5AB9002A/5E5F1CB7" Ref="#PWR?"  Part="1" 
+AR Path="/5AB91A5D/5E5F1CB7" Ref="#PWR?"  Part="1" 
+AR Path="/5AB91A68/5E5F1CB7" Ref="#PWR?"  Part="1" 
+AR Path="/5AB91A71/5E5F1CB7" Ref="#PWR?"  Part="1" 
+AR Path="/5DBCB1BE/5E5F1CB7" Ref="#PWR098"  Part="1" 
+F 0 "#PWR098" H 8595 5550 50  0001 C CNN
+F 1 "GND" H 8600 5627 50  0000 C CNN
+F 2 "" H 8595 5800 50  0001 C CNN
+F 3 "" H 8595 5800 50  0001 C CNN
+	1    8595 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
 U 1 1 5DC2EC17
 P 8700 2875
 AR Path="/5AC337B6/5ACBE919/5AD4D269/5DC2EC17" Ref="#PWR?"  Part="1" 
@@ -1014,12 +1040,12 @@ F 5 "C22828" H 2050 2300 50  0001 C CNN "LCSC Part #"
 $EndComp
 $Comp
 L Device:R R?
-U 1 1 5DC14F2B
+U 1 1 5E5ECA90
 P 2075 4650
-AR Path="/5AC337B6/5ACBE919/5AD4D269/5DC14F2B" Ref="R?"  Part="1" 
-AR Path="/5AC337B6/5AD9F95A/5AD4D269/5DC14F2B" Ref="R?"  Part="1" 
-AR Path="/5AB8F10D/5DC14F2B" Ref="R?"  Part="1" 
-AR Path="/5DBCB1BE/5DC14F2B" Ref="R53"  Part="1" 
+AR Path="/5AC337B6/5ACBE919/5AD4D269/5E5ECA90" Ref="R?"  Part="1" 
+AR Path="/5AC337B6/5AD9F95A/5AD4D269/5E5ECA90" Ref="R?"  Part="1" 
+AR Path="/5AB8F10D/5E5ECA90" Ref="R?"  Part="1" 
+AR Path="/5DBCB1BE/5E5ECA90" Ref="R53"  Part="1" 
 F 0 "R53" V 1975 4650 50  0000 C CNN
 F 1 "180" V 2075 4650 50  0000 C CNN
 F 2 "PrntrBoardV2:R_0603_1608Metric" V 2005 4650 50  0001 C CNN
@@ -1474,12 +1500,12 @@ F 5 "C2286" H 2375 1700 50  0001 C CNN "LCSC Part #"
 $EndComp
 $Comp
 L Device:LED D?
-U 1 1 5DC14F29
+U 1 1 5E5ECA91
 P 2400 4050
-AR Path="/5AC337B6/5ACBE919/5AD4D269/5DC14F29" Ref="D?"  Part="1" 
-AR Path="/5AC337B6/5AD9F95A/5AD4D269/5DC14F29" Ref="D?"  Part="1" 
-AR Path="/5AB8F10D/5DC14F29" Ref="D?"  Part="1" 
-AR Path="/5DBCB1BE/5DC14F29" Ref="D24"  Part="1" 
+AR Path="/5AC337B6/5ACBE919/5AD4D269/5E5ECA91" Ref="D?"  Part="1" 
+AR Path="/5AC337B6/5AD9F95A/5AD4D269/5E5ECA91" Ref="D?"  Part="1" 
+AR Path="/5AB8F10D/5E5ECA91" Ref="D?"  Part="1" 
+AR Path="/5DBCB1BE/5E5ECA91" Ref="D24"  Part="1" 
 F 0 "D24" V 2500 4000 50  0000 R CNN
 F 1 "LED" V 2600 4000 50  0000 R CNN
 F 2 "PrntrBoardV2:LED_0603_1608Metric" H 2400 4050 50  0001 C CNN
@@ -1598,6 +1624,17 @@ F 1 "JST XH" H 8555 3801 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8475 3900 50  0001 C CNN
 F 3 "~" H 8475 3900 50  0001 C CNN
 	1    8475 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J28
+U 1 1 5E5F0E02
+P 8795 5645
+F 0 "J28" H 8875 5637 50  0000 L CNN
+F 1 "JST XH" H 8875 5546 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8795 5645 50  0001 C CNN
+F 3 "~" H 8795 5645 50  0001 C CNN
+	1    8795 5645
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1870,14 +1907,14 @@ $EndComp
 $Comp
 L Logic_74xx:74HCT04 U6
 U 4 1 5DC04332
-P 7300 5550
-F 0 "U6" H 7300 5867 50  0000 C CNN
-F 1 "74HCT04" H 7300 5776 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 7300 5550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 7300 5550 50  0001 C CNN
-F 4 "74HCT04PW,118" H 7300 5550 50  0001 C CNN "Part #"
-F 5 "C131317" H 7300 5550 50  0001 C CNN "LCSC Part #"
-	4    7300 5550
+P 7475 6105
+F 0 "U6" H 7475 6422 50  0000 C CNN
+F 1 "74HCT04" H 7475 6331 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 7475 6105 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 7475 6105 50  0001 C CNN
+F 4 "74HCT04PW,118" H 7475 6105 50  0001 C CNN "Part #"
+F 5 "C131317" H 7475 6105 50  0001 C CNN "LCSC Part #"
+	4    7475 6105
 	1    0    0    -1  
 $EndComp
 $Comp

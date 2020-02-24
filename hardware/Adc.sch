@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -85,6 +85,8 @@ Wire Wire Line
 	925  4700 775  4700
 Wire Wire Line
 	925  4900 925  4700
+Wire Wire Line
+	1125 5400 1125 5450
 Wire Wire Line
 	1125 5400 1400 5400
 Wire Wire Line
@@ -186,7 +188,11 @@ Wire Wire Line
 Wire Wire Line
 	1850 5300 1850 4675
 Wire Wire Line
+	1915 5550 1925 5550
+Wire Wire Line
 	1925 5400 1975 5400
+Wire Wire Line
+	1925 5550 1925 5400
 Wire Wire Line
 	1975 4900 1750 4900
 Wire Wire Line
@@ -254,6 +260,8 @@ Wire Wire Line
 Wire Wire Line
 	2425 5300 2425 4675
 Wire Wire Line
+	2500 5400 2500 5540
+Wire Wire Line
 	2500 5400 2550 5400
 Wire Wire Line
 	2550 4900 2325 4900
@@ -310,6 +318,8 @@ Wire Wire Line
 Wire Wire Line
 	3075 3950 3075 4000
 Wire Wire Line
+	3075 5400 3075 5540
+Wire Wire Line
 	3075 5400 3125 5400
 Wire Wire Line
 	3125 4900 2900 4900
@@ -357,6 +367,8 @@ Wire Wire Line
 	3575 4675 3000 4675
 Wire Wire Line
 	3575 5300 3575 4675
+Wire Wire Line
+	3650 5400 3650 5535
 Wire Wire Line
 	3650 5400 3700 5400
 Wire Wire Line
@@ -418,7 +430,9 @@ Wire Wire Line
 Wire Wire Line
 	4150 5300 4150 4675
 Wire Wire Line
-	4225 5400 4275 5400
+	4230 5400 4230 5535
+Wire Wire Line
+	4230 5400 4275 5400
 Wire Wire Line
 	4275 4900 4050 4900
 Wire Wire Line
@@ -525,34 +539,34 @@ Text GLabel 1125 5200 0    50   Input ~ 0
 SPI1_MOSI
 Text GLabel 1125 5300 0    50   Input ~ 0
 SPI1_MISO
-Text GLabel 1125 5400 0    50   Input ~ 0
-ADC1
+Text GLabel 1125 5450 0    50   Input ~ 0
+~TC1_CS
 Text GLabel 1175 850  0    50   Input ~ 0
 AVREF
 Text GLabel 1175 2675 0    50   Input ~ 0
 AVREF
-Text GLabel 1925 5400 0    50   Input ~ 0
-ADC2
+Text GLabel 1915 5550 0    50   Input ~ 0
+~TC1_CS
 Text GLabel 2400 1725 2    50   Input ~ 0
 ADC1
 Text GLabel 2400 3550 2    50   Input ~ 0
 ADC4
-Text GLabel 2500 5400 0    50   Input ~ 0
-ADC3
+Text GLabel 2500 5540 0    50   Input ~ 0
+~TC3_CS
 Text GLabel 2925 850  0    50   Input ~ 0
 AVREF
 Text GLabel 2925 2650 0    50   Input ~ 0
 AVREF
-Text GLabel 3075 5400 0    50   Input ~ 0
-ADC4
-Text GLabel 3650 5400 0    50   Input ~ 0
-ADC5
+Text GLabel 3075 5540 0    50   Input ~ 0
+~TC4_CS
+Text GLabel 3650 5535 0    50   Input ~ 0
+~TC5_CS
 Text GLabel 4150 1725 2    50   Input ~ 0
 ADC2
 Text GLabel 4150 3525 2    50   Input ~ 0
 ADC5
-Text GLabel 4225 5400 0    50   Input ~ 0
-ADC6
+Text GLabel 4230 5535 0    50   Input ~ 0
+~TC6_CS
 Text GLabel 4675 825  0    50   Input ~ 0
 AVREF
 Text GLabel 4675 2625 0    50   Input ~ 0

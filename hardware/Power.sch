@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -53,6 +53,8 @@ Connection ~ 6225 2750
 Connection ~ 6225 3300
 Connection ~ 6225 3450
 Connection ~ 6475 2750
+Connection ~ 7530 3860
+Connection ~ 7530 4250
 Wire Wire Line
 	1400 4825 1750 4825
 Wire Wire Line
@@ -273,6 +275,28 @@ Wire Wire Line
 	6475 3250 6475 3450
 Wire Wire Line
 	6475 3450 6225 3450
+Wire Wire Line
+	7025 3450 7530 3450
+Wire Wire Line
+	7250 3860 7250 3900
+Wire Wire Line
+	7250 4200 7250 4250
+Wire Wire Line
+	7250 4250 7530 4250
+Wire Wire Line
+	7530 3510 7530 3450
+Wire Wire Line
+	7530 3810 7530 3860
+Wire Wire Line
+	7530 3860 7250 3860
+Wire Wire Line
+	7530 3860 7530 3900
+Wire Wire Line
+	7530 3860 7810 3860
+Wire Wire Line
+	7530 4200 7530 4250
+Wire Wire Line
+	7530 4250 7530 4260
 Text Notes 5175 1550 0    50   ~ 0
 15A
 Text Notes 5175 1850 0    50   ~ 0
@@ -281,6 +305,8 @@ Text Notes 5175 2125 0    50   ~ 0
 10A
 Text Notes 6350 2150 0    50   ~ 0
 35A rated \nscrew terminal
+Text Notes 8590 3690 2    50   ~ 0
+Voltage divider:\n30V -> 3.214\n24V -> 2.571\n12V -> 1.286\nVout = Vin * 0.10714
 Text Label 1625 4825 2    50   ~ 0
 5V
 Text Label 1975 1800 0    50   ~ 0
@@ -309,6 +335,8 @@ Text Label 5925 4175 2    50   ~ 0
 V_motors
 Text Label 6575 2750 0    50   ~ 0
 5V
+Text Label 7420 3450 2    50   ~ 0
+V_motors
 Text GLabel 3775 3800 2    50   Input ~ 0
 3.3V
 Text GLabel 4150 2175 0    50   Input ~ 0
@@ -321,6 +349,8 @@ Text GLabel 5250 4400 3    50   Input ~ 0
 V_fan
 Text GLabel 6675 2750 2    50   Input ~ 0
 5V
+Text GLabel 7810 3860 2    50   Input ~ 0
+PWR_MON
 $Comp
 L power:GND #PWR017
 U 1 1 5DB03DC7
@@ -385,6 +415,17 @@ F 1 "GND" H 6230 3327 50  0000 C CNN
 F 2 "" H 6225 3500 50  0001 C CNN
 F 3 "" H 6225 3500 50  0001 C CNN
 	1    6225 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5E54A86E
+P 7530 4260
+F 0 "#PWR05" H 7530 4010 50  0001 C CNN
+F 1 "GND" H 7535 4087 50  0000 C CNN
+F 2 "" H 7530 4260 50  0001 C CNN
+F 3 "" H 7530 4260 50  0001 C CNN
+	1    7530 4260
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -483,6 +524,32 @@ F 3 "~" H 4325 2800 50  0001 C CNN
 F 4 "C25803" H 4325 2800 50  0001 C CNN "LCSC Part #"
 F 5 "0603WAF1003T5E" H 4325 2800 50  0001 C CNN "Part #"
 	1    4325 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5E54ADC1
+P 7530 3660
+F 0 "R5" H 7555 3510 50  0000 L CNN
+F 1 "10k" V 7530 3585 50  0000 L CNN
+F 2 "PrntrBoardV2:R_0603_1608Metric" V 7460 3660 50  0001 C CNN
+F 3 "~" H 7530 3660 50  0001 C CNN
+F 4 "0603WAF1002T5E" H 7530 3660 50  0001 C CNN "Part #"
+F 5 "C25804" H 7530 3660 50  0001 C CNN "LCSC Part #"
+	1    7530 3660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R70
+U 1 1 5E54A63B
+P 7530 4050
+F 0 "R70" H 7600 4095 50  0000 L CNN
+F 1 "1.2k" V 7530 3970 50  0000 L CNN
+F 2 "" V 7460 4050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1201T5E_C22765.pdf" H 7530 4050 50  0001 C CNN
+F 4 "0603WAF1201T5E" H 7530 4050 50  0001 C CNN "Part #"
+F 5 "C22765" H 7530 4050 50  0001 C CNN "LCSC Part #"
+	1    7530 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -637,6 +704,19 @@ F 3 "~" H 6475 3100 50  0001 C CNN
 F 4 "CL10A106KP8NNNC" H 6475 3100 50  0001 C CNN "Part #"
 F 5 "C19702" H 6475 3100 50  0001 C CNN "LCSC Part #"
 	1    6475 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C53
+U 1 1 5E554895
+P 7250 4050
+F 0 "C53" H 7300 4150 50  0000 L CNN
+F 1 "0.1uF 50V" H 7025 3950 50  0000 L CNN
+F 2 "PrntrBoardV2:C_0603_1608Metric" H 7288 3900 50  0001 C CNN
+F 3 "~" H 7250 4050 50  0001 C CNN
+F 4 "CL05B104KO5NNNCC0603KRX7R9BB104C" H 7250 4050 50  0001 C CNN "Part #"
+F 5 "C14663" H 7250 4050 50  0001 C CNN "LCSC Part #"
+	1    7250 4050
 	1    0    0    -1  
 $EndComp
 $Comp

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -50,7 +50,6 @@ Connection ~ 4375 6450
 Connection ~ 4525 800 
 Connection ~ 5850 3550
 Connection ~ 5850 3650
-Connection ~ 6050 4575
 Connection ~ 6700 3550
 Connection ~ 7500 1375
 Connection ~ 7500 1675
@@ -58,15 +57,11 @@ Connection ~ 7800 1375
 Connection ~ 7800 1675
 Connection ~ 8150 1375
 Connection ~ 8150 1675
-Connection ~ 8425 4300
 Connection ~ 8500 1375
 Connection ~ 8500 1675
-Connection ~ 8700 4300
-Connection ~ 8700 4500
-Connection ~ 8700 4600
 Connection ~ 8800 1375
 Connection ~ 8800 1675
-Connection ~ 9100 4900
+Connection ~ 9105 3595
 Connection ~ 9150 1375
 Connection ~ 9150 1675
 Connection ~ 10000 4925
@@ -366,7 +361,7 @@ Wire Wire Line
 Wire Wire Line
 	4975 5850 5400 5850
 Wire Wire Line
-	4975 5950 5450 5950
+	4975 5950 5500 5950
 Wire Wire Line
 	4975 6050 5450 6050
 Wire Wire Line
@@ -388,17 +383,11 @@ Wire Wire Line
 Wire Wire Line
 	5450 5075 5400 5075
 Wire Wire Line
-	5450 5950 5450 5975
-Wire Wire Line
 	5450 6050 5450 6100
 Wire Wire Line
 	5450 6250 5400 6250
 Wire Wire Line
 	5600 6875 4950 6875
-Wire Wire Line
-	5750 3075 5750 3150
-Wire Wire Line
-	5775 3075 5750 3075
 Wire Wire Line
 	5800 5250 6125 5250
 Wire Wire Line
@@ -418,15 +407,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 7200 5900 7125
 Wire Wire Line
-	6050 4425 6150 4425
-Wire Wire Line
-	6050 4575 6050 4425
-Wire Wire Line
-	6050 4575 6150 4575
-Wire Wire Line
 	6250 6875 6200 6875
-Wire Wire Line
-	6450 4575 6675 4575
 Wire Wire Line
 	6600 3550 6700 3550
 Wire Wire Line
@@ -458,16 +439,6 @@ Wire Wire Line
 Wire Wire Line
 	8175 5925 7625 5925
 Wire Wire Line
-	8350 4300 8425 4300
-Wire Wire Line
-	8425 4300 8700 4300
-Wire Wire Line
-	8425 4475 8425 4300
-Wire Wire Line
-	8425 4775 8425 4900
-Wire Wire Line
-	8425 4900 9100 4900
-Wire Wire Line
 	8475 5675 8475 5625
 Wire Wire Line
 	8475 6175 8475 6225
@@ -476,13 +447,9 @@ Wire Wire Line
 Wire Wire Line
 	8500 1675 8150 1675
 Wire Wire Line
-	8700 4300 9100 4300
+	8510 4530 8605 4530
 Wire Wire Line
-	8700 4500 8700 4300
-Wire Wire Line
-	8700 4500 8700 4600
-Wire Wire Line
-	8700 4600 8700 4700
+	8515 4330 8605 4330
 Wire Wire Line
 	8775 2650 8775 2750
 Wire Wire Line
@@ -504,7 +471,13 @@ Wire Wire Line
 Wire Wire Line
 	8825 5925 8775 5925
 Wire Wire Line
-	9100 4925 9100 4900
+	8965 3595 9105 3595
+Wire Wire Line
+	9105 3595 9105 4030
+Wire Wire Line
+	9105 3595 9610 3595
+Wire Wire Line
+	9105 4830 9105 4870
 Wire Wire Line
 	9150 1375 8800 1375
 Wire Wire Line
@@ -514,13 +487,11 @@ Wire Wire Line
 Wire Wire Line
 	9500 1675 9150 1675
 Wire Wire Line
-	9500 4500 9850 4500
+	9605 4230 9715 4230
 Wire Wire Line
-	9500 4600 9850 4600
+	9605 4330 9715 4330
 Wire Wire Line
-	9500 4700 9500 4900
-Wire Wire Line
-	9500 4900 9100 4900
+	9610 3895 9610 3930
 Wire Wire Line
 	9650 5175 10000 5175
 Wire Wire Line
@@ -590,13 +561,13 @@ TIM4_CH4
 Text Label 2800 2950 0    50   ~ 0
 ST1_STEP
 Text Label 2800 3050 0    50   ~ 0
-~ST6_CS
+IOX_LATCH
 Text Label 2800 3150 0    50   ~ 0
-~ST5_CS
+IOX_IN1
 Text Label 2800 3250 0    50   ~ 0
-~ST4_CS
+ST8_DIR
 Text Label 2800 3350 0    50   ~ 0
-~ST3_CS
+ST8_STEP
 Text Label 2800 3450 0    50   ~ 0
 TIM9_CH1
 Text Label 2800 3550 0    50   ~ 0
@@ -632,7 +603,7 @@ TIM11_CH1
 Text Label 4975 3950 0    50   ~ 0
 ST_RXTX_1
 Text Label 4975 4650 0    50   ~ 0
-~ST_ENABLE
+IOX_IN2
 Text Label 4975 4850 0    50   ~ 0
 SPI2_MISO
 Text Label 4975 4950 0    50   ~ 0
@@ -644,13 +615,13 @@ TIM1_CH1
 Text Label 5000 2750 0    50   ~ 0
 TIM2_CH1
 Text Label 5000 4750 0    50   ~ 0
-~ST_RESET
+PWR_MON
 Text Label 5000 5350 0    50   ~ 0
 TIM3_CH2
 Text Label 5000 6875 0    50   ~ 0
 SPI2_MOSI_CPU
 Text Label 5025 3150 0    50   ~ 0
-~ST1_CS
+ST7_STEP
 Text Label 5025 3250 0    50   ~ 0
 SPI1_SCK_CPU
 Text Label 5025 3350 0    50   ~ 0
@@ -694,7 +665,7 @@ ENC_B
 Text Label 5125 4450 0    50   ~ 0
 ENC_A
 Text Label 5125 5950 0    50   ~ 0
-~ST2_CS
+ST7_DIR
 Text Label 5150 1250 0    50   ~ 0
 ADC1
 Text Label 5150 1350 0    50   ~ 0
@@ -736,15 +707,15 @@ ST1_STEP
 Text GLabel 2325 4950 0    50   Input ~ 0
 ~SD_DETECT
 Text GLabel 2350 3350 0    50   Input ~ 0
-~ST3_CS
+ST8_STEP
 Text GLabel 2375 3750 0    50   Input ~ 0
 ~U_MIN
 Text GLabel 2700 3025 0    50   Input ~ 0
-~ST6_CS
+IOX_LATCH
 Text GLabel 2700 3150 0    50   Input ~ 0
-~ST5_CS
+IOX_IN1
 Text GLabel 2700 3275 0    50   Input ~ 0
-~ST4_CS
+ST8_DIR
 Text GLabel 2700 3675 0    50   Input ~ 0
 ~Z_MAX
 Text GLabel 2700 3825 0    50   Input ~ 0
@@ -850,7 +821,7 @@ ENC_B
 Text GLabel 5400 4450 2    50   Input ~ 0
 ENC_A
 Text GLabel 5400 4700 2    50   Input ~ 0
-~ST_RESET
+PWR_MON
 Text GLabel 5400 4850 2    50   Input ~ 0
 SPI2_MISO
 Text GLabel 5400 5350 2    50   Input ~ 0
@@ -867,14 +838,14 @@ Text GLabel 5400 5850 2    50   Input ~ 0
 SDIO_CLK
 Text GLabel 5450 5075 2    50   Input ~ 0
 ~X_MIN
-Text GLabel 5450 5975 2    50   Input ~ 0
-~ST2_CS
 Text GLabel 5450 6100 2    50   Input ~ 0
 ~Y_MAX
 Text GLabel 5450 6250 2    50   Input ~ 0
 ~ALARM1
-Text GLabel 5775 3075 2    50   Input ~ 0
-~ST1_CS
+Text GLabel 5500 5950 2    50   Input ~ 0
+ST7_DIR
+Text GLabel 5750 3150 2    50   Input ~ 0
+ST7_STEP
 Text GLabel 5850 5150 2    50   Input ~ 0
 ~Y_MIN
 Text GLabel 5875 3475 2    50   Input ~ 0
@@ -883,22 +854,22 @@ Text GLabel 5875 3725 2    50   Input ~ 0
 I2C_SDA
 Text GLabel 5875 3950 2    50   Input ~ 0
 ST_UART1
+Text GLabel 6050 4575 2    50   Input ~ 0
+IOX_IN2
 Text GLabel 6125 5250 2    50   Input ~ 0
 ST_UART2
-Text GLabel 6150 4425 2    50   Input ~ 0
-~ST_ENABLE
 Text GLabel 6250 6875 2    50   Input ~ 0
 SPI2_MOSI
-Text GLabel 6675 4575 2    50   Input ~ 0
-3.3V
 Text GLabel 6975 3550 2    50   Input ~ 0
 3.3V
 Text GLabel 7500 1225 1    50   Input ~ 0
 3.3V
 Text GLabel 7500 2175 1    50   Input ~ 0
 3.3V
-Text GLabel 8350 4300 0    50   Input ~ 0
-3.3V
+Text GLabel 8510 4530 0    50   Input ~ 0
+SPI1_SCK
+Text GLabel 8515 4330 0    50   Input ~ 0
+~SPI_EE_CS
 Text GLabel 8525 2450 0    50   Input ~ 0
 ~RESET
 Text GLabel 8525 2550 0    50   Input ~ 0
@@ -907,10 +878,12 @@ Text GLabel 8800 5375 2    50   Input ~ 0
 SPI1_MOSI
 Text GLabel 8825 5925 2    50   Input ~ 0
 SPI1_SCK
-Text GLabel 9850 4500 2    50   Input ~ 0
-I2C_SDA
-Text GLabel 9850 4600 2    50   Input ~ 0
-I2C_SCL
+Text GLabel 8965 3595 0    50   Input ~ 0
+3.3V
+Text GLabel 9715 4230 2    50   Input ~ 0
+SPI1_MOSI
+Text GLabel 9715 4330 2    50   Input ~ 0
+SPI1_MISO
 Text GLabel 9900 4925 0    50   Input ~ 0
 3.3V
 $Comp
@@ -1013,14 +986,25 @@ F 3 "" H 8775 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L power:GND #PWR087
+U 1 1 5E5D006E
+P 9105 4870
+F 0 "#PWR087" H 9105 4620 50  0001 C CNN
+F 1 "GND" H 9110 4697 50  0000 C CNN
+F 2 "" H 9105 4870 50  0001 C CNN
+F 3 "" H 9105 4870 50  0001 C CNN
+	1    9105 4870
+	1    0    0    -1  
+$EndComp
+$Comp
 L power:GND #PWR010
 U 1 1 5DB34B03
-P 9100 4925
-F 0 "#PWR010" H 9100 4675 50  0001 C CNN
-F 1 "GND" H 9105 4752 50  0000 C CNN
-F 2 "" H 9100 4925 50  0001 C CNN
-F 3 "" H 9100 4925 50  0001 C CNN
-	1    9100 4925
+P 9610 3930
+F 0 "#PWR010" H 9610 3680 50  0001 C CNN
+F 1 "GND" H 9615 3757 50  0000 C CNN
+F 2 "" H 9610 3930 50  0001 C CNN
+F 3 "" H 9610 3930 50  0001 C CNN
+	1    9610 3930
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1110,19 +1094,6 @@ F 3 "~" H 5675 3950 50  0001 C CNN
 F 4 "0603WAF4700T5E" H 5675 3950 50  0001 C CNN "Part #"
 F 5 "C23179" H 5675 3950 50  0001 C CNN "LCSC Part #"
 	1    5675 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R70
-U 1 1 5DE47CEE
-P 6300 4575
-F 0 "R70" V 6400 4575 50  0000 C CNN
-F 1 "10k" V 6300 4575 50  0000 C CNN
-F 2 "PrntrBoardV2:R_0603_1608Metric" V 6230 4575 50  0001 C CNN
-F 3 "~" H 6300 4575 50  0001 C CNN
-F 4 "0603WAF1002T5E" H 6300 4575 50  0001 C CNN "Part #"
-F 5 "C25804" H 6300 4575 50  0001 C CNN "LCSC Part #"
-	1    6300 4575
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1295,19 +1266,6 @@ F 5 "C14663" H 8150 1525 50  0001 C CNN "LCSC Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
-U 1 1 5DB34B04
-P 8425 4625
-F 0 "C11" H 8550 4600 50  0000 L CNN
-F 1 "0.1uF" H 8450 4525 50  0000 L CNN
-F 2 "PrntrBoardV2:C_0603_1608Metric" H 8463 4475 50  0001 C CNN
-F 3 "~" H 8425 4625 50  0001 C CNN
-F 4 "CC0603KRX7R9BB104" H 8425 4625 50  0001 C CNN "Part #"
-F 5 "C14663" H 8425 4625 50  0001 C CNN "LCSC Part #"
-	1    8425 4625
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C12
 U 1 1 5DAE9DCC
 P 8500 1525
@@ -1357,6 +1315,19 @@ F 3 "~" H 9500 1525 50  0001 C CNN
 F 4 "CL10A106KP8NNNC" H 9500 1525 50  0001 C CNN "Part #"
 F 5 "C19702" H 9500 1525 50  0001 C CNN "LCSC Part #"
 	1    9500 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5DB34B04
+P 9610 3745
+F 0 "C11" H 9735 3720 50  0000 L CNN
+F 1 "0.1uF" H 9635 3645 50  0000 L CNN
+F 2 "PrntrBoardV2:C_0603_1608Metric" H 9648 3595 50  0001 C CNN
+F 3 "~" H 9610 3745 50  0001 C CNN
+F 4 "CC0603KRX7R9BB104" H 9610 3745 50  0001 C CNN "Part #"
+F 5 "C14663" H 9610 3745 50  0001 C CNN "LCSC Part #"
+	1    9610 3745
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1501,16 +1472,16 @@ F 5 "C6059" H 10600 5625 50  0001 C CNN "LCSC Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Memory_EEPROM:24LC64 U3
-U 1 1 5DB34B02
-P 9100 4600
-F 0 "U3" H 9100 5081 50  0000 C CNN
-F 1 "24LC64" H 9100 4990 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 9100 4600 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf" H 9100 4600 50  0001 C CNN
-F 4 "24LC64T-I/SN" H 9100 4600 50  0001 C CNN "Part #"
-F 5 "C5460" H 9100 4600 50  0001 C CNN "LCSC Part #"
-	1    9100 4600
+L Memory_Flash:W25Q32JVSS U3
+U 1 1 5E5CB2B7
+P 9105 4430
+F 0 "U3" H 8960 4520 50  0000 C CNN
+F 1 "W25Q128JVSS" H 9115 4425 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 9105 4430 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 9105 4430 50  0001 C CNN
+F 4 "W25Q128JVSIQ" H 9105 4430 50  0001 C CNN "Part #"
+F 5 "C97521" H 9105 4430 50  0001 C CNN "LCSC Part #"
+	1    9105 4430
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1520,7 +1491,9 @@ P 4075 3650
 F 0 "U2" H 4050 1850 50  0000 C CNN
 F 1 "STM32H750VBTx" H 4075 1750 50  0000 C CNN
 F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 3375 1050 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 4075 3650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1910111742_STMicroelectronics-STM32H750VBT6_C404010.pdf" H 4075 3650 50  0001 C CNN
+F 4 "STM32H750VBT6" H 4075 3650 50  0001 C CNN "Part #"
+F 5 "C404010" H 4075 3650 50  0001 C CNN "LCSC Part #"
 	1    4075 3650
 	1    0    0    -1  
 $EndComp

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -105,6 +105,16 @@ Wire Wire Line
 Wire Wire Line
 	3500 2250 3500 2350
 Wire Wire Line
+	3655 5785 3745 5785
+Wire Wire Line
+	3660 5885 3745 5885
+Wire Wire Line
+	3660 5985 3745 5985
+Wire Wire Line
+	3660 6085 3745 6085
+Wire Wire Line
+	3660 6185 3745 6185
+Wire Wire Line
 	3700 2250 3500 2250
 Wire Wire Line
 	3700 2575 3700 2250
@@ -134,6 +144,18 @@ Wire Wire Line
 	4150 5200 3750 5200
 Wire Wire Line
 	4150 5300 3750 5300
+Wire Wire Line
+	4245 5785 4325 5785
+Wire Wire Line
+	4245 5885 4325 5885
+Wire Wire Line
+	4245 5985 4325 5985
+Wire Wire Line
+	4245 6085 4325 6085
+Wire Wire Line
+	4245 6185 4325 6185
+Wire Wire Line
+	4325 6225 4325 6185
 Wire Wire Line
 	4350 2575 4475 2575
 Wire Wire Line
@@ -426,6 +448,24 @@ Text GLabel 3600 2875 0    50   Input ~ 0
 UART2_RX
 Text GLabel 3600 2975 0    50   Input ~ 0
 UART2_TX
+Text GLabel 3655 5785 0    50   Input ~ 0
+IOX_OUT1
+Text GLabel 3660 5885 0    50   Input ~ 0
+IOX_OUT3
+Text GLabel 3660 5985 0    50   Input ~ 0
+IOX_OUT5
+Text GLabel 3660 6085 0    50   Input ~ 0
+PWR_OFF
+Text GLabel 3660 6185 0    50   Input ~ 0
+3.3V
+Text GLabel 4325 5785 2    50   Input ~ 0
+IOX_OUT2
+Text GLabel 4325 5885 2    50   Input ~ 0
+IOX_OUT4
+Text GLabel 4325 5985 2    50   Input ~ 0
+IOX_IN1
+Text GLabel 4325 6085 2    50   Input ~ 0
+IOX_IN2
 Text GLabel 4475 2575 2    50   Input ~ 0
 5V
 Text GLabel 4475 2675 2    50   Input ~ 0
@@ -527,6 +567,17 @@ F 1 "GND" H 3505 2177 50  0000 C CNN
 F 2 "" H 3500 2350 50  0001 C CNN
 F 3 "" H 3500 2350 50  0001 C CNN
 	1    3500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR086
+U 1 1 5E5EA5AA
+P 4325 6225
+F 0 "#PWR086" H 4325 5975 50  0001 C CNN
+F 1 "GND" H 4330 6052 50  0000 C CNN
+F 2 "" H 4325 6225 50  0001 C CNN
+F 3 "" H 4325 6225 50  0001 C CNN
+	1    4325 6225
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -779,6 +830,19 @@ F 3 "~" H 2375 5125 50  0001 C CNN
 F 4 "" H 2375 5125 50  0001 C CNN "Part #"
 F 5 "C5661" H 2375 5125 50  0001 C CNN "LCSC Part #"
 	1    2375 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even EXP5
+U 1 1 5E5E7C34
+P 3945 5985
+F 0 "EXP5" H 3995 6285 50  0000 C CNN
+F 1 "IDC 2x5" H 3995 6311 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 3945 5985 50  0001 C CNN
+F 3 "~" H 3945 5985 50  0001 C CNN
+F 4 "" H 3945 5985 50  0001 C CNN "Part #"
+F 5 "C5661" H 3945 5985 50  0001 C CNN "LCSC Part #"
+	1    3945 5985
 	1    0    0    -1  
 $EndComp
 $Comp
