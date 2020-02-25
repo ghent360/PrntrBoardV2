@@ -31,7 +31,7 @@ Features of the board:
   + 2 extra serial ports for WiFi and or smart LCD screen control
   + RAMPS LCD screen support
   + Marlin 2.0 firmware or Smoothieware V1.0
-  + 4 extra fan connectors (2x5V and 2x12-24V)
+  + 8 extra fan connectors (4x5V and 4x12-24V)
   + Input voltage: 12-24V
 
 ![Picture of rev-3 prototype](real3.jpg)
