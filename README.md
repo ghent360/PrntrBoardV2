@@ -6,7 +6,7 @@ This V2 design has 6 replaceable motor drivers. While traditional RAMPS based bo
   + drivers are placed vertically on the board which allows for more efficient space utilization as well as more efficient cooling
   + PCIe 1x slots have 36 pins which allows for greater design flexibility
 
-![Picture of rev-1 KiCad Rendering](board-r1.png)
+![Picture of rev-1 KiCad Rendering](board-r3.png)
 
 Project Status
 -----
@@ -22,7 +22,7 @@ The following functionality has been verified on the rev1 prototype board with M
 Features of the board:
 -----
   + up to 6x replaceable stepper motor drivers
-  + 32-bit Arm processor with floating point support running at 168MHz (STM32F407)
+  + 32-bit Arm processor with floating point support running at 480MHz (STM32H750)
   + up to 6 thermistors or 6 thermocouples for temperature control
   + 4 power heaters (1 bed and up to 3 extruder heaters) with PWM power control
   + 5 low power PWM connectors with selectable voltage (5V vs 12-24V) for fans or LEDs
@@ -34,7 +34,7 @@ Features of the board:
   + 4 extra fan connectors (2x5V and 2x12-24V)
   + Input voltage: 12-24V
 
-![Picture of rev-1 prototype](real1.jpg)
+![Picture of rev-3 prototype](real3.jpg)
 
 Drivers
 ------
