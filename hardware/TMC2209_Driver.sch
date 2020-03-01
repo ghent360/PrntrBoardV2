@@ -1,4 +1,5 @@
 EESchema Schematic File Version 5
+LIBS:TMC2209_Driver-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -12,11 +13,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 $Comp
 L Device:C C17
@@ -1228,4 +1224,7 @@ F 3 "~" H 1175 2200 50  0001 C CNN
 	1    1175 2200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6825 5700 6825 5780
+Connection ~ 6825 5780
 $EndSCHEMATC
