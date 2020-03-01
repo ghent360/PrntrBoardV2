@@ -537,7 +537,7 @@ Wire Wire Line
 	6100 2400 6100 2350
 Connection ~ 6100 2350
 Wire Wire Line
-	6100 2350 6450 2350
+	6100 2350 6345 2350
 Wire Wire Line
 	5800 2400 5800 2350
 Connection ~ 5800 2350
@@ -994,7 +994,7 @@ Wire Wire Line
 Text Label 2450 3700 0    50   ~ 0
 TX
 Wire Wire Line
-	6100 2700 6700 2700
+	6100 2700 6345 2700
 Text Label 3400 3800 0    50   ~ 0
 DIAG
 $Comp
@@ -1150,4 +1150,25 @@ Wire Wire Line
 Connection ~ 6825 5775
 Wire Wire Line
 	6825 5775 6725 5775
+$Comp
+L Device:CP C15
+U 1 1 5E5B2C4B
+P 6345 2550
+F 0 "C15" H 6463 2596 50  0000 L CNN
+F 1 "100uV 35V" H 6463 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 6383 2400 50  0001 C CNN
+F 3 "~" H 6345 2550 50  0001 C CNN
+F 4 "VE-101M1VTR-0607" H 6345 2550 50  0001 C CNN "Part #"
+F 5 "C171732" H 6345 2550 50  0001 C CNN "LCSC Part #"
+	1    6345 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 6345 2700
+Wire Wire Line
+	6345 2700 6700 2700
+Wire Wire Line
+	6345 2400 6345 2350
+Connection ~ 6345 2350
+Wire Wire Line
+	6345 2350 6450 2350
 $EndSCHEMATC
