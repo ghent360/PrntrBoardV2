@@ -1,4 +1,5 @@
 EESchema Schematic File Version 5
+LIBS:TMC2209_Driver-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -12,11 +13,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 $Comp
 L Device:C C17
@@ -1002,7 +998,7 @@ Wire Wire Line
 Text Label 3400 3800 0    50   ~ 0
 DIAG
 $Comp
-L 74xGxx:74LVC1G06 U2
+L Logic_74xgxx:74LVC1G06 U2
 U 1 1 5DA2454E
 P 3900 5675
 F 0 "U2" H 4075 5575 50  0000 C CNN
@@ -1088,7 +1084,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 5500 7250 5775
 Wire Wire Line
-	7250 5775 6725 5775
+	7250 5775 6825 5775
 Wire Wire Line
 	6725 5775 6725 5700
 $Comp
@@ -1149,4 +1145,9 @@ Text Label 6050 5400 0    50   ~ 0
 ID_1
 Text Label 6050 5500 0    50   ~ 0
 ID_2
+Wire Wire Line
+	6825 5700 6825 5775
+Connection ~ 6825 5775
+Wire Wire Line
+	6825 5775 6725 5775
 $EndSCHEMATC

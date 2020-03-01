@@ -1,4 +1,5 @@
 EESchema Schematic File Version 5
+LIBS:TMC2660_Driver-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -12,11 +13,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 $Comp
 L tmc2660:TMC2660 U?
@@ -844,7 +840,7 @@ ID_1
 Text Label 10050 3225 0    50   ~ 0
 ID_3
 Wire Wire Line
-	3300 1200 4250 1200
+	3300 1200 3610 1200
 $Comp
 L Connector:Conn_01x04_Male J2
 U 1 1 5D947683
@@ -1001,7 +997,7 @@ Wire Wire Line
 Wire Wire Line
 	3025 3950 4000 3950
 $Comp
-L 74xGxx:74LVC1G06 U2
+L Logic_74xgxx:74LVC1G06 U2
 U 1 1 5DA3A9F6
 P 1800 5750
 F 0 "U2" H 1975 5650 50  0000 C CNN
@@ -1088,7 +1084,7 @@ Wire Wire Line
 Wire Wire Line
 	9525 5675 9525 5950
 Wire Wire Line
-	9525 5950 9000 5950
+	9525 5950 9100 5950
 Wire Wire Line
 	9000 5950 9000 5875
 Text Label 9400 5475 0    50   ~ 0
@@ -1106,10 +1102,10 @@ ID_1
 Text Label 8325 5675 0    50   ~ 0
 ID_2
 $Comp
-L power:GND #PWR04
+L power:GND #PWR0101
 U 1 1 5DC936C0
 P 9000 6025
-F 0 "#PWR04" H 9000 5775 50  0001 C CNN
+F 0 "#PWR0101" H 9000 5775 50  0001 C CNN
 F 1 "GND" H 9005 5852 50  0000 C CNN
 F 2 "" H 9000 6025 50  0001 C CNN
 F 3 "" H 9000 6025 50  0001 C CNN
@@ -1139,4 +1135,29 @@ Wire Wire Line
 Connection ~ 9525 5950
 Wire Wire Line
 	9925 5275 9000 5275
+Wire Wire Line
+	9100 5875 9100 5950
+Connection ~ 9100 5950
+Wire Wire Line
+	9100 5950 9000 5950
+$Comp
+L Device:CP C13
+U 1 1 5E5B6C47
+P 3610 1705
+F 0 "C13" H 3728 1751 50  0000 L CNN
+F 1 "100uF 35V" H 3728 1660 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 3648 1555 50  0001 C CNN
+F 3 "~" H 3610 1705 50  0001 C CNN
+	1    3610 1705
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3610 2000 3300 2000
+Wire Wire Line
+	3610 1855 3610 2000
+Wire Wire Line
+	3610 1555 3610 1200
+Connection ~ 3610 1200
+Wire Wire Line
+	3610 1200 4250 1200
 $EndSCHEMATC
