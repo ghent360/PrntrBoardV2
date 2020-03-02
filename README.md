@@ -46,6 +46,10 @@ Versatile "economy" driver using Trinamic TMC2209. Should support up to 1.8A RMS
 
 <img src="2209-r3.png" alt="KiCad rendering of the 2209 driver board" width="300"/><img src="drv2209-r6.jpg" alt="2209 r6 driver board" width="300"/>
 
+High voltage driver (up to 42V) using Trinamic TMC2130. Should support up to 1.1A RMS current per phase with forced cooling. Supports stall detection. Driver current is adjustable via SPI. The driver board has separate power terminal.
+
+<img src="2130-r1.png" alt="KiCad rendering of the 2130 driver board" width="300"/>
+
 Very high current driver design using TMC5161 and TMC2160 with external MOSFETS are also possible. In addition an adapter board for Pololu style stepper drivers is planned for backwards compatibility with old drivers.
 
 Software
