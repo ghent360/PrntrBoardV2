@@ -1171,4 +1171,48 @@ Wire Wire Line
 Connection ~ 6345 2350
 Wire Wire Line
 	6345 2350 6450 2350
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E5C72CA
+P 1310 1570
+F 0 "H3" H 1410 1616 50  0000 L CNN
+F 1 "ToolingHole" H 1410 1525 50  0000 L CNN
+F 2 "PrntrBoardV2:JLC_Tool_hole" H 1310 1570 50  0001 C CNN
+F 3 "~" H 1310 1570 50  0001 C CNN
+	1    1310 1570
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E5C72CB
+P 1310 1795
+F 0 "H4" H 1410 1841 50  0000 L CNN
+F 1 "ToolingHole" H 1410 1750 50  0000 L CNN
+F 2 "PrntrBoardV2:JLC_Tool_hole" H 1310 1795 50  0001 C CNN
+F 3 "~" H 1310 1795 50  0001 C CNN
+	1    1310 1795
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5E5C72CC
+P 1310 1995
+F 0 "H5" H 1410 2041 50  0000 L CNN
+F 1 "ToolingHole" H 1410 1950 50  0000 L CNN
+F 2 "PrntrBoardV2:JLC_Tool_hole" H 1310 1995 50  0001 C CNN
+F 3 "~" H 1310 1995 50  0001 C CNN
+	1    1310 1995
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5E5C72CD
+P 1310 2195
+F 0 "H6" H 1410 2241 50  0000 L CNN
+F 1 "ToolingHole" H 1410 2150 50  0000 L CNN
+F 2 "PrntrBoardV2:JLC_Tool_hole" H 1310 2195 50  0001 C CNN
+F 3 "~" H 1310 2195 50  0001 C CNN
+	1    1310 2195
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
