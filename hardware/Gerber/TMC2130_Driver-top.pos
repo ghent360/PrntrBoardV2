@@ -1,4 +1,4 @@
-### Module positions - created on Mon 09 Mar 2020 07:15:33 PM PDT ###
+### Module positions - created on Mon 09 Mar 2020 08:47:47 PM PDT ###
 ### Printed by Pcbnew version (5.1.0-1558-g0ba0c1724)
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -19,7 +19,7 @@ C14       1000pF       C_0603_1608Metric                          19.2000    31.
 C15       0.1uF_50V    C_0402_1005Metric                           3.4000    22.3150   90.0000  top
 C16       0.1uF        C_0603_1608Metric                          19.3000    10.2500    0.0000  top
 D1        SBRT5A50SA   D_SMA                                      32.7500    27.5000  180.0000  top
-F1        3A           Fuse_1206_3216Metric                       33.0000    31.7500  270.0000  top
+F1        3A           Fuse_1206_3216Metric                       32.9500    31.6500  270.0000  top
 FID1      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop     1.7440    37.5460    0.0000  top
 FID2      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop    35.1000     1.6000    0.0000  top
 FID3      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop    34.7640    37.5460    0.0000  top
