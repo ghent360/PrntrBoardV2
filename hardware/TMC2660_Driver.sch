@@ -27,7 +27,9 @@ AR Path="/5AC338BF" Ref="U1"  Part="1"
 F 0 "U1" H 4875 2520 60  0000 C CNN
 F 1 "TMC2660" H 4875 2414 60  0000 C CNN
 F 2 "PrntrBoardV2:TMC2660" H 4900 3600 60  0001 C CNN
-F 3 "" H 4900 3600 60  0000 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912121005_TRINAMIC-Motion-Control-GmbH-TMC2660-PA_C92654.pdf" H 4900 3600 60  0000 C CNN
+F 4 "C92654" H 4900 3650 50  0001 C CNN "LCSC Part #"
+F 5 "TMC2660-PA" H 4900 3650 50  0001 C CNN "Part #"
 	1    4900 3650
 	1    0    0    -1  
 $EndComp
@@ -100,7 +102,9 @@ AR Path="/5AC33B85" Ref="C5"  Part="1"
 F 0 "C5" V 5098 2100 50  0000 C CNN
 F 1 "0.47uF" V 5189 2100 50  0000 C CNN
 F 2 "PrntrBoardV2:C_0603_1608Metric" H 5388 1950 50  0001 C CNN
-F 3 "~" H 5350 2100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf" H 5350 2100 50  0001 C CNN
+F 4 "C1623" V 5350 2100 50  0001 C CNN "LCSC Part #"
+F 5 "CL10B474KA8NNNC" V 5350 2100 50  0001 C CNN "Part #"
 	1    5350 2100
 	0    1    1    0   
 $EndComp
@@ -212,7 +216,9 @@ AR Path="/5AC33EDF" Ref="C12"  Part="1"
 F 0 "C12" H 6900 4550 50  0000 L CNN
 F 1 "0.01uF" H 6850 4400 50  0000 L CNN
 F 2 "PrntrBoardV2:C_0603_1608Metric" H 7238 4400 50  0001 C CNN
-F 3 "~" H 7200 4550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf" H 7200 4550 50  0001 C CNN
+F 4 "C57112" H 7200 4550 50  0001 C CNN "LCSC Part #"
+F 5 "0603B103K500NT" H 7200 4550 50  0001 C CNN "Part #"
 	1    7200 4550
 	1    0    0    -1  
 $EndComp
@@ -229,7 +235,9 @@ AR Path="/5AC33F7D" Ref="C7"  Part="1"
 F 0 "C7" H 5650 5100 50  0000 L CNN
 F 1 "0.01uF" H 5400 5000 50  0000 L CNN
 F 2 "PrntrBoardV2:C_0603_1608Metric" H 5938 4900 50  0001 C CNN
-F 3 "~" H 5900 5050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf" H 5900 5050 50  0001 C CNN
+F 4 "C57112" H 5900 5050 50  0001 C CNN "LCSC Part #"
+F 5 "0603B103K500NT" H 5900 5050 50  0001 C CNN "Part #"
 	1    5900 5050
 	1    0    0    -1  
 $EndComp
@@ -463,7 +471,9 @@ AR Path="/5AC391BE" Ref="R2"  Part="1"
 F 0 "R2" H 6320 5396 50  0000 L CNN
 F 1 "0R051" H 6320 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 6180 5350 50  0001 C CNN
-F 3 "~" H 6250 5350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-CS121WF510MT4E_C270949.pdf" H 6250 5350 50  0001 C CNN
+F 4 "C270949" H 6250 5350 50  0001 C CNN "LCSC Part #"
+F 5 "CS121WF510MT4E" H 6250 5350 50  0001 C CNN "Part #"
 	1    6250 5350
 	1    0    0    -1  
 $EndComp
@@ -499,7 +509,9 @@ AR Path="/5AC392A1" Ref="R4"  Part="1"
 F 0 "R4" H 7570 5196 50  0000 L CNN
 F 1 "0R051" H 7570 5105 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 7430 5150 50  0001 C CNN
-F 3 "~" H 7500 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-CS121WF510MT4E_C270949.pdf" H 7500 5150 50  0001 C CNN
+F 4 "C270949" H 7500 5150 50  0001 C CNN "LCSC Part #"
+F 5 "CS121WF510MT4E" H 7500 5150 50  0001 C CNN "Part #"
 	1    7500 5150
 	1    0    0    -1  
 $EndComp
@@ -1003,7 +1015,9 @@ P 1800 5750
 F 0 "U2" H 1975 5650 50  0000 C CNN
 F 1 "74LVC1G06" H 2125 5525 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 1800 5750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1800 5750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74LVC1G06DCKR_C7828.pdf" H 1800 5750 50  0001 C CNN
+F 4 "C7828" H 1800 5750 50  0001 C CNN "LCSC Part #"
+F 5 "SN74LVC1G06DCKR" H 1800 5750 50  0001 C CNN "Part #"
 	1    1800 5750
 	1    0    0    -1  
 $EndComp
@@ -1075,7 +1089,9 @@ P 9000 5575
 F 0 "U3" H 9000 6056 50  0000 C CNN
 F 1 "24LC02" H 9000 5965 50  0000 C CNN
 F 2 "PrntrBoardV2:TDFN-8-1EP_3x2mm_P0.5mm_EP1.56x1.45mm" H 9000 5575 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21709c.pdf" H 9000 5575 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/ON-Semicon-ON-CAT24C02VP2IGT3A_C184154.pdf" H 9000 5575 50  0001 C CNN
+F 4 "C184154" H 9000 5575 50  0001 C CNN "LCSC Part #"
+F 5 "CAT24C02VP2IGT3A" H 9000 5575 50  0001 C CNN "Part #"
 	1    9000 5575
 	1    0    0    -1  
 $EndComp
