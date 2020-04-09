@@ -1,5 +1,4 @@
 EESchema Schematic File Version 5
-LIBS:TMC2660_Driver-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L tmc2660:TMC2660 U?
@@ -1009,7 +1013,7 @@ Wire Wire Line
 Wire Wire Line
 	3025 3950 4000 3950
 $Comp
-L Logic_74xgxx:74LVC1G06 U2
+L 74xGxx:74LVC1G06 U2
 U 1 1 5DA3A9F6
 P 1800 5750
 F 0 "U2" H 1975 5650 50  0000 C CNN
