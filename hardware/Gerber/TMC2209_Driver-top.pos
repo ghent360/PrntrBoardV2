@@ -1,30 +1,31 @@
-### Module positions - created on Fri 22 Nov 2019 01:19:22 AM PST ###
-### Printed by Pcbnew version (5.1.0-1558-g0ba0c1724)
+### Module positions - created on 04/14/20 14:04:42 ###
+### Printed by Pcbnew version (5.99.0-1251-g6aaee01f1)
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val          Package                                       PosX       PosY       Rot  Side
-C1        0.1uF        C_0603_1608Metric                         132.5880   -93.5990    0.0000  top
-C2        2.2uF        C_0603_1608Metric                         122.1485   -95.3770    0.0000  top
-C3        0.022uF_50V  C_0603_1608Metric                         120.4975   -91.1860    0.0000  top
-C4        0.1uF        C_0603_1608Metric                         120.5230   -92.8370    0.0000  top
-C5        0.1uF_50V    C_0402_1005Metric                         131.3410   -87.1220    0.0000  top
-C6        0.1uF_50V    C_0402_1005Metric                         121.9430   -87.1220  180.0000  top
-C7        10uF_50V     C_1206_3216Metric                         114.8080   -86.3600  180.0000  top
-C8        10uF_50V     C_1206_3216Metric                         139.4460   -86.3600    0.0000  top
-C9        1000pF       C_0603_1608Metric                         134.6200   -77.4700  180.0000  top
-C10       1000pF       C_0603_1608Metric                         134.6200   -78.9940  180.0000  top
-C11       1000pF       C_0603_1608Metric                         118.6180   -77.4700    0.0000  top
-C12       1000pF       C_0603_1608Metric                         118.5925   -79.1210    0.0000  top
-C13       0.1uF        C_0603_1608Metric                         119.0625   -99.9490  180.0000  top
-C14       0.1uF        C_0603_1608Metric                         114.1222   -99.0346  180.0000  top
-FID1      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   110.7440   -76.4540    0.0000  top
-FID2      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   143.7640  -106.0000    0.0000  top
-FID3      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   143.7640   -76.4540    0.0000  top
-FID4      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop   110.7440  -106.0000    0.0000  top
-R1        470          R_0603_1608Metric                         122.1995  -103.1240    0.0000  top
-R2        0R091        R_1210_3225Metric                         132.5910   -83.2612  180.0000  top
-R3        0R091        R_1210_3225Metric                         120.6500   -83.2866    0.0000  top
-U1        TMC2209-LA   TMC22xx_QFN                               126.6825   -91.0590    0.0000  top
-U2        74LVC1G06    SOT-353_SC-70-5                           118.9355  -102.2350    0.0000  top
-U3        24LC02       TDFN-8-1EP_3x2mm_P0.5mm_EP1.56x1.45mm     113.4618  -101.1682    0.0000  top
+C1        0.1uF        C_0603_1608Metric                          23.5880    20.4010    0.0000  top
+C2        2.2uF        C_0603_1608Metric                          13.1485    18.6230    0.0000  top
+C3        0.022uF_50V  C_0603_1608Metric                          11.4975    22.8140    0.0000  top
+C4        0.1uF        C_0603_1608Metric                          11.5230    21.1630    0.0000  top
+C5        0.1uF_50V    C_0402_1005Metric                          22.3410    26.8780    0.0000  top
+C6        0.1uF_50V    C_0402_1005Metric                          12.9430    26.8780  180.0000  top
+C7        10uF_50V     C_1206_3216Metric                           5.8080    27.6400  180.0000  top
+C8        10uF_50V     C_1206_3216Metric                          30.4460    27.6400    0.0000  top
+C9        1000pF       C_0603_1608Metric                          25.6200    36.5300  180.0000  top
+C10       1000pF       C_0603_1608Metric                          25.6200    35.0060  180.0000  top
+C11       1000pF       C_0603_1608Metric                           9.6180    36.5300    0.0000  top
+C12       1000pF       C_0603_1608Metric                           9.5925    34.8790    0.0000  top
+C13       0.1uF        C_0603_1608Metric                          10.0625    14.0510  180.0000  top
+C14       0.1uF        C_0603_1608Metric                           5.1222    14.9654  180.0000  top
+C15       100uV_35V    CP_Elec_6.3x7.7                            31.7500    11.7500    0.0000  top
+FID1      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop     1.7440    37.5460    0.0000  top
+FID2      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop    34.7640     8.0000    0.0000  top
+FID3      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop    34.7640    37.5460    0.0000  top
+FID4      Fiducial     Fiducial_1mm_Dia_2.54mm_Outer_CopperTop     1.7440     8.0000    0.0000  top
+R1        470          R_0603_1608Metric                          13.1995    10.8760    0.0000  top
+R2        0R091        R_1210_3225Metric                          23.5910    30.7388  180.0000  top
+R3        0R091        R_1210_3225Metric                          11.6500    30.7134    0.0000  top
+U1        TMC2209-LA   TMC22xx_QFN                                17.6825    22.9410    0.0000  top
+U2        74LVC1G06    SOT-353_SC-70-5                             9.9355    11.7650    0.0000  top
+U3        24LC02       TDFN-8-1EP_3x2mm_P0.5mm_EP1.56x1.45mm       4.4618    12.8318    0.0000  top
 ## End
