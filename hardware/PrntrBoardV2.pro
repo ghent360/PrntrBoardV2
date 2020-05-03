@@ -1,4 +1,4 @@
-update=Fri 10 Jan 2020 02:53:18 AM PST
+update=Sun 03 May 2020 01:58:50 PM PDT
 version=1
 last_client=kicad
 [general]
@@ -28,6 +28,15 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
+[sheetnames]
+1=a5c05728-012c-4277-b8d5-33905ede2d05:Sheeta5c05728-012c-4277-b8d5-33905ede2d05
+2=00000000-0000-0000-0000-00005dabbbab:Sheet5DABBBAA
+3=00000000-0000-0000-0000-00005daf0ef9:Sheet5DAF0EF8
+4=00000000-0000-0000-0000-00005db03b7d:Sheet5DB03B7C
+5=00000000-0000-0000-0000-00005db8ab6f:Sheet5DB8AB6E
+6=00000000-0000-0000-0000-00005db3a992:Sheet5DB3A991
+7=00000000-0000-0000-0000-00005dace5fc:Sheet5DACE5FB
+8=00000000-0000-0000-0000-00005dbcb1be:Sheet5DBCB1BD
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -41,14 +50,14 @@ CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
-RequireCourtyardDefinitions=0
-ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.127
 MinViaDiameter=0.6
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
+RequireCourtyardDefinitions=0
+ProhibitOverlappingCourtyards=1
 CopperEdgeClearance=0.25
 TrackWidth1=0.127
 TrackWidth2=0.127
@@ -295,12 +304,3 @@ uViaDrill=0.1
 dPairWidth=0.2032
 dPairGap=0.127
 dPairViaGap=0.25
-[sheetnames]
-1=a5c05728-012c-4277-b8d5-33905ede2d05:Sheeta5c05728-012c-4277-b8d5-33905ede2d05
-2=00000000-0000-0000-0000-00005dabbbab:Sheet5DABBBAA
-3=00000000-0000-0000-0000-00005daf0ef9:Sheet5DAF0EF8
-4=00000000-0000-0000-0000-00005db03b7d:Sheet5DB03B7C
-5=00000000-0000-0000-0000-00005db8ab6f:Sheet5DB8AB6E
-6=00000000-0000-0000-0000-00005db3a992:Sheet5DB3A991
-7=00000000-0000-0000-0000-00005dace5fc:Sheet5DACE5FB
-8=00000000-0000-0000-0000-00005dbcb1be:Sheet5DBCB1BD
