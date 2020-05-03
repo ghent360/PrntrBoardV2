@@ -61,12 +61,12 @@ Connection ~ 3470 1110
 Connection ~ 3155 1110
 Connection ~ 3470 1705
 Connection ~ 3155 1705
-NoConn ~ 6480 2555
-NoConn ~ 4380 3705
+NoConn ~ 6480 2560
+NoConn ~ 4380 3710
 NoConn ~ 4380 3610
-NoConn ~ 4380 3455
-NoConn ~ 4380 3355
-NoConn ~ 4380 3255
+NoConn ~ 4380 3460
+NoConn ~ 4380 3360
+NoConn ~ 4380 3260
 Wire Wire Line
 	2775 1110 3155 1110
 Wire Wire Line
