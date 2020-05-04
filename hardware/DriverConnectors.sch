@@ -1,5 +1,5 @@
 EESchema Schematic File Version 5
-EELAYER 31 0
+EELAYER 34 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -97,7 +97,6 @@ NoConn ~ 7475 1500
 NoConn ~ 10075 1800
 NoConn ~ 4350 4225
 NoConn ~ 5075 2000
-NoConn ~ 10075 1700
 NoConn ~ 2625 1925
 NoConn ~ 2650 4350
 NoConn ~ 2650 4450
@@ -113,12 +112,9 @@ NoConn ~ 9325 1600
 NoConn ~ 1875 1725
 NoConn ~ 6725 1600
 NoConn ~ 4350 4525
-NoConn ~ 5075 1700
-NoConn ~ 2625 1725
 NoConn ~ 1900 4550
 NoConn ~ 1875 2025
 NoConn ~ 10075 2000
-NoConn ~ 2650 4250
 NoConn ~ 5075 1900
 NoConn ~ 1900 4250
 NoConn ~ 7475 1900
@@ -126,13 +122,11 @@ NoConn ~ 4325 1700
 NoConn ~ 2625 1825
 NoConn ~ 1900 4150
 NoConn ~ 4325 1600
-NoConn ~ 5100 4225
 NoConn ~ 4350 4125
 NoConn ~ 9325 1700
 NoConn ~ 7475 1800
 NoConn ~ 6725 2000
 NoConn ~ 2625 2025
-NoConn ~ 7475 1700
 NoConn ~ 7475 2000
 NoConn ~ 5100 4425
 NoConn ~ 5075 1800
@@ -264,6 +258,8 @@ Wire Wire Line
 Wire Wire Line
 	2625 1625 2825 1625
 Wire Wire Line
+	2625 1725 2825 1725
+Wire Wire Line
 	2625 2125 2850 2125
 Wire Wire Line
 	2625 2325 2850 2325
@@ -287,6 +283,8 @@ Wire Wire Line
 	2650 3950 2850 3950
 Wire Wire Line
 	2650 4150 2850 4150
+Wire Wire Line
+	2650 4250 2850 4250
 Wire Wire Line
 	2650 4650 2875 4650
 Wire Wire Line
@@ -474,6 +472,8 @@ Wire Wire Line
 Wire Wire Line
 	5075 1600 5275 1600
 Wire Wire Line
+	5075 1700 5275 1700
+Wire Wire Line
 	5075 2100 5300 2100
 Wire Wire Line
 	5075 2300 5300 2300
@@ -497,6 +497,8 @@ Wire Wire Line
 	5100 3925 5300 3925
 Wire Wire Line
 	5100 4125 5300 4125
+Wire Wire Line
+	5100 4225 5300 4225
 Wire Wire Line
 	5100 4625 5325 4625
 Wire Wire Line
@@ -624,6 +626,8 @@ Wire Wire Line
 Wire Wire Line
 	7475 1600 7675 1600
 Wire Wire Line
+	7475 1700 7675 1700
+Wire Wire Line
 	7475 2100 7700 2100
 Wire Wire Line
 	7475 2300 7750 2300
@@ -728,6 +732,8 @@ Wire Wire Line
 Wire Wire Line
 	10075 1600 10275 1600
 Wire Wire Line
+	10075 1700 10275 1700
+Wire Wire Line
 	10075 2100 10300 2100
 Wire Wire Line
 	10075 2300 10350 2300
@@ -811,6 +817,8 @@ Text GLabel 2825 1425 2    50   Input ~ 0
 SPI1_SCK
 Text GLabel 2825 1625 2    50   Input ~ 0
 ST_UART1
+Text GLabel 2825 1725 2    50   Input ~ 0
+CLOCK
 Text GLabel 2850 2125 2    50   Input ~ 0
 5V
 Text GLabel 2850 3625 2    50   Input ~ 0
@@ -823,6 +831,8 @@ Text GLabel 2850 3950 2    50   Input ~ 0
 SPI1_SCK
 Text GLabel 2850 4150 2    50   Input ~ 0
 ST_UART2
+Text GLabel 2850 4250 2    50   Input ~ 0
+CLOCK
 Text GLabel 2875 4650 2    50   Input ~ 0
 5V
 Text GLabel 3975 1075 0    50   Input ~ 0
@@ -871,6 +881,8 @@ Text GLabel 5275 1400 2    50   Input ~ 0
 SPI1_SCK
 Text GLabel 5275 1600 2    50   Input ~ 0
 ST_UART1
+Text GLabel 5275 1700 2    50   Input ~ 0
+CLOCK
 Text GLabel 5300 2100 2    50   Input ~ 0
 5V
 Text GLabel 5300 3600 2    50   Input ~ 0
@@ -883,6 +895,8 @@ Text GLabel 5300 3925 2    50   Input ~ 0
 SPI1_SCK
 Text GLabel 5300 4125 2    50   Input ~ 0
 ST_UART2
+Text GLabel 5300 4225 2    50   Input ~ 0
+CLOCK
 Text GLabel 5325 4625 2    50   Input ~ 0
 5V
 Text GLabel 6375 1075 0    50   Input ~ 0
@@ -913,6 +927,8 @@ Text GLabel 7675 1400 2    50   Input ~ 0
 SPI1_SCK
 Text GLabel 7675 1600 2    50   Input ~ 0
 ST_UART1
+Text GLabel 7675 1700 2    50   Input ~ 0
+CLOCK
 Text GLabel 7700 2100 2    50   Input ~ 0
 5V
 Text GLabel 7750 2300 2    50   Input ~ 0
@@ -945,6 +961,8 @@ Text GLabel 10275 1400 2    50   Input ~ 0
 SPI1_SCK
 Text GLabel 10275 1600 2    50   Input ~ 0
 ST_UART1
+Text GLabel 10275 1700 2    50   Input ~ 0
+CLOCK
 Text GLabel 10300 2100 2    50   Input ~ 0
 5V
 Text GLabel 10350 2300 2    50   Input ~ 0

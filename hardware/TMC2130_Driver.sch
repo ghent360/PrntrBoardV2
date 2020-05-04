@@ -32,9 +32,6 @@ Connection ~ 9260 5935
 Connection ~ 3825 1705
 Connection ~ 3825 1110
 Connection ~ 4070 1110
-Connection ~ 6480 4110
-Connection ~ 6480 4260
-Connection ~ 6480 4510
 Connection ~ 6480 4610
 Connection ~ 6670 3860
 Connection ~ 6480 4710
@@ -61,6 +58,7 @@ Connection ~ 3470 1110
 Connection ~ 3155 1110
 Connection ~ 3470 1705
 Connection ~ 3155 1705
+Connection ~ 6600 4710
 NoConn ~ 6480 2560
 NoConn ~ 4380 3710
 NoConn ~ 4380 3610
@@ -190,11 +188,9 @@ Wire Wire Line
 Wire Wire Line
 	6480 3860 6670 3860
 Wire Wire Line
-	6480 4105 6480 4110
+	6480 4110 6600 4110
 Wire Wire Line
-	6480 4110 6480 4260
-Wire Wire Line
-	6480 4260 6480 4510
+	6480 4260 6550 4260
 Wire Wire Line
 	6480 4510 6480 4610
 Wire Wire Line
@@ -204,6 +200,14 @@ Wire Wire Line
 Wire Wire Line
 	6480 5460 6480 5160
 Wire Wire Line
+	6550 4260 6550 4900
+Wire Wire Line
+	6550 4900 7015 4900
+Wire Wire Line
+	6600 4110 6600 4710
+Wire Wire Line
+	6600 4710 6480 4710
+Wire Wire Line
 	6620 1110 6480 1110
 Wire Wire Line
 	6670 3860 6670 4130
@@ -212,7 +216,7 @@ Wire Wire Line
 Wire Wire Line
 	6670 4430 6670 4710
 Wire Wire Line
-	6670 4710 6480 4710
+	6670 4710 6600 4710
 Wire Wire Line
 	6900 3860 6900 4270
 Wire Wire Line
@@ -435,6 +439,8 @@ Text Label 5690 1110 0    50   ~ 0
 V_HIGH
 Text Label 6135 1960 2    50   ~ 0
 5V
+Text Label 6920 4900 2    50   ~ 0
+CLOCK
 Text Label 7460 1580 0    50   ~ 0
 V_MOTORS
 Text Label 8050 3950 0    50   ~ 0
@@ -485,8 +491,6 @@ Text Label 9560 5460 0    50   ~ 0
 SDA
 Text Label 9560 5560 0    50   ~ 0
 SCL
-Text Label 10000 2500 0    50   ~ 0
-CFG4
 Text Label 10000 2600 0    50   ~ 0
 CFG3
 Text Label 10000 2700 0    50   ~ 0
@@ -511,6 +515,8 @@ Text Label 10100 1900 0    50   ~ 0
 ~CS
 Text Label 10100 2900 0    50   ~ 0
 5V
+Text Label 10200 2500 2    50   ~ 0
+CLOCK
 Text HLabel 7380 2860 2    50   Output ~ 0
 MOTA1
 Text HLabel 7380 3060 2    50   Output ~ 0
@@ -817,8 +823,8 @@ AR Path="/5AC337B6/5ACCA309/5ACC0B66/5AC392A1" Ref="R31"  Part="1"
 AR Path="/5AC337B6/5ACE1C6D/5ACC0B66/5AC392A1" Ref="R39"  Part="1" 
 AR Path="/5AC337B6/5AD9F95A/5AD4B0F5/5AC392A1" Ref="R47"  Part="1" 
 AR Path="/5AC392A1" Ref="R1"  Part="1" 
-F 0 "R1" V 6570 4230 50  0000 L CNN
-F 1 "0R12" V 6770 4180 50  0000 L CNN
+F 0 "R1" H 6730 4290 50  0000 L CNN
+F 1 "0R12" V 6670 4185 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 6600 4280 50  0001 C CNN
 F 3 "~" H 6670 4280 50  0001 C CNN
 F 4 "25121WF120LT4E" V 6670 4280 50  0001 C CNN "Part #"
@@ -836,8 +842,8 @@ AR Path="/5AC337B6/5ACCA309/5ACC0B66/5AC391BE" Ref="R29"  Part="1"
 AR Path="/5AC337B6/5ACE1C6D/5ACC0B66/5AC391BE" Ref="R37"  Part="1" 
 AR Path="/5AC337B6/5AD9F95A/5AD4B0F5/5AC391BE" Ref="R45"  Part="1" 
 AR Path="/5AC391BE" Ref="R2"  Part="1" 
-F 0 "R2" V 7040 4230 50  0000 L CNN
-F 1 "0R12" V 7240 4180 50  0000 L CNN
+F 0 "R2" H 7195 4305 50  0000 L CNN
+F 1 "0R12" V 7135 4185 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 7070 4280 50  0001 C CNN
 F 3 "~" H 7140 4280 50  0001 C CNN
 F 4 "25121WF120LT4E" V 7140 4280 50  0001 C CNN "Part #"
