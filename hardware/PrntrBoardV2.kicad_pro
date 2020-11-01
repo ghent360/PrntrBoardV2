@@ -50,17 +50,28 @@
       },
       "diff_pair_dimensions": [
         {
-          "gap": 0.127,
-          "via_gap": 0.25,
-          "width": 0.127
-        },
-        {
-          "gap": 0.1778,
+          "gap": 0.0,
           "via_gap": 0.0,
-          "width": 0.127
+          "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|167576500|59333000|f39e29ab-6173-42de-983c-f5e10998b9f3|b3a46cac-d96f-4f71-826c-1d2a4b504c53",
+        "copper_edge_clearance|170116500|163298000|75a07285-5967-4c31-9647-fee17c73e532|d8e76ab3-d756-48ab-bd16-cb51f28000f3",
+        "copper_edge_clearance|171680000|161861500|b6dca4fe-7abe-4ce9-88f5-e906c72877bf|18a6d5eb-7e34-4fe5-a645-154acb1eeb0d",
+        "courtyards_overlap|149090000|100860000|00000000-0000-0000-0000-00005dad8152|00000000-0000-0000-0000-00005dad81c5",
+        "courtyards_overlap|149090000|103908000|00000000-0000-0000-0000-00005dad8180|00000000-0000-0000-0000-00005dad81c5",
+        "courtyards_overlap|149090000|106956000|00000000-0000-0000-0000-00005dad813b|00000000-0000-0000-0000-00005dad8180",
+        "courtyards_overlap|149090000|85620000|00000000-0000-0000-0000-00005dad81ae|00000000-0000-0000-0000-00005dad81f3",
+        "courtyards_overlap|149090000|88668000|00000000-0000-0000-0000-00005dad8169|00000000-0000-0000-0000-00005dad81ae",
+        "courtyards_overlap|149090000|91716000|00000000-0000-0000-0000-00005dad8169|00000000-0000-0000-0000-00005dad81dc",
+        "courtyards_overlap|149090000|94764000|00000000-0000-0000-0000-00005dad8197|00000000-0000-0000-0000-00005dad81dc",
+        "courtyards_overlap|149090000|97812000|00000000-0000-0000-0000-00005dad8152|00000000-0000-0000-0000-00005dad8197",
+        "courtyards_overlap|170658976|160323862|00000000-0000-0000-0000-00005dad800a|00000000-0000-0000-0000-00005db1d331",
+        "courtyards_overlap|25434476|160158762|00000000-0000-0000-0000-00005dad8011|00000000-0000-0000-0000-00005dad802f",
+        "courtyards_overlap|25853867|59731424|00000000-0000-0000-0000-00005dad8018|00000000-0000-0000-0000-00005dad8037",
+        "courtyards_overlap|56102000|119970000|00000000-0000-0000-0000-00005dad7b60|00000000-0000-0000-0000-00005dad8e8e"
+      ],
       "meta": {
         "version": 1
       },
@@ -90,8 +101,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -110,10 +121,11 @@
         "max_error": 0.005,
         "min_clearance": 0.127,
         "min_copper_edge_clearance": 0.25,
-        "min_hole_to_hole": 0.3,
+        "min_hole_to_hole": 0.19999999999999998,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_through_hole_diameter": 0.3,
+        "min_silk_clearance": 0.0,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_annulus": 0.19999999999999998,
@@ -124,7 +136,7 @@
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.127,
+        0.0,
         0.127,
         0.2032,
         0.254,
@@ -140,8 +152,8 @@
       ],
       "via_dimensions": [
         {
-          "diameter": 0.7,
-          "drill": 0.3
+          "diameter": 0.0,
+          "drill": 0.0
         },
         {
           "diameter": 0.7,
@@ -325,6 +337,7 @@
       "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "lib_symbol_issues": "warning",
       "multiple_net_names": "error",
       "net_not_bus_member": "error",
       "no_connect_connected": "error",
