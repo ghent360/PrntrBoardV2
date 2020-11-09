@@ -16,4 +16,5 @@
   (lib (name "xl1509")(type "Legacy")(uri "${KIPRJMOD}/xl1509.lib")(options "")(descr ""))
   (lib (name "mp1584")(type "Legacy")(uri "${KIPRJMOD}/mp1584.lib")(options "")(descr ""))
   (lib (name "24lc02")(type "Legacy")(uri "${KIPRJMOD}/24lc02.lib")(options "")(descr ""))
+  (lib (name "TPC8107")(type "KiCad")(uri "${KIPRJMOD}/TPC8107.kicad_sym")(options "")(descr ""))
 )
