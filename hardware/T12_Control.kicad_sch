@@ -3805,7 +3805,7 @@
     (uuid "690fbdb1-74ee-40cb-b615-e8cc50944501")
     (property "Reference" "RN1" (id 0) (at 55.88 90.9382 90))
     (property "Value" "4x4.7k" (id 1) (at 55.88 93.237 90))
-    (property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603" (id 2) (at 55.88 92.075 90)
+    (property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402" (id 2) (at 55.88 92.075 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 55.88 99.06 0)
@@ -3821,7 +3821,7 @@
     (uuid "c3ab5ec6-bd2f-4109-bfdd-092055883123")
     (property "Reference" "RN2" (id 0) (at 89.6682 135.89 90))
     (property "Value" "4x4.7k" (id 1) (at 91.967 135.89 90))
-    (property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603" (id 2) (at 90.805 135.89 90)
+    (property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402" (id 2) (at 90.805 135.89 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 97.79 135.89 0)
@@ -4086,10 +4086,10 @@
       (reference "R7") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/690fbdb1-74ee-40cb-b615-e8cc50944501"
-      (reference "RN1") (unit 1) (value "4x4.7k") (footprint "Resistor_SMD:R_Array_Concave_4x0603")
+      (reference "RN1") (unit 1) (value "4x4.7k") (footprint "Resistor_SMD:R_Array_Concave_4x0402")
     )
     (path "/c3ab5ec6-bd2f-4109-bfdd-092055883123"
-      (reference "RN2") (unit 1) (value "4x4.7k") (footprint "Resistor_SMD:R_Array_Concave_4x0603")
+      (reference "RN2") (unit 1) (value "4x4.7k") (footprint "Resistor_SMD:R_Array_Concave_4x0402")
     )
     (path "/a0744780-e430-46ed-8424-2fd4bcfa4fc4"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
