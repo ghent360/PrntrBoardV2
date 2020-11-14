@@ -63,7 +63,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_too_small": "error",
@@ -85,7 +85,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "error",
+        "silk_over_copper": "ignore",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
         "too_many_vias": "error",
@@ -113,8 +113,8 @@
         "min_track_width": 0.15239999999999998,
         "min_via_annular_width": 0.127,
         "min_via_diameter": 0.508,
-        "solder_mask_clearance": 0.0508,
-        "solder_mask_min_width": 0.10099999999999999,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
         "solder_paste_margin_ratio": -0.0
       },
@@ -399,7 +399,7 @@
   },
   "sheets": [
     [
-      "6988b4cd-d3f2-48f1-9a66-a74705a8a942",
+      "2888f2d0-8fe6-41c6-910f-346c67b8c6fb",
       ""
     ]
   ],
