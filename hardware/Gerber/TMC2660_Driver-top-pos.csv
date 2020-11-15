@@ -17,6 +17,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "FID2","Fiducial","Fiducial_1mm_Dia_2.54mm_Outer_CopperTop",1.744000,1.620000,0.000000,top
 "FID3","Fiducial","Fiducial_1mm_Dia_2.54mm_Outer_CopperTop",34.764000,37.546000,0.000000,top
 "FID4","Fiducial","Fiducial_1mm_Dia_2.54mm_Outer_CopperTop",35.050000,1.620000,0.000000,top
+"J2","Conn_01x04_Male","Molex-SL-4POS",17.619000,35.437800,180.000000,top
 "R1","22R","R_0603_1608Metric",6.570000,31.323000,180.000000,top
 "R2","0R051","R_2512_6332Metric",6.750000,27.894000,180.000000,top
 "R3","22R","R_0603_1608Metric",29.658500,31.704000,0.000000,top
