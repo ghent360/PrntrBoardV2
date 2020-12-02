@@ -31,6 +31,7 @@
       2,
       3,
       4,
+      5,
       6,
       8,
       9,
@@ -41,6 +42,8 @@
       14,
       15,
       16,
+      17,
+      18,
       19,
       20,
       21,
@@ -57,7 +60,7 @@
       37,
       38
     ],
-    "visible_layers": "ffff0f0_ffffffff"
+    "visible_layers": "ffcf030_ffffffff"
   },
   "meta": {
     "filename": "PrntrBoardV2.kicad_prl",

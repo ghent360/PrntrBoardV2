@@ -807,11 +807,11 @@
     (path "/00000000-0000-0000-0000-00005db03b7d/00000000-0000-0000-0000-00005dc277af"
       (reference "J27") (unit 1) (value "JST XH") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00005db03b7d/00000000-0000-0000-0000-00005db322be"
-      (reference "JP2") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
     (path "/00000000-0000-0000-0000-00005db03b7d/00000000-0000-0000-0000-00005db0c404"
       (reference "J_power_in1") (unit 1) (value "KF635") (footprint "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00005db03b7d/00000000-0000-0000-0000-00005db322be"
+      (reference "JP2") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005db03b7d/00000000-0000-0000-0000-00005ded0fe4"
       (reference "Q1") (unit 1) (value "NCE40P40K") (footprint "Package_TO_SOT_SMD:TO-252-2")
@@ -912,9 +912,6 @@
     (path "/00000000-0000-0000-0000-00005db3a992/00000000-0000-0000-0000-00005db52ff5"
       (reference "J_TH6") (unit 1) (value "JST XH") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00005db3a992/85bc90b3-31b2-4dae-acb2-f0f6d513fe38"
-      (reference "R2") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
     (path "/00000000-0000-0000-0000-00005db3a992/00000000-0000-0000-0000-00005db3aa16"
       (reference "R17") (unit 1) (value "4k7") (footprint "PrntrBoardV2:R_0603_1608Metric")
     )
@@ -950,21 +947,6 @@
     )
     (path "/00000000-0000-0000-0000-00005db3a992/00000000-0000-0000-0000-00005db52ff6"
       (reference "R28") (unit 1) (value "10k") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005db3a992/e8b3cddb-9268-477f-b5dc-41cc481334e2"
-      (reference "R72") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005db3a992/dc2e596c-3336-441f-8b45-60928fb52304"
-      (reference "R73") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005db3a992/18618dc5-5b4a-4654-a072-56b821d215dd"
-      (reference "R74") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005db3a992/25c6343f-df86-4bfb-9b80-6eaba420c0c7"
-      (reference "R75") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005db3a992/935bec7d-d020-445e-baac-6e6db9c72cf4"
-      (reference "R76") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005db3a992/00000000-0000-0000-0000-00005db5630c"
       (reference "TC1") (unit 1) (value "TC") (footprint "kicad-molex-sl-footprints:Molex-SL-6POS")
@@ -1101,11 +1083,11 @@
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005daf169f"
       (reference "J3") (unit 1) (value "USB_B_Micro") (footprint "PrntrBoardV2:MC-101C")
     )
-    (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005db37293"
-      (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
-    )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005db00744"
       (reference "J_SER1") (unit 1) (value "Serial 0") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005db37293"
+      (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005daf16a4"
       (reference "R9") (unit 1) (value "1.5k") (footprint "PrntrBoardV2:R_0603_1608Metric")
@@ -1158,30 +1140,6 @@
     (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dba16ce"
       (reference "#PWR035") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/b5fdedc5-f31c-4e1c-9fcc-2e9907e4e2d0"
-      (reference "#PWR057") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/9bf8366e-48e8-4a85-904d-f1ca0513d1b7"
-      (reference "#PWR076") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/bcbaf2fb-4191-43fb-a208-c2ba8afb47b2"
-      (reference "#PWR077") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/b63bf79b-6806-4170-9bd0-5a6cd2a58f2f"
-      (reference "#PWR078") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/56759960-d8ea-4877-be3b-d58b2979b9a4"
-      (reference "#PWR079") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/461aad5a-58c2-483a-865d-c932c549da5e"
-      (reference "#PWR080") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/2abe4ccb-f6d1-4b96-9afc-544ede831d10"
-      (reference "#PWR081") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/1fadaa4b-42d3-42f6-b1a0-28f72849d908"
-      (reference "#PWR082") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005db8ac1c"
       (reference "C33") (unit 1) (value "1000pF") (footprint "PrntrBoardV2:C_0603_1608Metric")
     )
@@ -1230,48 +1188,6 @@
     (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dba16cd"
       (reference "D20") (unit 1) (value "LED") (footprint "PrntrBoardV2:LED_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/7410cdcc-473e-4348-9595-b565c30cd7be"
-      (reference "D21") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/654809db-27eb-4ad7-a711-241927c86dea"
-      (reference "D35") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/7516dad2-7a01-4224-98ce-e55b04deb778"
-      (reference "D36") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/d04ef8c6-e952-4199-bbe8-6eaa60416440"
-      (reference "D37") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/b66bf3ec-a37d-424b-b93a-93b6d81198d9"
-      (reference "D38") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/68aa6bb3-94ea-4644-97e9-97b3faa3189c"
-      (reference "D39") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/913347f0-5ab8-4023-bbbc-7742875b1409"
-      (reference "D40") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/950c8081-46e8-425a-8ba4-cdcc34e5e620"
-      (reference "D41") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dbbcc41"
-      (reference "JP3") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dbc2825"
-      (reference "JP4") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dbc17a1"
-      (reference "JP5") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dbc32dd"
-      (reference "JP6") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dc5e76a"
-      (reference "JP7") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dbc1eef"
-      (reference "JP8") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
     (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dba45f7"
       (reference "J_U-1") (unit 1) (value "JST XH 3p") (footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
     )
@@ -1295,6 +1211,24 @@
     )
     (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005db99ce7"
       (reference "J_Z-1") (unit 1) (value "JST XH 3p") (footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dbbcc41"
+      (reference "JP3") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dbc2825"
+      (reference "JP4") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dbc17a1"
+      (reference "JP5") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dbc32dd"
+      (reference "JP6") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dc5e76a"
+      (reference "JP7") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005dbc1eef"
+      (reference "JP8") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005db8ab6f/00000000-0000-0000-0000-00005db8ac1a"
       (reference "R29") (unit 1) (value "1k") (footprint "PrntrBoardV2:R_0603_1608Metric")
@@ -1772,33 +1706,6 @@
     )
     (path "/00000000-0000-0000-0000-00005dbcb1be/00000000-0000-0000-0000-00005dc4831c"
       (reference "R69") (unit 1) (value "1k") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005dbcb1be/56fc4a81-d20b-4ebf-b1b6-7cd4dc8cf90d"
-      (reference "R77") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005dbcb1be/3f7647cd-3a97-47de-b453-5b77b8cf4886"
-      (reference "R78") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005dbcb1be/4d528cab-abd6-4914-ab46-5d4802019f9d"
-      (reference "R79") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005dbcb1be/b324b7e5-0784-4cc7-a682-e54425c120d4"
-      (reference "R80") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005dbcb1be/dcc19e3e-0ff7-4ee3-8b20-905baac85772"
-      (reference "R81") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005dbcb1be/e1cbb35c-cc95-4ef0-bcd2-21f1f3e138f5"
-      (reference "R82") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005dbcb1be/27b4b4f1-7b1a-48fc-b062-cb424e205cba"
-      (reference "R83") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005dbcb1be/b82b193a-6485-4fd1-bfe7-c1845e07f30e"
-      (reference "R84") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005dbcb1be/49cc51d4-d3e1-4251-9200-c9daa5e50ff6"
-      (reference "R85") (unit 1) (value "470") (footprint "PrntrBoardV2:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005dbcb1be/00000000-0000-0000-0000-00005dc4a123"
       (reference "TR1") (unit 1) (value "SI2318CDS") (footprint "PrntrBoardV2:SOT-23")
