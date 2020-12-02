@@ -512,6 +512,11 @@
       (property "ki_fp_filters" "SolderJumper*Open*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (symbol "Jumper_3_Open_0_0"
+        (circle (center -3.302 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+        (circle (center 0 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+        (circle (center 3.302 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      )
       (symbol "Jumper_3_Open_0_1"
         (arc (start -3.048 1.016) (end -0.254 1.016) (radius (at -1.651 -0.762) (length 2.2606) (angles 128.2 51.8))
           (stroke (width 0)) (fill (type none))
@@ -526,11 +531,6 @@
           )
           (stroke (width 0)) (fill (type none))
         )
-      )
-      (symbol "Jumper_3_Open_0_0"
-        (circle (center -3.302 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
-        (circle (center 0 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
-        (circle (center 3.302 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
       )
       (symbol "Jumper_3_Open_1_1"
         (pin passive line (at -6.35 0 0) (length 2.54)
@@ -1181,22 +1181,40 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
 
-  (global_label "3.3V" (shape input) (at 95.885 96.52 0)
+  (global_label "3.3V" (shape input) (at 95.885 96.52 0)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify left))
   )
-  (global_label "V_motors" (shape input) (at 105.41 55.245 180)
+  (global_label "V_motors" (shape input) (at 105.41 55.245 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "V_bed" (shape input) (at 113.665 40.64 180)
+  (global_label "V_bed" (shape input) (at 113.665 40.64 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "V_heaters" (shape input) (at 113.665 48.26 180)
+  (global_label "V_heaters" (shape input) (at 113.665 48.26 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "V_fan" (shape input) (at 133.35 111.76 270)
+  (global_label "V_fan" (shape input) (at 133.35 111.76 270)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "5V" (shape input) (at 169.545 69.85 0)
+  (global_label "5V" (shape input) (at 169.545 69.85 0)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify left))
   )
 
