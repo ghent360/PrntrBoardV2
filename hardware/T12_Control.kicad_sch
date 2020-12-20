@@ -1853,66 +1853,6 @@
       (property "ki_description" "Silicon P Channel MOS Type (U-MOSIII)" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "TPC8107_0_1"
-        (circle (center 0 0) (radius 2.8398) (stroke (width 0.0006)) (fill (type none)))
-        (rectangle (start 0.508 2.032) (end 0.762 1.016)
-          (stroke (width 0.001)) (fill (type outline))
-        )
-        (rectangle (start 0.508 0.508) (end 0.762 -0.508)
-          (stroke (width 0.001)) (fill (type outline))
-        )
-        (rectangle (start 0.508 -1.016) (end 0.762 -2.032)
-          (stroke (width 0.001)) (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 1.27 2.032)
-            (xy 1.27 -2.032)
-          )
-          (stroke (width 0.0006)) (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 1.778)
-            (xy 3.81 1.778)
-          )
-          (stroke (width 0.0006)) (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.508 1.524)
-            (xy -1.016 1.524)
-          )
-          (stroke (width 0.0006)) (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.254)
-            (xy 0 -0.254)
-            (xy -0.508 0)
-            (xy 0 0.254)
-          )
-          (stroke (width 0.001)) (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy -1.016 1.524)
-            (xy -2.032 1.524)
-            (xy -2.032 -1.524)
-            (xy -1.016 -1.524)
-          )
-          (stroke (width 0.0006)) (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.254)
-            (xy -2.286 -0.508)
-            (xy -1.778 -0.508)
-            (xy -2.032 0.254)
-          )
-          (stroke (width 0.001)) (fill (type outline))
-        )
-      )
       (symbol "TPC8107_0_0"
         (circle (center -1.27 5.0292) (radius 0.1524) (stroke (width 0.0006)) (fill (type none)))
         (circle (center 3.81 4.064) (radius 0.1606) (stroke (width 0.0006)) (fill (type none)))
@@ -2068,6 +2008,66 @@
             (xy 2.286 4.9276)
           )
           (stroke (width 0.0006)) (fill (type none))
+        )
+      )
+      (symbol "TPC8107_0_1"
+        (circle (center 0 0) (radius 2.8398) (stroke (width 0.0006)) (fill (type none)))
+        (rectangle (start 0.508 2.032) (end 0.762 1.016)
+          (stroke (width 0.001)) (fill (type outline))
+        )
+        (rectangle (start 0.508 0.508) (end 0.762 -0.508)
+          (stroke (width 0.001)) (fill (type outline))
+        )
+        (rectangle (start 0.508 -1.016) (end 0.762 -2.032)
+          (stroke (width 0.001)) (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 1.27 2.032)
+            (xy 1.27 -2.032)
+          )
+          (stroke (width 0.0006)) (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.778)
+            (xy 3.81 1.778)
+          )
+          (stroke (width 0.0006)) (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.508 1.524)
+            (xy -1.016 1.524)
+          )
+          (stroke (width 0.0006)) (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0.254)
+            (xy 0 -0.254)
+            (xy -0.508 0)
+            (xy 0 0.254)
+          )
+          (stroke (width 0.001)) (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy -1.016 1.524)
+            (xy -2.032 1.524)
+            (xy -2.032 -1.524)
+            (xy -1.016 -1.524)
+          )
+          (stroke (width 0.0006)) (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 0.254)
+            (xy -2.286 -0.508)
+            (xy -1.778 -0.508)
+            (xy -2.032 0.254)
+          )
+          (stroke (width 0.001)) (fill (type outline))
         )
       )
       (symbol "TPC8107_1_1"
@@ -3870,7 +3870,7 @@
     (property "Value" "TPC8107" (id 1) (at 43.8154 81.7943 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SO-8_5.3x6.2mm_P1.27mm" (id 2) (at 36.5252 90.8304 0)
+    (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (id 2) (at 36.5252 90.8304 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 36.83 81.28 0)
@@ -4059,7 +4059,7 @@
       (reference "J6") (unit 1) (value "Serial") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/0d2a404f-024a-4ffe-b0c5-80a1d2737d76"
-      (reference "Q1") (unit 1) (value "TPC8107") (footprint "Package_SO:SO-8_5.3x6.2mm_P1.27mm")
+      (reference "Q1") (unit 1) (value "TPC8107") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/f0e989e3-5869-42b0-8413-f4ce97a63781"
       (reference "Q2") (unit 1) (value "SI2308A") (footprint "Package_TO_SOT_SMD:SOT-23")

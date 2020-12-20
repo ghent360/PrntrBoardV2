@@ -67,6 +67,8 @@
         "courtyards_overlap|149090000|91716000|00000000-0000-0000-0000-00005dad8169|00000000-0000-0000-0000-00005dad81dc",
         "courtyards_overlap|149090000|94764000|00000000-0000-0000-0000-00005dad8197|00000000-0000-0000-0000-00005dad81dc",
         "courtyards_overlap|149090000|97812000|00000000-0000-0000-0000-00005dad8152|00000000-0000-0000-0000-00005dad8197",
+        "courtyards_overlap|160378000|125921000|00000000-0000-0000-0000-00005dad7cc9|202a47e5-9466-4c40-a6c9-a04fcd14fd97",
+        "courtyards_overlap|160388000|121241000|00000000-0000-0000-0000-00005dad8cb6|202a47e5-9466-4c40-a6c9-a04fcd14fd97",
         "courtyards_overlap|170658976|160323862|00000000-0000-0000-0000-00005dad800a|00000000-0000-0000-0000-00005db1d331",
         "courtyards_overlap|25434476|160158762|00000000-0000-0000-0000-00005dad8011|00000000-0000-0000-0000-00005dad802f",
         "courtyards_overlap|25853867|59731424|00000000-0000-0000-0000-00005dad8018|00000000-0000-0000-0000-00005dad8037",
@@ -90,7 +92,6 @@
         "invalid_outline": "error",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
-        "keepout": "error",
         "length_out_of_range": "error",
         "malformed_courtyard": "error",
         "microvia_drill_too_small": "error",
@@ -111,7 +112,6 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "via_hole_larger_than_pad": "error",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
@@ -121,6 +121,7 @@
         "max_error": 0.005,
         "min_clearance": 0.127,
         "min_copper_edge_clearance": 0.25,
+        "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.19999999999999998,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
@@ -446,7 +447,7 @@
   },
   "sheets": [
     [
-      "703da4a2-dd6c-4143-9e7f-1b0e273a1c72",
+      "00000000-0000-0000-0000-00005db03b7d",
       ""
     ],
     [
