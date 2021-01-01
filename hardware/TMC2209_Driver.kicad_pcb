@@ -2764,7 +2764,7 @@
   (gr_text "*" (at 116.84 101.1936) (layer "F.SilkS") (tstamp 37b2be6d-c556-4377-963f-a803e1222a42)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "rev 8" (at 140.5 79) (layer "F.SilkS") (tstamp 975c88f6-8aeb-48fe-89dd-2e367157400c)
+  (gr_text "rev 9" (at 140.5 79) (layer "F.SilkS") (tstamp 975c88f6-8aeb-48fe-89dd-2e367157400c)
     (effects (font (size 0.75 0.75) (thickness 0.1)))
   )
   (gr_text "*" (at 111.1504 99.7458) (layer "F.SilkS") (tstamp ad297ec1-678d-456b-80e0-5823604994a6)
