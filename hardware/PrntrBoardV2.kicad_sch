@@ -1084,6 +1084,9 @@
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005db37293"
       (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/aeae5a58-8bb2-4cb7-9bff-6d8574e7546a"
+      (reference "JP9") (unit 1) (value "Jumper_NO_Small") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005db00744"
       (reference "J_SER1") (unit 1) (value "Serial 0") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
