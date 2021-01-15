@@ -805,6 +805,9 @@
     (path "/00000000-0000-0000-0000-00005db03b7d/00000000-0000-0000-0000-00005dc277af"
       (reference "J27") (unit 1) (value "JST XH") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
     )
+    (path "/00000000-0000-0000-0000-00005db03b7d/b3a465ad-aba6-44c4-a415-44cf38e5153b"
+      (reference "J28") (unit 1) (value "KF350") (footprint "PrntrBoardV2:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal")
+    )
     (path "/00000000-0000-0000-0000-00005db03b7d/00000000-0000-0000-0000-00005db322be"
       (reference "JP2") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
