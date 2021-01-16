@@ -56,6 +56,6 @@ Very high current driver design using TMC5161 and TMC2160 with external MOSFETS 
 Software
 ------
 
-Marlin v2 is working on the board. I also plan to offer Smoothieware V1 and Klipper support.
+Marlin v2 is working on the board. I have aport of Smoothieware V1. Klipper and RepRepFirmware ports are in early stages and nut yet functional.
 
 Visit [my blog](https://blog.pcbxprt.com/) for status updates on the development of the board.
