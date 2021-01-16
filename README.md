@@ -30,9 +30,10 @@ Features of the board:
   + micro-sd card support with SDIO for fast file transfer
   + 2 extra serial ports for WiFi and or smart LCD screen control
   + RAMPS LCD screen support
-  + Marlin 2.0 firmware or Smoothieware V1.0
+  + Marlin 2.0 firmware or Smoothieware V1.0, RRF port in progress.
   + 4 extra fan connectors (2x5V and 2x12-24V)
   + Input voltage: 12-24V
+  + CAN bus connector contributed by ArkadiuszRaj.
 
 ![Picture of rev-1 prototype](real1.jpg)
 
