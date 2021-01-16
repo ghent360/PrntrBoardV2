@@ -1038,11 +1038,11 @@
   (junction (at 237.49 130.175) (diameter 1.016) (color 0 0 0 0))
   (junction (at 245.11 130.175) (diameter 1.016) (color 0 0 0 0))
 
+  (no_connect (at 76.835 127.635))
   (no_connect (at 208.915 105.41))
   (no_connect (at 210.185 61.595))
   (no_connect (at 210.185 65.405))
   (no_connect (at 210.185 69.215))
-  (no_connect (at 76.835 127.635))
   (no_connect (at 227.33 138.43))
   (no_connect (at 227.33 143.51))
   (no_connect (at 227.33 146.05))
