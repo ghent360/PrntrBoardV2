@@ -17,4 +17,5 @@
   (lib (name "mp1584")(type "Legacy")(uri "${KIPRJMOD}/mp1584.lib")(options "")(descr ""))
   (lib (name "24lc02")(type "Legacy")(uri "${KIPRJMOD}/24lc02.lib")(options "")(descr ""))
   (lib (name "TPC8107")(type "KiCad")(uri "${KIPRJMOD}/TPC8107.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP8266")(type "Legacy")(uri "${KIPRJMOD}/ESP8266.lib")(options "")(descr ""))
 )
