@@ -1051,8 +1051,11 @@
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005daf16a0"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005de25425"
+    (path "/00000000-0000-0000-0000-00005daf0ef9/4d8c4de9-bb15-4508-93fd-1d6ee7a53242"
       (reference "#PWR037") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/42d4c8d9-13d0-49bd-8ec2-2a88278a5fdd"
+      (reference "#PWR057") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005db5560f"
       (reference "#PWR074") (unit 1) (value "GND") (footprint "")
@@ -1062,6 +1065,12 @@
     )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005daf16a7"
       (reference "C19") (unit 1) (value "0.1uF") (footprint "PrntrBoardV2:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/19fb5def-008c-47d4-9442-4b46745df10e"
+      (reference "C54") (unit 1) (value "0.1uF") (footprint "PrntrBoardV2:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/42049c8c-dbeb-4b79-95d4-6644950a73a6"
+      (reference "C55") (unit 1) (value "0.1uF") (footprint "PrntrBoardV2:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005daf16a6"
       (reference "D1") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
@@ -1075,14 +1084,14 @@
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005db54924"
       (reference "EXP3") (unit 1) (value "IDC 2x5") (footprint "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005de245a5"
-      (reference "EXP4") (unit 1) (value "IDC 2x5") (footprint "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical")
-    )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005daf16a1"
       (reference "F1") (unit 1) (value "500mA") (footprint "PrntrBoardV2:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005daf169f"
       (reference "J3") (unit 1) (value "USB_B_Micro") (footprint "PrntrBoardV2:MC-101C")
+    )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/967818d5-7083-4d03-b3d3-4a38bcfd269b"
+      (reference "J29") (unit 1) (value "RJ12_Shielded") (footprint "Connector_RJ:RJ12_Amphenol_54601")
     )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005db37293"
       (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -1092,6 +1101,9 @@
     )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005db00744"
       (reference "J_SER1") (unit 1) (value "Serial 0") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/88a744e2-ce1a-4d62-955a-435e3711a70a"
+      (reference "R2") (unit 1) (value "10k") (footprint "PrntrBoardV2:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005daf16a4"
       (reference "R9") (unit 1) (value "1.5k") (footprint "PrntrBoardV2:R_0603_1608Metric")
@@ -1105,6 +1117,24 @@
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005daf16a5"
       (reference "R12") (unit 1) (value "100k") (footprint "PrntrBoardV2:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/2659f034-7479-4a6f-bd52-edad265eac36"
+      (reference "R72") (unit 1) (value "22") (footprint "PrntrBoardV2:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/59f530c9-75c0-4408-879f-52fa9d1dd9fa"
+      (reference "R73") (unit 1) (value "10k") (footprint "PrntrBoardV2:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/68bd5876-2b97-4436-a4b8-9d7e6144c0f3"
+      (reference "R74") (unit 1) (value "56") (footprint "PrntrBoardV2:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/7e5e0e67-67d5-401e-85dc-61273e3dd824"
+      (reference "R75") (unit 1) (value "56") (footprint "PrntrBoardV2:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/38658c41-4b42-4cdb-a21d-a18fb1d78b1c"
+      (reference "R76") (unit 1) (value "100k") (footprint "PrntrBoardV2:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/0706265e-5ffc-404d-bf17-caaee5501405"
+      (reference "R77") (unit 1) (value "10k") (footprint "PrntrBoardV2:R_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005db1f947"
       (reference "RN1") (unit 1) (value "4x470") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
@@ -1114,8 +1144,8 @@
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005daf16ad"
       (reference "RN3") (unit 1) (value "4x10k") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
-    (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005daf16ab"
-      (reference "RN4") (unit 1) (value "4x10k") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
+    (path "/00000000-0000-0000-0000-00005daf0ef9/e92bfaa3-f5ed-459c-a120-f2d9fd549558"
+      (reference "U8") (unit 1) (value "TJA1040") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005daf16aa"
       (reference "XS1") (unit 1) (value "MicroSD") (footprint "PrntrBoardV2:Conn_uSDcard")
