@@ -1,7 +1,8 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 45,
     "active_layer_preset": "",
+    "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -60,7 +61,8 @@
       37,
       38
     ],
-    "visible_layers": "ffcf030_ffffffff"
+    "visible_layers": "ffcf030_ffffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "PrntrBoardV2.kicad_prl",

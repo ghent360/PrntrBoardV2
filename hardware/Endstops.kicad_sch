@@ -1667,7 +1667,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Male") (at 20.955 40.64 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005db901b5")
-    (property "Reference" "J_X-1" (id 0) (at 18.8468 35.2044 0))
+    (property "Reference" "J_X-1" (id 0) (at 23.9268 45.9994 0))
     (property "Value" "JST XH 3p" (id 1) (at 18.8468 35.179 0)
       (effects (font (size 1.27 1.27)) hide)
     )
