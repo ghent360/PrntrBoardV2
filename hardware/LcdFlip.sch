@@ -1,0 +1,265 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5E171EF7
+P 2825 1825
+F 0 "J2" H 2875 2241 50  0000 C CNN
+F 1 "HDR 2x5" H 2875 2150 50  0000 C CNN
+F 2 "" H 2825 1825 50  0001 C CNN
+F 3 "~" H 2825 1825 50  0001 C CNN
+	1    2825 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 5E179968
+P 2800 2675
+F 0 "J1" H 2850 2225 50  0000 C CNN
+F 1 "IDC 2x5" H 2850 2350 50  0000 C CNN
+F 2 "" H 2800 2675 50  0001 C CNN
+F 3 "~" H 2800 2675 50  0001 C CNN
+	1    2800 2675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 1625 2475 1625
+Wire Wire Line
+	2475 1625 2475 2125
+Wire Wire Line
+	2475 2125 3625 2125
+Wire Wire Line
+	3625 2125 3625 2875
+Wire Wire Line
+	3625 2875 3100 2875
+Wire Wire Line
+	2625 1725 2425 1725
+Wire Wire Line
+	2425 1725 2425 2175
+Wire Wire Line
+	2425 2175 3575 2175
+Wire Wire Line
+	3575 2175 3575 2775
+Wire Wire Line
+	3575 2775 3100 2775
+Wire Wire Line
+	2625 1825 2375 1825
+Wire Wire Line
+	2375 1825 2375 2225
+Wire Wire Line
+	2375 2225 3525 2225
+Wire Wire Line
+	3525 2225 3525 2675
+Wire Wire Line
+	3525 2675 3100 2675
+Wire Wire Line
+	2625 1925 2325 1925
+Wire Wire Line
+	2325 1925 2325 2275
+Wire Wire Line
+	2325 2275 3475 2275
+Wire Wire Line
+	3475 2275 3475 2575
+Wire Wire Line
+	3475 2575 3100 2575
+Wire Wire Line
+	2625 2025 2275 2025
+Wire Wire Line
+	2275 2025 2275 2325
+Wire Wire Line
+	2275 2325 3425 2325
+Wire Wire Line
+	3425 2325 3425 2475
+Wire Wire Line
+	3425 2475 3100 2475
+Wire Wire Line
+	3125 1625 3350 1625
+Wire Wire Line
+	3350 1625 3350 1300
+Wire Wire Line
+	3350 1300 2175 1300
+Wire Wire Line
+	2175 1300 2175 2875
+Wire Wire Line
+	2175 2875 2600 2875
+Wire Wire Line
+	3125 1725 3400 1725
+Wire Wire Line
+	3400 1725 3400 1250
+Wire Wire Line
+	3400 1250 2125 1250
+Wire Wire Line
+	2125 1250 2125 2775
+Wire Wire Line
+	2125 2775 2600 2775
+Wire Wire Line
+	3125 1825 3450 1825
+Wire Wire Line
+	3450 1825 3450 1200
+Wire Wire Line
+	3450 1200 2075 1200
+Wire Wire Line
+	2075 1200 2075 2675
+Wire Wire Line
+	2075 2675 2600 2675
+Wire Wire Line
+	3125 1925 3500 1925
+Wire Wire Line
+	3500 1925 3500 1150
+Wire Wire Line
+	3500 1150 2025 1150
+Wire Wire Line
+	2025 1150 2025 2575
+Wire Wire Line
+	2025 2575 2600 2575
+Wire Wire Line
+	3125 2025 3550 2025
+Wire Wire Line
+	3550 2025 3550 1100
+Wire Wire Line
+	3550 1100 1975 1100
+Wire Wire Line
+	1975 1100 1975 2475
+Wire Wire Line
+	1975 2475 2600 2475
+Wire Wire Line
+	5100 1750 5375 1750
+Wire Wire Line
+	4450 2150 5600 2150
+Wire Wire Line
+	4600 1650 4450 1650
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J3
+U 1 1 5E17DDCD
+P 4775 2700
+F 0 "J3" H 4825 2250 50  0000 C CNN
+F 1 "IDC 2x5" H 4825 2375 50  0000 C CNN
+F 2 "" H 4775 2700 50  0001 C CNN
+F 3 "~" H 4775 2700 50  0001 C CNN
+	1    4775 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1125 3950 2500
+Wire Wire Line
+	4400 2200 5550 2200
+Wire Wire Line
+	5325 1650 5325 1325
+Wire Wire Line
+	5475 1175 4000 1175
+Wire Wire Line
+	5100 1850 5425 1850
+Wire Wire Line
+	4150 1325 4150 2900
+Wire Wire Line
+	4050 1225 4050 2700
+Wire Wire Line
+	5550 2200 5550 2800
+Wire Wire Line
+	5425 1225 4050 1225
+Wire Wire Line
+	4100 2800 4575 2800
+Wire Wire Line
+	4400 1750 4400 2200
+Wire Wire Line
+	5425 1850 5425 1225
+Wire Wire Line
+	4450 1650 4450 2150
+Wire Wire Line
+	5600 2150 5600 2900
+Wire Wire Line
+	4000 1175 4000 2600
+Wire Wire Line
+	5550 2800 5075 2800
+Wire Wire Line
+	4350 1850 4350 2250
+Wire Wire Line
+	4600 1750 4400 1750
+Wire Wire Line
+	4350 2250 5500 2250
+Wire Wire Line
+	5600 2900 5075 2900
+Wire Wire Line
+	4600 1950 4300 1950
+Wire Wire Line
+	4600 1850 4350 1850
+Wire Wire Line
+	5375 1750 5375 1275
+Wire Wire Line
+	5100 1950 5475 1950
+Wire Wire Line
+	4050 2700 4575 2700
+Wire Wire Line
+	4300 2300 5450 2300
+Wire Wire Line
+	5450 2600 5075 2600
+Wire Wire Line
+	5500 2700 5075 2700
+Wire Wire Line
+	5525 2050 5525 1125
+Wire Wire Line
+	4250 2350 5400 2350
+Wire Wire Line
+	4300 1950 4300 2300
+Wire Wire Line
+	5450 2300 5450 2600
+Wire Wire Line
+	5500 2250 5500 2700
+Wire Wire Line
+	5525 1125 3950 1125
+Wire Wire Line
+	4600 2050 4250 2050
+Wire Wire Line
+	5400 2500 5075 2500
+Wire Wire Line
+	4250 2050 4250 2350
+Wire Wire Line
+	5475 1950 5475 1175
+Wire Wire Line
+	4000 2600 4575 2600
+Wire Wire Line
+	5400 2350 5400 2500
+Wire Wire Line
+	5100 2050 5525 2050
+Wire Wire Line
+	3950 2500 4575 2500
+Wire Wire Line
+	4100 1275 4100 2800
+Wire Wire Line
+	4150 2900 4575 2900
+Wire Wire Line
+	5375 1275 4100 1275
+Wire Wire Line
+	5100 1650 5325 1650
+Wire Wire Line
+	5325 1325 4150 1325
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J4
+U 1 1 5E17DE70
+P 4800 1850
+F 0 "J4" H 4850 2266 50  0000 C CNN
+F 1 "HDR 2x5" H 4850 2175 50  0000 C CNN
+F 2 "" H 4800 1850 50  0001 C CNN
+F 3 "~" H 4800 1850 50  0001 C CNN
+	1    4800 1850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
