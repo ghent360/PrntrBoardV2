@@ -1497,6 +1497,10 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
 
+  (text "Optional if RJ12 \nconnector is shielded." (at 250.825 130.175 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+  )
+
   (label "E_BTN_ENC" (at 45.085 116.84 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
@@ -2147,7 +2151,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 241.3 130.175 270) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board no)
     (uuid "38658c41-4b42-4cdb-a21d-a18fb1d78b1c")
     (property "Reference" "R76" (id 0) (at 244.475 132.715 90))
     (property "Value" "100k" (id 1) (at 241.3 130.175 90))
@@ -2288,7 +2292,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 241.3 126.365 270) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board no)
     (uuid "42049c8c-dbeb-4b79-95d4-6644950a73a6")
     (property "Reference" "C55" (id 0) (at 241.3 119.9642 90))
     (property "Value" "0.1uF" (id 1) (at 241.3 122.2756 90))
