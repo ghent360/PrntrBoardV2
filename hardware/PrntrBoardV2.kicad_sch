@@ -1135,6 +1135,9 @@
     (path "/00000000-0000-0000-0000-00005daf0ef9/0706265e-5ffc-404d-bf17-caaee5501405"
       (reference "R77") (unit 1) (value "10k") (footprint "PrntrBoardV2:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-00005daf0ef9/4e527837-38b4-4827-a4b8-a019994b61d2"
+      (reference "R78") (unit 1) (value "10k") (footprint "PrntrBoardV2:R_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005db1f947"
       (reference "RN1") (unit 1) (value "4x470") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
