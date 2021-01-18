@@ -1,0 +1,19 @@
+Designator,Val,Package,MidX,MidY,Rotation,Layer
+"C3","0.1uF","C_0603_1608Metric",16.290000,10.820000,90.000000,top
+"C4","100uF 35V","CP_Elec_6.3x7.7",7.200000,34.800000,0,top
+"FID1","Fiducial","Fiducial_1mm_Dia_2.54mm_Outer_CopperTop",1.744000,37.546000,0.000000,top
+"FID2","Fiducial","Fiducial_1mm_Dia_2.54mm_Outer_CopperTop",1.744000,1.620000,0.000000,top
+"FID3","Fiducial","Fiducial_1mm_Dia_2.54mm_Outer_CopperTop",34.764000,37.546000,0.000000,top
+"FID4","Fiducial","Fiducial_1mm_Dia_2.54mm_Outer_CopperTop",35.050000,1.620000,0.000000,top
+"J2","Motor","Molex-SL-4POS",20.180000,35.440000,180.000000,top
+"J3","StepStickL","PinSocket_1x08_P2.54mm_Vertical",13.330000,17.920000,90.000000,top
+"J4","StepStickR","PinSocket_1x08_P2.54mm_Vertical",13.330000,30.620000,90.000000,top
+"J5","Conn_01x04","PinHeader_1x04_P2.54mm_Vertical",31.080000,28.080000,0.000000,top
+"J6","SPI Mode","PinHeader_2x04_P2.54mm_Vertical",26.000000,28.080000,0.000000,top
+"J7","Conn_01x02","PinSocket_1x02_P2.54mm_Vertical",13.330000,20.910000,180.000000,top
+"JP2","Serial","PinHeader_1x03_P2.54mm_Vertical",8.600000,22.600000,-90.000000,top
+"JP3","Clock/Sleep","PinHeader_1x03_P2.54mm_Vertical",3.600000,28.800000,90.000000,top
+"JP4","Reset","PinHeader_1x03_P2.54mm_Vertical",8.560000,15.400000,-90.000000,top
+"R1","10k","R_0603_1608Metric",14.160000,14.620000,180.000000,top
+"R2","10k","R_0603_1608Metric",25.220000,14.650000,180.000000,top
+"U2","74LVC1G06","SOT-353_SC-70-5",14.000000,11.000000,90,top
