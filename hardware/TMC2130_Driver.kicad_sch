@@ -1,7 +1,5 @@
 (kicad_sch (version 20201015) (generator eeschema)
 
-  (page 1 1)
-
   (paper "A4")
 
   (lib_symbols
@@ -1420,12 +1418,12 @@
   (junction (at 254 91.44) (diameter 1.016) (color 0 0 0 0))
   (junction (at 254 93.98) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 111.252 94.234))
+  (no_connect (at 111.252 82.804))
+  (no_connect (at 111.252 85.344))
   (no_connect (at 111.252 87.884))
   (no_connect (at 111.252 91.694))
+  (no_connect (at 111.252 94.234))
   (no_connect (at 164.592 65.024))
-  (no_connect (at 111.252 85.344))
-  (no_connect (at 111.252 82.804))
 
   (wire (pts (xy 70.485 28.194) (xy 80.137 28.194))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -2417,6 +2415,40 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 54.864 68.326 0) (unit 1)
+    (in_bom no) (on_board yes)
+    (uuid "6b360de5-1019-4f01-848a-8d87a890d865")
+    (property "Reference" "H3" (id 0) (at 57.404 67.1576 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "JLC Tooling Hole" (id 1) (at 57.404 69.469 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PrntrBoardV2:JLC_Tool_hole" (id 2) (at 54.864 68.326 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 54.864 68.326 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 54.864 74.676 0) (unit 1)
+    (in_bom no) (on_board yes)
+    (uuid "3ae614fa-e4c5-4abd-849b-670f72506669")
+    (property "Reference" "H4" (id 0) (at 57.404 73.5076 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "JLC Tooling Hole" (id 1) (at 57.404 75.819 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PrntrBoardV2:JLC_Tool_hole" (id 2) (at 54.864 74.676 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 54.864 74.676 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "Device:Fuse") (at 171.958 28.194 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005e67130f")
@@ -3120,6 +3152,12 @@
     )
     (path "/00000000-0000-0000-0000-00005d9a69f1"
       (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
+    )
+    (path "/6b360de5-1019-4f01-848a-8d87a890d865"
+      (reference "H3") (unit 1) (value "JLC Tooling Hole") (footprint "PrntrBoardV2:JLC_Tool_hole")
+    )
+    (path "/3ae614fa-e4c5-4abd-849b-670f72506669"
+      (reference "H4") (unit 1) (value "JLC Tooling Hole") (footprint "PrntrBoardV2:JLC_Tool_hole")
     )
     (path "/00000000-0000-0000-0000-00005d9a9126"
       (reference "J1") (unit 1) (value "PCIe_Stepper") (footprint "Connector_PCBEdge:BUS_PCIexpress")
