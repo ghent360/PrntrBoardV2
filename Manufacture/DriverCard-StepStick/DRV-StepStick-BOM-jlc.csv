@@ -8,7 +8,6 @@ Comment,Designator,Footprint,LCSC, LCSC Part #, Part #
 "Conn_01x04","J5","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
 "SPI Mode","J6","Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical",""
 "Conn_01x02","J7","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical",""
-"Serial","JP2","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",""
 "Clock/Sleep","JP3","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",""
 "Reset","JP4","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",""
 "10k","R1,R2","Resistor_SMD:R_0603_1608Metric","","C29718","4D03WGJ0103T5E"
