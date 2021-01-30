@@ -1,7 +1,5 @@
 (kicad_sch (version 20201015) (generator eeschema)
 
-  (page 1 1)
-
   (paper "A4")
 
   (lib_symbols
@@ -2190,6 +2188,8 @@
   (junction (at 106.68 45.72) (diameter 1.016) (color 0 0 0 0))
   (junction (at 106.68 55.88) (diameter 1.016) (color 0 0 0 0))
   (junction (at 110.49 148.59) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 119.38 45.72) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 119.38 55.88) (diameter 1.016) (color 0 0 0 0))
   (junction (at 120.65 148.59) (diameter 1.016) (color 0 0 0 0))
   (junction (at 121.92 158.75) (diameter 1.016) (color 0 0 0 0))
   (junction (at 153.67 57.15) (diameter 1.016) (color 0 0 0 0))
@@ -2526,6 +2526,9 @@
   (wire (pts (xy 111.76 146.05) (xy 123.19 146.05))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
+  (wire (pts (xy 119.38 45.72) (xy 132.08 45.72))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
   (wire (pts (xy 119.38 53.34) (xy 119.38 55.88))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
@@ -2542,6 +2545,12 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 121.92 151.13) (xy 123.19 151.13))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 132.08 53.34) (xy 132.08 55.88))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 132.08 55.88) (xy 119.38 55.88))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 144.78 142.24) (xy 144.78 168.91))
@@ -3679,6 +3688,26 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 132.08 49.53 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "a7792f94-cdd7-449a-9028-d240f726c413")
+    (property "Reference" "C14" (id 0) (at 126.1111 48.3806 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100nF" (id 1) (at 122.301 50.679 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 133.0452 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 132.08 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part#" "C14663" (id 4) (at 53.34 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 162.56 52.07 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "1604a636-195a-41f7-9b85-1b35c9a33cc8")
@@ -4027,6 +4056,9 @@
     )
     (path "/f1177ba6-49c7-49e2-9d4c-ca499e84a2fd"
       (reference "C13") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/a7792f94-cdd7-449a-9028-d240f726c413"
+      (reference "C14") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/e69ef43c-7faf-4f6d-896b-445411405372"
       (reference "D1") (unit 1) (value "RS1M") (footprint "Diode_SMD:D_SMA")
