@@ -2322,7 +2322,7 @@
   (gr_text "GND" (at 235.712 97.79) (layer "B.SilkS") (tstamp f77c01f2-98b4-40de-afc0-b7415094bb9d)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "rev 2\nFeb 2021" (at 203.2 92.456 90) (layer "F.SilkS") (tstamp 01a523a5-c0eb-4841-97b4-bb4e070978f5)
+  (gr_text "rev 3\nFeb 2021" (at 203.2 92.456 90) (layer "F.SilkS") (tstamp 01a523a5-c0eb-4841-97b4-bb4e070978f5)
     (effects (font (size 0.762 0.762) (thickness 0.1016)))
   )
   (gr_text "+   -" (at 234.95 82.296 270) (layer "F.SilkS") (tstamp 0eb4a7cb-a57c-491e-bf84-2e2bd4ac9636)
