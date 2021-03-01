@@ -1,4 +1,4 @@
-(kicad_sch (version 20201015) (generator eeschema)
+(kicad_sch (version 20210123) (generator eeschema)
 
   (paper "A4")
 
@@ -2184,7 +2184,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 241.3 130.175 270) (unit 1)
-    (in_bom no) (on_board no)
+    (in_bom yes) (on_board yes)
     (uuid "38658c41-4b42-4cdb-a21d-a18fb1d78b1c")
     (property "Reference" "R76" (id 0) (at 244.475 132.715 90))
     (property "Value" "100k" (id 1) (at 241.3 130.175 90))
@@ -2325,7 +2325,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 241.3 126.365 270) (unit 1)
-    (in_bom no) (on_board no)
+    (in_bom yes) (on_board yes)
     (uuid "42049c8c-dbeb-4b79-95d4-6644950a73a6")
     (property "Reference" "C55" (id 0) (at 241.3 119.9642 90))
     (property "Value" "0.1uF" (id 1) (at 241.3 122.2756 90))
@@ -2518,7 +2518,7 @@
     (property "Value" "RJ12_Shielded" (id 1) (at 245.8721 144.5323 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_RJ:RJ12_Amphenol_54601" (id 2) (at 237.49 144.145 90)
+    (property "Footprint" "PrntrBoardV2:Wurth_615006143421" (id 2) (at 237.49 144.145 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 237.49 144.145 90)

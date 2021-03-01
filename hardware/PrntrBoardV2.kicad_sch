@@ -1,4 +1,4 @@
-(kicad_sch (version 20201015) (generator eeschema)
+(kicad_sch (version 20210123) (generator eeschema)
 
   (paper "A4")
 
@@ -1091,7 +1091,7 @@
       (reference "J3") (unit 1) (value "USB_B_Micro") (footprint "PrntrBoardV2:MC-101C")
     )
     (path "/00000000-0000-0000-0000-00005daf0ef9/967818d5-7083-4d03-b3d3-4a38bcfd269b"
-      (reference "J29") (unit 1) (value "RJ12_Shielded") (footprint "Connector_RJ:RJ12_Amphenol_54601")
+      (reference "J29") (unit 1) (value "RJ12_Shielded") (footprint "PrntrBoardV2:Wurth_615006143421")
     )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005db37293"
       (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")

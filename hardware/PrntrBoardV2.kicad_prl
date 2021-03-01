@@ -62,7 +62,7 @@
       38
     ],
     "visible_layers": "ffcb030_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "PrntrBoardV2.kicad_prl",
