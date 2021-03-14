@@ -1,4 +1,4 @@
-(kicad_sch (version 20201015) (generator eeschema)
+(kicad_sch (version 20210126) (generator eeschema)
 
   (paper "A4")
 
@@ -364,7 +364,7 @@
 
   (symbol (lib_id "Mechanical:Fiducial") (at 196.215 157.48 0) (unit 1)
     (in_bom no) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005dab6c47")
+    (uuid 00000000-0000-0000-0000-00005dab6c47)
     (property "Reference" "FID1" (id 0) (at 198.374 156.3116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -381,7 +381,7 @@
 
   (symbol (lib_id "Mechanical:Fiducial") (at 207.645 157.48 0) (unit 1)
     (in_bom no) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005dab673b")
+    (uuid 00000000-0000-0000-0000-00005dab673b)
     (property "Reference" "FID2" (id 0) (at 209.804 156.3116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -398,7 +398,7 @@
 
   (symbol (lib_id "Mechanical:Fiducial") (at 219.075 157.48 0) (unit 1)
     (in_bom no) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005dab6145")
+    (uuid 00000000-0000-0000-0000-00005dab6145)
     (property "Reference" "FID3" (id 0) (at 221.234 156.3116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -415,7 +415,7 @@
 
   (symbol (lib_id "Mechanical:Fiducial") (at 230.505 157.48 0) (unit 1)
     (in_bom no) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005dab5b36")
+    (uuid 00000000-0000-0000-0000-00005dab5b36)
     (property "Reference" "FID4" (id 0) (at 232.664 156.3116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -432,7 +432,7 @@
 
   (symbol (lib_id "Mechanical:MountingHole") (at 140.335 152.4 0) (unit 1)
     (in_bom no) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005dee39e4")
+    (uuid 00000000-0000-0000-0000-00005dee39e4)
     (property "Reference" "H5" (id 0) (at 142.875 151.2316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -449,7 +449,7 @@
 
   (symbol (lib_id "Mechanical:MountingHole") (at 140.335 158.75 0) (unit 1)
     (in_bom no) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005dee3522")
+    (uuid 00000000-0000-0000-0000-00005dee3522)
     (property "Reference" "H6" (id 0) (at 142.875 157.5816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -466,7 +466,7 @@
 
   (symbol (lib_id "Mechanical:MountingHole") (at 165.1 151.765 0) (unit 1)
     (in_bom no) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005dee2fa8")
+    (uuid 00000000-0000-0000-0000-00005dee2fa8)
     (property "Reference" "H7" (id 0) (at 167.64 150.5966 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -483,7 +483,7 @@
 
   (symbol (lib_id "Mechanical:MountingHole") (at 165.1 158.115 0) (unit 1)
     (in_bom no) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005dee4800")
+    (uuid 00000000-0000-0000-0000-00005dee4800)
     (property "Reference" "H8" (id 0) (at 167.64 156.9466 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -500,7 +500,7 @@
 
   (symbol (lib_id "Mechanical:MountingHole") (at 198.12 151.765 0) (unit 1)
     (in_bom no) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005dab7ea0")
+    (uuid 00000000-0000-0000-0000-00005dab7ea0)
     (property "Reference" "H1" (id 0) (at 200.66 150.5966 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -517,7 +517,7 @@
 
   (symbol (lib_id "Mechanical:MountingHole") (at 215.9 152.4 0) (unit 1)
     (in_bom no) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005dab7ab2")
+    (uuid 00000000-0000-0000-0000-00005dab7ab2)
     (property "Reference" "H2" (id 0) (at 218.44 151.2316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -534,7 +534,7 @@
 
   (symbol (lib_id "Mechanical:MountingHole") (at 233.68 152.4 0) (unit 1)
     (in_bom no) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005dab729c")
+    (uuid 00000000-0000-0000-0000-00005dab729c)
     (property "Reference" "H3" (id 0) (at 236.22 151.2316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -551,7 +551,7 @@
 
   (symbol (lib_id "Mechanical:MountingHole") (at 250.825 152.4 0) (unit 1)
     (in_bom no) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005dab938b")
+    (uuid 00000000-0000-0000-0000-00005dab938b)
     (property "Reference" "H4" (id 0) (at 253.365 151.2316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -568,7 +568,7 @@
 
   (symbol (lib_id "Graphic:Logo_Open_Hardware_Small") (at 273.685 154.94 0) (unit 1)
     (in_bom no) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005dab51d1")
+    (uuid 00000000-0000-0000-0000-00005dab51d1)
     (property "Reference" "LOGO1" (id 0) (at 273.685 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
