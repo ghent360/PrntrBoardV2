@@ -3461,7 +3461,7 @@
   (symbol (lib_id "Device:Net-Tie_2") (at 215.265 48.895 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 75366d49-4904-4b92-b0b0-4e597f131c1b)
-    (property "Reference" "NT?" (id 0) (at 215.265 44.6744 0))
+    (property "Reference" "NT1" (id 0) (at 215.265 44.6744 0))
     (property "Value" "Net-Tie_2" (id 1) (at 215.265 47.4495 0))
     (property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm" (id 2) (at 215.265 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3654,7 +3654,7 @@
   (symbol (lib_id "power:GNDA") (at 73.025 127 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f6262686-5ba7-4b6a-8a67-eb21a9d6a639)
-    (property "Reference" "#PWR?" (id 0) (at 73.025 133.35 0)
+    (property "Reference" "#PWR0106" (id 0) (at 73.025 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 76.835 129.0226 0))
@@ -3670,7 +3670,7 @@
   (symbol (lib_id "power:GNDA") (at 73.66 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cd2e13a1-9cf9-4799-9e46-4de4068044ba)
-    (property "Reference" "#PWR?" (id 0) (at 73.66 110.49 0)
+    (property "Reference" "#PWR0104" (id 0) (at 73.66 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 73.66 108.7026 0))
@@ -3686,7 +3686,7 @@
   (symbol (lib_id "power:GNDA") (at 81.28 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2ef7d185-095e-4dcc-9fea-dd7eb5300d0a)
-    (property "Reference" "#PWR?" (id 0) (at 81.28 110.49 0)
+    (property "Reference" "#PWR0105" (id 0) (at 81.28 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 81.28 108.7026 0))
@@ -3702,7 +3702,7 @@
   (symbol (lib_id "power:GNDA") (at 96.52 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3ed42bf3-00b6-4264-8e37-5862b7930fc7)
-    (property "Reference" "#PWR?" (id 0) (at 96.52 125.73 0)
+    (property "Reference" "#PWR0108" (id 0) (at 96.52 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 96.52 123.9426 0))
@@ -3734,7 +3734,7 @@
   (symbol (lib_id "power:GNDA") (at 125.73 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 76310b34-c88e-4022-aa1b-907b01936166)
-    (property "Reference" "#PWR?" (id 0) (at 125.73 100.33 0)
+    (property "Reference" "#PWR0107" (id 0) (at 125.73 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 125.73 98.5426 0))
@@ -3782,7 +3782,7 @@
   (symbol (lib_id "power:GNDA") (at 190.5 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e4b48998-ef2c-4bfc-b002-b0c77bddc7bd)
-    (property "Reference" "#PWR?" (id 0) (at 190.5 132.08 0)
+    (property "Reference" "#PWR0101" (id 0) (at 190.5 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 190.5 130.2926 0))
@@ -3798,7 +3798,7 @@
   (symbol (lib_id "power:GNDA") (at 210.185 50.165 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4c25c283-98d7-4c49-a2fb-60c8f35740ca)
-    (property "Reference" "#PWR?" (id 0) (at 210.185 56.515 0)
+    (property "Reference" "#PWR0102" (id 0) (at 210.185 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 210.185 54.7276 0))
@@ -3814,7 +3814,7 @@
   (symbol (lib_id "power:GND") (at 220.98 50.165 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ad2891c8-e9cb-4ae9-ae39-4abcf598ec6d)
-    (property "Reference" "#PWR?" (id 0) (at 220.98 56.515 0)
+    (property "Reference" "#PWR0103" (id 0) (at 220.98 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 221.0943 54.4894 0))
@@ -5106,29 +5106,29 @@
     (path "/6d8f718f-b5da-4ca7-b7a3-a2e1bf3be262"
       (reference "#PWR022") (unit 1) (value "GND") (footprint "")
     )
-    (path "/2ef7d185-095e-4dcc-9fea-dd7eb5300d0a"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/3ed42bf3-00b6-4264-8e37-5862b7930fc7"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+    (path "/e4b48998-ef2c-4bfc-b002-b0c77bddc7bd"
+      (reference "#PWR0101") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/4c25c283-98d7-4c49-a2fb-60c8f35740ca"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/76310b34-c88e-4022-aa1b-907b01936166"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/ad2891c8-e9cb-4ae9-ae39-4abcf598ec6d"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/cd2e13a1-9cf9-4799-9e46-4de4068044ba"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+      (reference "#PWR0104") (unit 1) (value "GNDA") (footprint "")
     )
-    (path "/e4b48998-ef2c-4bfc-b002-b0c77bddc7bd"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+    (path "/2ef7d185-095e-4dcc-9fea-dd7eb5300d0a"
+      (reference "#PWR0105") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/f6262686-5ba7-4b6a-8a67-eb21a9d6a639"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+      (reference "#PWR0106") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/76310b34-c88e-4022-aa1b-907b01936166"
+      (reference "#PWR0107") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/3ed42bf3-00b6-4264-8e37-5862b7930fc7"
+      (reference "#PWR0108") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/e7da8b02-dc3d-450d-8850-7f0461ca49ca"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -5233,7 +5233,7 @@
       (reference "J6") (unit 1) (value "Serial") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/75366d49-4904-4b92-b0b0-4e597f131c1b"
-      (reference "NT?") (unit 1) (value "Net-Tie_2") (footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
+      (reference "NT1") (unit 1) (value "Net-Tie_2") (footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
     )
     (path "/0d2a404f-024a-4ffe-b0c5-80a1d2737d76"
       (reference "Q1") (unit 1) (value "TPC8107") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
