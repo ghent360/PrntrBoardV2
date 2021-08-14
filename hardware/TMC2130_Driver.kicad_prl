@@ -2,6 +2,7 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
+    "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -49,20 +50,18 @@
       23,
       24,
       25,
-      26,
-      27,
-      28,
-      29,
-      30,
+      34,
+      35,
       36,
       37,
       38
     ],
-    "visible_layers": "000ffff_80000001"
+    "visible_layers": "000ffff_80000001",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "TMC2130_Driver.kicad_prl",
-    "version": 2
+    "version": 3
   },
   "project": {
     "files": []

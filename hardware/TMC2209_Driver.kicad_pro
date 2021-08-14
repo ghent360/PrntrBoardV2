@@ -502,16 +502,19 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "",
     "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
       "meta": {
         "version": 0
       },
@@ -527,7 +530,7 @@
   },
   "sheets": [
     [
-      "62eb33fa-2f13-46e3-8489-ce17db4ecf42",
+      "b56bf05f-9885-47e4-ab0e-c27b0d360e8d",
       ""
     ]
   ],
