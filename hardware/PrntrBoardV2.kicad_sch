@@ -305,7 +305,8 @@
             (xy 3.4036 -4.318)
             (xy 3.3528 -4.3434)
           )
-          (stroke (width 0)) (fill (type outline))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
         )
       )
     )
@@ -332,7 +333,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Fiducial_0_1"
-        (circle (center 0 0) (radius 1.27) (stroke (width 0.508)) (fill (type background)))
+        (circle (center 0 0) (radius 1.27) (stroke (width 0.508))           (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
       )
     )
     (symbol "Mechanical:MountingHole" (in_bom yes) (on_board yes)
@@ -358,7 +361,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27) (stroke (width 1.27)) (fill (type none)))
+        (circle (center 0 0) (radius 1.27) (stroke (width 1.27))           (stroke (width 1.27) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
       )
     )
   )
@@ -1384,6 +1389,24 @@
     )
     (path "/00000000-0000-0000-0000-00005daf0ef9/aeae5a58-8bb2-4cb7-9bff-6d8574e7546a"
       (reference "JP9") (unit 1) (value "Jumper_NO_Small") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005dace5fc/49df92c2-20c8-497d-a108-d2eeeb5a1bda"
+      (reference "JP10") (unit 1) (value "Jumper_3_Bridged12") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005dace5fc/35228037-c5ee-43e6-b5dd-330a7c8c6372"
+      (reference "JP11") (unit 1) (value "Jumper_3_Bridged12") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005dace5fc/fecbb7c5-5511-436a-a71d-036808b12ed3"
+      (reference "JP12") (unit 1) (value "Jumper_3_Bridged12") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005dace5fc/1d98d1ce-9b29-4e73-927b-071ddd6d8c5f"
+      (reference "JP13") (unit 1) (value "Jumper_3_Bridged12") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005dace5fc/d193ef7b-c743-4983-a861-24ef18745e6b"
+      (reference "JP14") (unit 1) (value "Jumper_3_Bridged12") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005dace5fc/42d825e0-4551-41cf-82fd-2e07a7af723b"
+      (reference "JP15") (unit 1) (value "Jumper_3_Bridged12") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005daf0ef9/00000000-0000-0000-0000-00005db00744"
       (reference "J_SER1") (unit 1) (value "Serial 0") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")

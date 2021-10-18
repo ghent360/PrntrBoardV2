@@ -29,25 +29,32 @@
       )
       (symbol "Conn_01x06_1_1"
         (rectangle (start -1.27 -7.493) (end 0 -7.747)
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (rectangle (start -1.27 5.207) (end 0 4.953)
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (rectangle (start -1.27 6.35) (end 1.27 -8.89)
-          (stroke (width 0.254)) (fill (type background))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin passive line (at -5.08 5.08 0) (length 3.81)
           (name "Pin_1" (effects (font (size 1.27 1.27))))
@@ -99,13 +106,16 @@
       )
       (symbol "Conn_02x01_1_1"
         (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0)) (fill (type none))
-        )
-        (rectangle (start 3.81 0.127) (end 2.54 -0.127)
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (rectangle (start -1.27 1.27) (end 3.81 -1.27)
-          (stroke (width 0.254)) (fill (type background))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+        (rectangle (start 3.81 0.127) (end 2.54 -0.127)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (pin passive line (at -5.08 0 0) (length 3.81)
           (name "Pin_1" (effects (font (size 1.27 1.27))))
@@ -145,14 +155,16 @@
             (xy -2.032 -0.762)
             (xy 2.032 -0.762)
           )
-          (stroke (width 0.508)) (fill (type none))
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -2.032 0.762)
             (xy 2.032 0.762)
           )
-          (stroke (width 0.508)) (fill (type none))
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "C_1_1"
@@ -186,27 +198,29 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "D_Schottky_x2_Serial_AKC_0_1"
-        (circle (center 0 0) (radius 0.254) (stroke (width 0)) (fill (type outline)))
         (polyline
           (pts
             (xy -3.81 0)
             (xy 3.81 0)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 0)
             (xy 0 -2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 6.35 0)
             (xy 7.62 0)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -214,7 +228,8 @@
             (xy -1.27 1.27)
             (xy -1.27 1.27)
           )
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -222,7 +237,8 @@
             (xy 3.81 -1.27)
             (xy 3.81 -1.27)
           )
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -231,7 +247,8 @@
             (xy -0.762 -1.016)
             (xy -0.762 -1.016)
           )
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -240,7 +257,8 @@
             (xy 4.318 -1.016)
             (xy 4.318 -1.016)
           )
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -249,7 +267,8 @@
             (xy 3.302 1.016)
             (xy 3.302 1.016)
           )
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -259,7 +278,8 @@
             (xy -1.27 1.27)
             (xy -1.27 1.27)
           )
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -270,7 +290,8 @@
             (xy -3.81 1.27)
             (xy -3.81 1.27)
           )
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -281,7 +302,11 @@
             (xy 1.27 1.27)
             (xy 1.27 1.27)
           )
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (circle (center 0 0) (radius 0.254) (stroke (width 0))           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
         )
         (pin passive line (at -7.62 0 0) (length 3.81)
           (name "A" (effects (font (size 1.27 1.27))))
@@ -325,7 +350,8 @@
             (xy -1.27 0)
             (xy 1.27 0)
           )
-          (stroke (width 0.254)) (fill (type none))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "Net-Tie_2_1_1"
@@ -363,7 +389,8 @@
       )
       (symbol "R_0_1"
         (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254)) (fill (type none))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "R_1_1"
@@ -406,7 +433,8 @@
             (xy -1.27 -1.27)
             (xy 0 -1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "GND_1_1"
@@ -445,7 +473,8 @@
             (xy -1.27 -1.27)
             (xy 0 -1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "GNDA_1_1"
